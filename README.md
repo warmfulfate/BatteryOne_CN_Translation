@@ -1,1 +1,2 @@
 # BatteryOne_ZH_CN_Translation
+这里是batteryOne简体中文翻译！
