@@ -207,27 +207,32 @@
     Average Speed is the overall charging speed.
     Screen on is the charging speed with the screen on.
     Screen off is the charging speed with the screen off."</string> -->
-    <string name="current_session_info">"此模块显示当前或者上次充电信息。如果电池正在充电，则显示当前充电；若在放电，它会显示最近一次充入1%的电量详情。您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
+    <string name="current_session_info">“此模块显示当前或者上次充电信息。如果电池正在充电，则显示当前充电；若在放电，它会显示最近一次充入1%的电量详情。您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
     平均速度：总体充电速度。\n
     屏幕开启：屏幕亮时的充电速度。\n
-    屏幕关闭：屏幕关闭时的充电速度。"</string>
+    屏幕关闭：屏幕关闭的充电速度。"</string>
 <!-- <string name="avg_charge_info">"This block displays the average charging speed for all sessions. You have the option to reset this data by clearing the database in settings. -->
     <!-- Screen on is the average speed with the screen on. -->
     <!-- Screen off is the average speed with the screen off. -->
     <!-- Combined use is the average speed based on how you use your phone while charging."</string> -->
-    <string name="avg_charge_info">"此模块显示所有充电的平均充电速度，你可以在设置中清除数据库以重置此数据。\n
+    <string name="avg_charge_info">“此模块显示所有充电的平均速度，你可以在设置中清除数据库以重置此数据。\n
     屏幕开启：屏幕亮时的平均充电速度。\n
     屏幕关闭：屏幕熄灭时的平均充电速度。\n
     综合使用：基于您充电时的使用情况计算的平均速度。"</string>
-    <string name="avg_discharge_info">"This block displays the average discharging speed for all sessions. You have the option to reset this data by clearing the database in settings.
-
+<!-- <string name="avg_discharge_info">"This block displays the average discharging speed for all sessions. You have the option to reset this data by clearing the database in settings.
     Screen on is the average speed with the screen on.
     Screen off is the average speed with the screen off.
-    Combined use is the average speed based on how you use your phone while discharging."</string>
-    <string name="loss_charge_info">"This block displays the percentage of charge and mah that were spent during the current or last session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged.
-
+    Combined use is the average speed based on how you use your phone while discharging."</string> -->
+     <string name="avg_discharge_info">"此模块显示所有放电电的平均速度，你可以在设置中清除数据库以重置此数据。\n
+    屏幕开启：屏幕亮时的放电速度。\n
+    屏幕关闭：屏幕关闭的放电速度。\n
+    综合使用：基于您放电时的使用情况计算的平均速度。"</string>
+<!-- <string name="loss_charge_info">"This block displays the percentage of charge and mah that were spent during the current or last session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged.
     Screen on is the amount of interest spent with the screen on.
-    Screen off is the amount of interest spent with the screen turned off."</string>
+    Screen off is the amount of interest spent with the screen turned off."</string> -->
+    <string name="loss_charge_info">“此模块显示本次或上次放电所消耗的百分比电量和毫安时。若电池正在放电，则显示本次放电。 如果电池正在充电，则显示上次至少消耗了1%电量的数据。\n
+    屏幕开启：屏幕开启期间所消耗的总电量。\n
+    屏幕关闭：屏幕关闭期间所消耗的总电量。”</string>
     <string name="current_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
 
 Average Speed is the overall discharging speed.
