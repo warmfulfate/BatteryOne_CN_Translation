@@ -233,7 +233,11 @@
     <string name="loss_charge_info">“此模块显示本次或上次放电所消耗的百分比电量和毫安时。若电池正在放电，则显示本次放电。 如果电池正在充电，则显示上次至少消耗了1%电量的数据。\n
     屏幕开启：屏幕开启期间所消耗的总电量。\n
     屏幕关闭：屏幕关闭期间所消耗的总电量。”</string>
-    <string name="current_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
+    <!-- <string namssdsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings. -->
+<!-- Average Speed is the overall discharging speed.
+Screen on is the discharging speed with the screen on.
+Screen off is the discharging speed with the screen off."</string> -->
+    <string name="dsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
 
 Average Speed is the overall discharging speed.
 Screen on is the discharging speed with the screen on.
@@ -609,7 +613,8 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="premium_1">Your next step is %1$s!</string>
     <string name="premium_2">No advertising, full access to closed functions</string>
     <string name="info">Your subscription will automatically renew and continue until you cancel. You can cancel your subscription anytime.</string>
-    <string name="subscribe">Subscribe</string>
+    <!-- <string name="subscribe">Subscribe</string> -->
+    <string name="subscribe">订阅</string>
 <!-- <string name="purchase">Purchase</string> -->
     <string name="purchase">购买</string>
     <string name="premium_3">By upgrading to %1$s, you unlock:</string>
@@ -618,7 +623,8 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="premium_3_3">Advanced interface customization: Personalize the app’s appearance to match your style.</string>
     <string name="premium_3_4">Battery Level Widget: Access battery level quickly with a customizable home screen widget.</string>
     <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string>
-    <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string>
+<!-- <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string> -->
+    <string name="premium_3_7">使用历史的完整版本: 无限制次数的详情。</string>
 <!-- <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string> -->
     <string name="premium_4">立刻升级，畅享完整功能！</string>
 <!-- <string name="free_trial">Free trial</string> -->
