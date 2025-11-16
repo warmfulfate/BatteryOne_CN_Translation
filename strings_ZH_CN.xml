@@ -578,26 +578,42 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="bla">Full Screen Alert</string>
     <string name="bla_trial_info">The Full Screen Alert feature is exclusively available with %1$s, but it may not be compatible with your device. To ensure it works for you, we offer a free one-day trial. After the trial ends, the feature will be locked. To regain access, simply upgrade to %1$s.
         \n\nWould you like to start your trial now?</string>
-    <string name="premium_3_2_2">Full Screen Alert: Unlock Full Screen Alert feature without limitations.</string>
-    <string name="user_manual_text">Attention: This feature is experimental and may not function on all devices.
-\nBefore using it, please:
-\n\t1. Grant all required permissions.
-\n\t2. Familiarize yourself with the meaning of the alert screen buttons.
-\nFailure to do so may prevent the alert from working properly.</string>
-    <string name="permission_4_text">Due to differences in OS system settings across devices, granting these permissions doesn’t guarantee the Full Screen Alert will always work perfectly, but it significantly improves the chances of it functioning correctly.</string>
-    <string name="enable_alarm2">Enable</string>
-    <string name="introduction_text">For the Full Screen Alert to function properly, you need to grant several permissions. Keep in mind that the names of these permissions may vary depending on the manufacturer of your device. Below is a list of the required permissions.</string>
-    <string name="alarm_button_1">Pressing this button will stop the alert. The Full Screen Alert will reappear if the session continues.</string>
-    <string name="alarm_button_2">Pressing this button will disable the Full Screen Alert for the current session. If the session continues, the Full Screen Alert will not turn on again, but notifications will still be received.</string>
-    <string name="alarm_button_3">Pressing this button will completely disable the Full Screen Alert. It will no longer appear in the current or future sessions. You can enable the Full Screen Alert again in the app settings.</string>
-    <string name="charge_alarm">Charging completion notification</string>
+<!-- <string name="premium_3_2_2">Full Screen Alert: Unlock Full Screen Alert feature without limitations.</string> -->
+    <string name="premium_3_2_2">全屏警告：解锁无限制的屏幕警告。</string>
+<!-- <string name="user_manual_text">Attention: This feature is experimental and may not function on all devices.
+    \nBefore using it, please:
+    \n\t1. Grant all required permissions.
+    \n\t2. Familiarize yourself with the meaning of the alert screen buttons.
+    \nFailure to do so may prevent the alert from working properly.</string> -->
+    <string name="user_manual_text">注意: 此为实验性功能，可能无法在所有设备上运行。
+\n请在使用它之前，
+\n\t1. 授予所有请求的权限。
+\n\t2. 熟悉屏幕警告按钮的含义。
+\n3.未这样做可能会导致警告无法正常工作。</string>
+<!-- <string name="permission_4_text">Due to differences in OS system settings across devices, granting these permissions doesn’t guarantee the Full Screen Alert will always work perfectly, but it significantly improves the chances of it functioning correctly.</string> -->
+    <string name="permission_4_text">由于不同操作系统的跨设备设置，虽然授予这些权限并不能保证全屏警告总是完美运行，但是这样做显著提高它正常运行的可能性。</string>
+<!-- <string name="enable_alarm2">Enable</string> -->
+    <string name="enable_alarm2">启用</string>
+<!-- <string name="introduction_text">For the Full Screen Alert to function properly, you need to grant several permissions. Keep in mind that the names of these permissions may vary depending on the manufacturer of your device. Below is a list of the required permissions.</string> -->
+    <string name="introduction_text">为了全屏警告能够正常工作，你需要授予几个权限。  Below is a list of the required permissions.</string>
+<!-- <string name="alarm_button_1">Pressing this button will stop the alert. The Full Screen Alert will reappear if the session continues.</string> -->
+    <string name="alarm_button_1">按下这个按钮将停止警告。如果继续充电，这个全屏警告将会再次出现。</string>
+<!-- <string name="alarm_button_2">Pressing this button will disable the Full Screen Alert for the current session. If the session continues, the Full Screen Alert will not turn on again, but notifications will still be received.</string> -->
+    <string name="alarm_button_2">按下这个按钮将禁用当前充电的全屏警告。如果继续充电，这个全屏警告将不会再次开启，但是依然会收到通知。</string>
+<!-- <string name="alarm_button_3">Pressing this button will completely disable the Full Screen Alert. It will no longer appear in the current or future sessions. You can enable the Full Screen Alert again in the app settings.</string> -->
+    <string name="alarm_button_3">按下这个按钮将在充电完成时禁用全屏警告。它不再出现在当前或者未来充电上。你可以在应用设置中重新启用全屏警告。</string>
+<!-- <string name="charge_alarm">Charging completion notification</string> -->
+    <string name="charge_alarm">充电完成通知</string>
 <!-- <string name="low_battery_alarm">Low battery notification</string> -->
     <string name="low_battery_alarm">低电量提醒！</string>
-
-    <string name="full_charge_alert">Full charge notification</string>
-    <string name="battery_overheating_alert">Battery overheating notification</string>
-    <string name="charging_connection_alert">Charging connection notification</string>
-    <string name="charging_disconnection_alert">Charging disconnection notification</string>
+<!-- <string name="full_charge_alert">Full charge notification</string> -->
+    <string name="full_charge_alert">电量充满提醒</string>
+<!-- <string name="battery_overheating_alert">Battery overheating notification</string> -->
+    <string name="battery_overheating_alert">电池过热提醒</string>
+<!-- <string name="charging_connection_alert">Charging connection notification</string> -->
+    <string name="charging_connection_alert">充电器连接通知</string>
+<!-- <string name="charging_disconnection_alert">Charging disconnection notification</string> -->
+    <string name="charging_disconnection_alert">充电器断开通知</string>
 <!-- <string name="font_size">Font size</string> -->
     <string name="font_size">字体大小</string>
 <!-- <string name="show_percent">Show %</string> -->
@@ -608,11 +624,16 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="widget_settings">小部件设置</string>
 <!-- <string name="appp">Application</string> -->
     <string name="appp">应用</string>
-    <string name="notify_percent_with_percent">Battery level with %</string>
-    <string name="notify_percent_without_percent">Battery level without %</string>
-    <string name="setting_notify_rate">Notification update rate</string>
-    <string name="notify_percent">Battery level</string>
-    <string name="buy_advanced_access">Get Advanced Access</string>
+<!-- <string name="notify_percent_with_percent">Battery level with %</string> -->
+    <string name="notify_percent_with_percent">电池电量 %</string>
+ <!-- <string name="notify_percent_without_percent">Battery level without %</string> -->
+    <string name="notify_percent_without_percent">电池电量无 %</string>
+<!-- <string name="setting_notify_rate">Notification update rate</string> -->
+    <string name="setting_notify_rate">通知更新频率</string>
+<!-- <string name="notify_percent">Battery level</string> -->
+    <string name="notify_percent">电池电量</string>
+<!-- <string name="buy_advanced_access">Get Advanced Access</string> -->
+    <string name="buy_advanced_access">获取高级功能</string>
 <!-- <string name="monthly1">Monthly</string> -->
     <string name="monthly1">每月</string>
 <!-- <string name="annually1">Annually</string> -->
@@ -678,7 +699,7 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
 <!-- <string name="discount">Discount</string> -->
     <string name="discount">折扣</string>
 <!-- <string name="auto">Auto</string> -->
-    <string name="auto">自动化</string>
+    <string name="auto">自动</string>
 <!-- <string name="nothing">Nothing</string> -->
     <string name="nothing">无</string>
 <!-- <string name="never">Never</string> -->
