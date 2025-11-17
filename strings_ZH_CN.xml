@@ -537,7 +537,8 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="m8">8分钟</string>
 <!-- <string name="m36">36m</string> -->
     <string name="m36">36分钟</string>
-    <string name="s80">80s</string>
+<!-- <string name="s80">80s</string> -->
+    <string name="s80">80秒</string>
     <string name="session_screen_time">Screen time</string>
     <string name="display_charging_amperage_graph">Display charging amperage graph</string>
 <!-- <string name="ignore">Ignore</string> -->
@@ -548,7 +549,8 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="count_of_sessions">Number of sessions</string>
     <string name="about_app_android">About the application (Android)</string>
     <string name="detailed_information">Detailed information</string>
-    <string name="usage_history">Usage history</string>
+<!-- <string name="usage_history">Usage history</string> -->
+    <string name="usage_history">使用历史</string>
     <string name="usage_history_text">"For this feature to work correctly, you must grant permission to read usage history. BatteryOne will be able to receive data about when and what applications you use.
 
 BatteryOne does not share this data with third parties. BatteryOne requests this data only at the moment when it is necessary to calculate statistics. You may revoke this permission at any time."</string>
@@ -556,28 +558,44 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="enable_notification">Enable Notification</string>
     <string name="battery_info">Battery information (Android)</string>
     <string name="overheat_alarm_text">By enabling this feature, you will receive a notification whenever the battery temperature rises above the selected level.</string>
-    <string name="my_subscribe">My subscription</string>
+<!-- <string name="my_subscribe">My subscription</string> -->
+    <string name="my_subscribe">我的订阅</string>
     <string name="unlimited">Unlimited</string>
     <string name="expiration_date">Expiration date: %1$s</string>
     <string name="status">Status: %1$s</string>
-    <string name="date_of_purchase">Date of purchase: %1$s</string>
+<!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
+    <string name="date_of_purchase">购买日期：%1$s</string>
     <string name="no_active_sub">No active subscriptions found</string>
     <string name="alternative_charge_level">Alternative charge level method</string>
-    <string name="firstweek">&#160;for the first week</string>
-    <string name="firstmonth">&#160;for the first month</string>
-    <string name="firstsemiyear">&#160;for the first six months</string>
-    <string name="firstyear">&#160;for the first year</string>
-    <string name="then">then&#160;</string>
-    <string name="icon">Application icon</string>
-    <string name="select_icon">Select icon</string>
-    <string name="fullbattery_top">The battery is fully charged!</string>
+<!-- <string name="firstweek">&#160;for the first week</string> -->
+    <string name="firstweek">&#160;在第一月</string>
+<!-- <string name="firstmonth">&#160;for the first month</string> -->
+    <string name="firstmonth">&#160;在第一月</string>
+<!-- <string name="firstsemiyear">&#160;for the first six months</string> -->
+    <string name="firstsemiyear">&#160;最初六月</string>
+<!-- <string name="firstyear">&#160;for the first year</string> -->
+    <string name="firstyear">&#160;在第一年</string>
+<!-- <string name="then">then&#160;</string> -->
+    <string name="then">然后&#160;</string>
+<!-- <string name="icon">Application icon</string> -->
+    <string name="icon">应用图标</string>
+<!-- <string name="select_icon">Select icon</string> -->
+    <string name="select_icon">选择图标</string>
+<!-- <string name="fullbattery_top">The battery is fully charged!</string> -->
+    <string name="fullbattery_top">电池已完全充满电！</string>
     <string name="fullbattery">You can disconnect your phone from charging.</string>
-    <string name="notify_full">Notify when fully charged</string>
-    <string name="show_charging_status">Show charging status</string>
-    <string name="date">Start date</string>
-    <string name="bla">Full Screen Alert</string>
-    <string name="bla_trial_info">The Full Screen Alert feature is exclusively available with %1$s, but it may not be compatible with your device. To ensure it works for you, we offer a free one-day trial. After the trial ends, the feature will be locked. To regain access, simply upgrade to %1$s.
-        \n\nWould you like to start your trial now?</string>
+<!-- <string name="notify_full">Notify when fully charged</string> -->
+    <string name="notify_full">充满电时通知</string>
+<!-- <string name="show_charging_status">Show charging status</string> -->
+    <string name="show_charging_status">显示充电状态</string>
+<!-- <string name="date">Start date</string> -->
+    <string name="date">开始日期</string>
+<!-- <string name="bla">Full Screen Alert</string> -->
+    <string name="bla">全屏警告</string>
+<!-- <string name="bla_trial_info">The Full Screen Alert feature is exclusively available with %1$s, but it may not be compatible with your device. To ensure it works for you, we offer a free one-day trial. After the trial ends, the feature will be locked. To regain access, simply upgrade to %1$s. -->
+        <!-- \n\nWould you like to start your trial now?</string> -->
+    <string name="bla_trial_info">全屏警告功能仅可用于%1$s，但它可能与你的设备不兼容。为了确保它能工作，我们给您免费试用一天。在试用结束之后，该功能无法使用。如若再次使用，只需升级到 %1$s。
+        \n\n您愿意开启试用吗？</string>
 <!-- <string name="premium_3_2_2">Full Screen Alert: Unlock Full Screen Alert feature without limitations.</string> -->
     <string name="premium_3_2_2">全屏警告：解锁无限制的屏幕警告。</string>
 <!-- <string name="user_manual_text">Attention: This feature is experimental and may not function on all devices.
