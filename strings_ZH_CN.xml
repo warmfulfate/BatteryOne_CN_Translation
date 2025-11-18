@@ -739,4 +739,14 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
 <!-- <string name="overlay_settings">Overlay Settings</string> -->
     <string name="overlay_settings">悬浮窗设置</string>
 
+
+   <string name="battery_level_overlay">Battery Level</string>
+    <string name="size">Size</string>
+    <string name="show_measurement_unit">Show measurement unit</string>
+    <string name="error_over_permission">Error. Permission to display over other applications is missing.</string>
+    <string name="overlay_settings">Overlay Settings</string>
+    <string name="customise_style">Customize style</string>
+    <string name="lock_position">Lock Position</string>
+    <string name="snap_to_edge">Snap to Edge</string>
+    <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string>
 </resources>
