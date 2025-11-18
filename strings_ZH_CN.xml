@@ -175,35 +175,35 @@
     <string name="singular_text">这种方法更加准确，因为它只考虑上一次完整充电的数据。但是对充电条件要求更高，需要从低于15%充到到100%.为提高数据精度，请勿在完全充电提示前中断。</string>
     <!-- <string name="info_in_current_session">Loss of charge</string> -->
     <string name="info_in_current_session">电量损耗</string>
-    <!-- <string name="using_energy">App power consumption</string> -->
+<!-- <string name="using_energy">App power consumption</string> -->
     <string name="using_energy">应用消耗电量</string>
-    <!-- <string name="using_baterry_middle">Average battery usage</string> -->
+<!-- <string name="using_baterry_middle">Average battery usage</string> -->
     <string name="using_baterry_middle">平均电量消耗</string>
-    <!-- <string name="timework_on_fullbaterry">Full battery time estimates</string> -->
+<!-- <string name="timework_on_fullbaterry">Full battery time estimates</string> -->
     <string name="timework_on_fullbaterry">满电续航估算</string>
-    <!-- <string name="charging">The charge of %1$s%% is enough for</string> -->
+<!-- <string name="charging">The charge of %1$s%% is enough for</string> -->
     <string name="charging">当前 %1$s%% 电量可使用</string>
-    <!-- <string name="design_capacity">Design capacity</string> -->
+<!-- <string name="design_capacity">Design capacity</string> -->
     <string name="design_capacity">设计容量</string>
-    <!-- <string name="calculated_capacity">Calculated capacity</string> -->
+<!-- <string name="calculated_capacity">Calculated capacity</string> -->
     <string name="calculated_capacity">计算容量</string>
-    <!-- <string name="maximum_capacity">Battery health</string> -->
+<!-- <string name="maximum_capacity">Battery health</string> -->
     <string name="maximum_capacity">电池健康</string>
-    <!-- <string name="wear_rate">Degree of wear</string> -->
+<!-- <string name="wear_rate">Degree of wear</string> -->
     <string name="wear_rate">健康程度</string>
-    <!-- <plurals name="calculated_for"> -->
+<!-- <plurals name="calculated_for"> -->
         <!-- <item quantity="one">Calculated for %s session</item> -->
         <!-- <item quantity="other">Calculated for %s sessions</item> -->
-    <!-- </plurals> -->
+<!-- </plurals> -->
     <plurals name="calculated_for">
         <item quantity="one">根据 %s 次充电计算</item>
         <item quantity="other">根据 %s 次充电计算</item>
     </plurals>
-    <!-- <string name="battery_wear_info_up">What is battery wear?</string> -->
+<!-- <string name="battery_wear_info_up">What is battery wear?</string> -->
     <string name="battery_wear_info_up">什么是电池损耗？</string>
-    <!-- <string name="battery_wear_info">"Every time you charge your device, the battery wears out. In this block, you can roughly find out how much damage your battery will take when charged to the selected percentage. The higher the wear cycle ratio of the battery, the more damage the battery takes."</string> -->
+<!-- <string name="battery_wear_info">"Every time you charge your device, the battery wears out. In this block, you can roughly find out how much damage your battery will take when charged to the selected percentage. The higher the wear cycle ratio of the battery, the more damage the battery takes."</string> -->
     <string name="battery_wear_info">“你的设备每次充电都会损耗。在此模块中，您可以大致估算，充电至所选百分比电量将对电池造成多少损伤，电池的损耗比例越高，即充电对电池造成的损伤就越大。”</string>
-    <!-- <string name="current_session_info">"This block displays information about the current or last charging session. If the battery is charging, the current session will be displayed. If the battery is discharging, it will display the last session during which at least 1% was charged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
+<!-- <string name="current_session_info">"This block displays information about the current or last charging session. If the battery is charging, the current session will be displayed. If the battery is discharging, it will display the last session during which at least 1% was charged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
     Average Speed is the overall charging speed.
     Screen on is the charging speed with the screen on.
     Screen off is the charging speed with the screen off."</string> -->
@@ -370,8 +370,10 @@ Attention. This feature is experimental and may differ significantly from real d
 It's important to note that the absence of the amperage sensor is a hardware limitation specific to your device and not a shortcoming of our application. Unfortunately, we rely on the availability of certain hardware features to provide accurate and comprehensive battery information.
 
 We understand that this may be disappointing, and we apologize for any inconvenience this may cause. If you have any questions or need further assistance, feel free to contact our support team. We appreciate your understanding and value your use of our application."</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+<!-- <string name="yes">Yes</string> -->
+    <string name="yes">是</string>
+<!-- <string name="no">No</string> -->
+    <string name="no">否</string>
     <string name="measurement_parameter">Measured parameter:</string>
     <string name="polarity">Polarity:</string>
     <string name="positive">Positive</string>
@@ -560,7 +562,8 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="overheat_alarm_text">By enabling this feature, you will receive a notification whenever the battery temperature rises above the selected level.</string>
 <!-- <string name="my_subscribe">My subscription</string> -->
     <string name="my_subscribe">我的订阅</string>
-    <string name="unlimited">Unlimited</string>
+<!-- <string name="unlimited">Unlimited</string> -->
+    <string name="unlimited">未限制</string>
     <string name="expiration_date">Expiration date: %1$s</string>
     <string name="status">Status: %1$s</string>
 <!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
