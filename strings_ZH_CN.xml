@@ -314,7 +314,8 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="kelvinu">Kelvin</string>
     <string name="showing_components_of_notify">Notification components</string>
     <string name="average">The average</string>
-    <string name="hour">h</string>
+<!-- <string name="hour">h</string> -->
+    <string name="hour">时</string>
     <string name="error">Error</string>
     <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string>
     <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string>
@@ -568,14 +569,15 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="status">Status: %1$s</string>
 <!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
     <string name="date_of_purchase">购买日期：%1$s</string>
-    <string name="no_active_sub">No active subscriptions found</string>
+<!-- <string name="no_active_sub">No active subscriptions found</string> -->
+    <string name="no_active_sub">未找到订阅许可</string>
     <string name="alternative_charge_level">Alternative charge level method</string>
 <!-- <string name="firstweek">&#160;for the first week</string> -->
     <string name="firstweek">&#160;在第一月</string>
 <!-- <string name="firstmonth">&#160;for the first month</string> -->
     <string name="firstmonth">&#160;在第一月</string>
 <!-- <string name="firstsemiyear">&#160;for the first six months</string> -->
-    <string name="firstsemiyear">&#160;最初六月</string>
+    <string name="firstsemiyear">&#160;在第六月</string>
 <!-- <string name="firstyear">&#160;for the first year</string> -->
     <string name="firstyear">&#160;在第一年</string>
 <!-- <string name="then">then&#160;</string> -->
@@ -741,15 +743,20 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="thanks_for_feedback">感谢您的反馈！</string>
 <!-- <string name="overlay_settings">Overlay Settings</string> -->
     <string name="overlay_settings">悬浮窗设置</string>
-
-
-   <string name="battery_level_overlay">Battery Level</string>
-    <string name="size">Size</string>
-    <string name="show_measurement_unit">Show measurement unit</string>
-    <string name="error_over_permission">Error. Permission to display over other applications is missing.</string>
-    <string name="overlay_settings">Overlay Settings</string>
-    <string name="customise_style">Customize style</string>
-    <string name="lock_position">Lock Position</string>
-    <string name="snap_to_edge">Snap to Edge</string>
-    <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string>
+<!-- <string name="battery_level_overlay">Battery Level</string> -->
+   <string name="battery_level_overlay">电池电量</string>
+<!-- <string name="size">Size</string> -->
+    <string name="size">大小</string>
+<!-- <string name="show_measurement_unit">Show measurement unit</string> -->
+    <string name="show_measurement_unit">显示测量单位</string>
+<!-- <string name="error_over_permission">Error. Permission to display over other applications is missing.</string> -->
+    <string name="error_over_permission">错误，缺失在其他应用上显示的权限。</string>
+<!-- <string name="customise_style">Customize style</string> -->
+    <string name="customise_style">个性风格</string>
+<!-- <string name="lock_position">Lock Position</string> -->
+    <string name="lock_position">固定位置</string>
+<!-- <string name="snap_to_edge">Snap to Edge</string> -->
+    <string name="snap_to_edge">边缘吸附</string>
+<!-- <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string> -->
+    <string name="permission_over_text">为了启用这个功能，你需要授予在其他应用上显示的权限。</string>
 </resources>
