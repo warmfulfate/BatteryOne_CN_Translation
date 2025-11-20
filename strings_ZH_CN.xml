@@ -237,11 +237,11 @@
     <!-- Average Speed is the overall discharging speed.
     Screen on is the discharging speed with the screen on.
     Screen off is the discharging speed with the screen off."</string> -->
-    <string name="dsddurrent_session_info_discharge">"此模块显示当前或者上次放电详情。If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
+    <string name="dsddurrent_session_info_discharge">“此模块显示当前或者上次放电详情。如果电池正在放电，则当前充电将显示。如果电池正在充电， 它将显示在上次至少放电1%期间的放电数据。 您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
 
 Average Speed is the overall discharging speed.
 Screen on is the discharging speed with the screen on.
-Screen off is the discharging speed with the screen off."</string>
+Screen off is the discharging speed with the screen off.”</string>
     <string name="full_battery_info">"This block displays approximate information about the duration of the device from a full battery. This information is based on previously collected data about your use of the device."</string>
     <string name="degree_of_wear_info">"This block displays approximate information about the state of your battery.
 
@@ -255,8 +255,10 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="day_info">"This block displays how long the device will work with the SCREEN ON from the current battery level."</string>
     <string name="all_info">"This block displays how long the device will work from the current battery level, taking into account your usage style."</string>
     <string name="night_info">"This block displays how long the device will work with the SCREEN OFF from the current battery level."</string>
-    <string name="what_time">What is this time?</string>
-    <string name="dead_time">Battery wear prediction</string>
+<!-- <string name="what_time">What is this time?</string> -->
+    <string name="what_time">这个时间是什么？</string>
+<!-- <string name="dead_time">Battery wear prediction</string> -->
+    <string name="dead_time">电磁损耗预测</string>
     <string name="dead_time_text_down">\tTo reduce the rate of wear and increase battery life, it is recommended to keep the battery charge level between 20% and 80%. \n\tWhen the battery reaches more than 20% wear, it is recommended to replace the battery with a new one."</string>
     <string name="dead_time_days">With the current style of use, through&#160;</string>
     <string name="graph_text_down">\tThis graph displays the wear rate of the battery over
@@ -531,7 +533,8 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="discharge_notification_text">Your device is not charging</string>
     <string name="charge_notification">Charge notification</string>
     <string name="charge_notification_text">Your device is charging</string>
-    <string name="notification_now">Now</string>
+<!-- <string name="notification_now">Now</string> -->
+    <string name="notification_now">现在</string>
     <string name="notification_average">Average</string>
     <string name="amperage_current_session">Current session amperage graph</string>
     <string name="database_export_in_progress">Database export in progress</string>
@@ -542,13 +545,15 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="m36">36分钟</string>
 <!-- <string name="s80">80s</string> -->
     <string name="s80">80秒</string>
-    <string name="session_screen_time">Screen time</string>
+<!-- <string name="session_screen_time">Screen time</string> -->
+    <string name="session_screen_time">屏幕时间</string>
     <string name="display_charging_amperage_graph">Display charging amperage graph</string>
 <!-- <string name="ignore">Ignore</string> -->
     <string name="ignore">忽略</string>
     <string name="error_accessing_file">Error accessing the file. Try again.</string>
     <string name="work_in_background">Work in the background</string>
-    <string name="use_old_style">Use the old style</string>
+<!-- <string name="use_old_style">Use the old style</string> -->
+    <string name="use_old_style">使用旧样式</string>
     <string name="count_of_sessions">Number of sessions</string>
     <string name="about_app_android">About the application (Android)</string>
     <string name="detailed_information">Detailed information</string>
@@ -565,13 +570,16 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="my_subscribe">我的订阅</string>
 <!-- <string name="unlimited">Unlimited</string> -->
     <string name="unlimited">未限制</string>
-    <string name="expiration_date">Expiration date: %1$s</string>
-    <string name="status">Status: %1$s</string>
+<!-- <string name="expiration_date">Expiration date: %1$s</string> -->
+    <string name="expiration_date">到期日期: %1$s</string>
+<!-- <string name="status">Status: %1$s</string> -->
+    <string name="status">状态%1$s</string>
 <!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
     <string name="date_of_purchase">购买日期：%1$s</string>
 <!-- <string name="no_active_sub">No active subscriptions found</string> -->
     <string name="no_active_sub">未找到订阅许可</string>
-    <string name="alternative_charge_level">Alternative charge level method</string>
+<!-- <string name="alternative_charge_level">Alternative charge level method</string> -->
+    <string name="alternative_charge_level">备用充电水平方法</string>
 <!-- <string name="firstweek">&#160;for the first week</string> -->
     <string name="firstweek">&#160;在第一月</string>
 <!-- <string name="firstmonth">&#160;for the first month</string> -->
@@ -588,7 +596,8 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="select_icon">选择图标</string>
 <!-- <string name="fullbattery_top">The battery is fully charged!</string> -->
     <string name="fullbattery_top">电池已完全充满电！</string>
-    <string name="fullbattery">You can disconnect your phone from charging.</string>
+<!-- <string name="fullbattery">You can disconnect your phone from charging.</string> -->
+    <string name="fullbattery">您可以断开手机的电源了。</string>
 <!-- <string name="notify_full">Notify when fully charged</string> -->
     <string name="notify_full">充满电时通知</string>
 <!-- <string name="show_charging_status">Show charging status</string> -->
