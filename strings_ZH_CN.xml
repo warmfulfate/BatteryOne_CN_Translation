@@ -913,4 +913,45 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="snap_to_edge">边缘吸附</string>
 <!-- <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string> -->
     <string name="permission_over_text">为了启用这个功能，你需要授予在其他应用上显示的权限。</string>
+
+
+    <string name="splash_logo_text">Professional Battery Monitoring</string>
+
+    <string name="slide_1_header">Unique Analysis Algorithms</string>
+    <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string>
+    <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string>
+
+    <string name="slide_2_header">Fully Customizable Widgets</string>
+    <string name="slide_2_text">Monitor charge and temperature right from your home screen. Adjust text size for perfect readability and choose any colors to match your wallpaper style.</string>
+    <string name="slide_2_tip">⚙️ To open customization settings, simply tap on the installed widget on your home screen.</string>
+
+    <string name="slide_3_header">Notifications That Work</string>
+    <string name="slide_3_text">Configure alerts for charge levels, discharge, and overheating. Enable our unique full-screen mode (like an alarm clock) to ensure you hear when your phone is charged, even from another room.</string>
+    <string name="slide_3_tip">🔔 You can always change triggers and notification types in the app settings.</string>
+
+    <string name="slide_4_header">Everything for Total Control</string>
+    <string name="slide_4_1_header">Session Graphs</string>
+    <string name="slide_4_1_text">Evaluate charger stability and identify peak battery discharge moments.</string>
+    <string name="slide_4_2_header">App Consumption</string>
+    <string name="slide_4_2_text">Identify apps that consume the most energy.</string>
+    <string name="slide_4_3_header">Info Overlays</string>
+    <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string>
+    <string name="slide_4_4_header">Temperature Graph</string>
+    <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string>
+    <string name="slide_4_5_header">Usage History</string>
+    <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string>
+
+    <string name="monthly_text_down">Easy Start</string>
+    <string name="annualy_text_down">Just %1$s / mo.</string>
+    <string name="lifetime_text_down">One-time payment — lifetime access</string>
+
+    <string name="annualy_text_badge">Most Popular</string>
+    <string name="lifetime_text_badge_new_user">Welcome Offer</string>
+    <string name="lifetime_text_badge_old_user">Loyal User Discount</string>
+
+    <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string>
+    <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string>
+
+    <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string>
+    <string name="cumulative_text_empty">Charge by at least 15% to see initial data.</string>
 </resources>
