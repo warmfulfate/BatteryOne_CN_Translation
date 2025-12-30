@@ -326,7 +326,8 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="average">The average</string>
 <!-- <string name="hour">h</string> -->
     <string name="hour">时</string>
-    <string name="error">Error</string>
+<!-- <string name="error">Error</string> -->
+    <string name="error">错误</string>
     <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string>
     <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string>
     <string name="not_identified">Not identified</string>
@@ -367,36 +368,55 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="time_work_on_us">Time works for us!</string>
     <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string>
 
-    <string name="important_information">Important information!</string>
+<!-- <string name="important_information">Important information!</string> -->
+    <string name="important_information">重要通知！</string>
     <string name="dont_kill_my_app1">In order to work properly and display the correct data,
         BatteryOne must be constantly running in the background.
         If BatteryOne is not running in the background, it will not be able to perform functions such as battery level alerts or other important functions.</string>
     <string name="dont_kill_my_app2">Unfortunately, on many devices, the operating system stops the service that collects the necessary battery data. Don\'t Kill My App is a site that helps users solve this problem for various devices.</string>
     <string name="dont_kill_my_app3">For versions of Android 11 and above, it has become critical to grant permission to run continuously in the background. Please grant this permission.</string>
-    <string name="dont_kill_my_app4">Please enable Autorun for BatteryOne so that if the service is killed, it can restart itself.</string>
-    <string name="dont_kill_my_app_permission">Work in background permission</string>
-    <string name="permission_granted">Permission has already been granted. Thank you!</string>
-    <string name="is_ammeter_exist_text">"We regret to inform you that your device does not have a built-in sensor to measure amperage data. This sensor is crucial for several functions within our application, and without it, many features may not work as intended.
+<!-- <string name="dont_kill_my_app4">Please enable Autorun for BatteryOne so that if the service is killed, it can restart itself.</string> -->
+    <string name="dont_kill_my_app4">请开启BatteryOne后台运行权限，以便它的服务被杀时可以重启。</string>
+<!-- <string name="dont_kill_my_app_permission">Work in background permission</string> -->
+    <string name="dont_kill_my_app_permission">后台工作权限</string>
+<!-- <string name="permission_granted">Permission has already been granted. Thank you!</string> -->
+    <string name="permission_granted">已经授予权限，谢谢！</string>
+<!-- <string name="is_ammeter_exist_text">"We regret to inform you that your device does not have a built-in sensor to measure amperage data. This sensor is crucial for several functions within our application, and without it, many features may not work as intended.
 
 It's important to note that the absence of the amperage sensor is a hardware limitation specific to your device and not a shortcoming of our application. Unfortunately, we rely on the availability of certain hardware features to provide accurate and comprehensive battery information.
 
-We understand that this may be disappointing, and we apologize for any inconvenience this may cause. If you have any questions or need further assistance, feel free to contact our support team. We appreciate your understanding and value your use of our application."</string>
+We understand that this may be disappointing, and we apologize for any inconvenience this may cause. If you have any questions or need further assistance, feel free to contact our support team. We appreciate your understanding and value your use of our application."</string> -->
+    <string name="is_ammeter_exist_text">“我们很遗憾地通知您，您的设备没有内置传感器来测量电流数据。该传感器对于我们应用中的多个功能至关重要，没有它，许多功能可能无法正常工作。\n
+需要注意的是，缺少电流传感器是您设备的硬件限制，而不是我们应用的不足。不幸的是，我们依赖某些硬件功能的可用性来提供准确和全面的电池信息。\n
+我们理解这可能令人失望，并为由此可能造成的不便向您道歉。如果您有任何疑问或需要进一步的帮助，请随时联系我们的支持团队。感谢您的理解，并感谢您使用我们的应用程序。”</string>
 <!-- <string name="yes">Yes</string> -->
     <string name="yes">是</string>
 <!-- <string name="no">No</string> -->
     <string name="no">否</string>
-    <string name="measurement_parameter">Measured parameter:</string>
-    <string name="polarity">Polarity:</string>
-    <string name="positive">Positive</string>
-    <string name="negative">Negative</string>
-    <string name="calibration_going">Waiting for diagnostics</string>
-    <string name="calibration_ended">Diagnostics completed</string>
+<!-- <string name="measurement_parameter">Measured parameter:</string> -->
+    <string name="measurement_parameter">测量参数：</string>
+<!-- <string name="polarity">Polarity:</string> -->
+    <string name="polarity">极性：</string>
+<!-- <string name="positive">Positive</string> -->
+    <string name="positive">正极</string>
+<!-- <string name="negative">Negative</string> -->
+    <string name="negative">负极   </string>
+<!-- <string name="calibration_going">Waiting for diagnostics</string> -->
+    <string name="calibration_going">正在诊断</string>
+<!-- <string name="calibration_ended">Diagnostics completed</string> -->
+    <string name="calibration_ended">诊断完成</string>
     <string name="minute">m</string>
-    <string name="dual_battery">Setting for dual-cell battery</string>
-    <string name="seven_volt">Voltage correction</string>
-    <string name="dual_battery_fix">Amperage correction</string>
-    <string name="dual_battery_fix_text">Some dual-cell battery devices may display the amperage incorrectly, lowering it by half. Use this feature to fix it.</string>
-    <string name="seven_volt_text">Some dual-cell battery devices may incorrectly display voltage by reporting the voltage of two cells at the same time. Use this function only if your voltage is greater than 7V.</string>
+<!-- <string name="dual_battery">Setting for dual-cell battery</string> -->
+    <string name="dual_battery">双电芯电池设置</string>
+<!-- <string name="seven_volt">Voltage correction</string> -->
+    <string name="seven_volt">电压更正</string>
+<!-- <string name="dual_battery_fix">Amperage correction</string> -->
+    <string name="dual_battery_fix">温度更正</string>
+<!-- <string name="dual_battery_fix_text">Some dual-cell battery devices may display the amperage incorrectly, lowering it by half. Use this feature to fix it.</string> -->
+    <string name="dual_battery_fix_text">一些双电芯设备可能会显示错误的温度，使用这个功能将其降低一半来修复。</string>
+
+<!-- <string name="seven_volt_text">Some dual-cell battery devices may incorrectly display voltage by reporting the voltage of two cells at the same time. Use this function only if your voltage is greater than 7V.</string> -->
+    <string name="seven_volt_text">有些双电芯设备可能会显示错误的电源，因为它们同时报告两个电池的电压。只有你的电压大于7v时可用。</string>
 <!-- <string name="average_speed_charge">Charging speed average</string> -->
     <string name="average_speed_charge">平均充电速度</string>
 <!-- <string name="sleep_mode">Sleeping mode</string> -->
@@ -914,8 +934,8 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
 <!-- <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string> -->
     <string name="permission_over_text">为了启用这个功能，你需要授予在其他应用上显示的权限。</string>
 
-
-    <string name="splash_logo_text">Professional Battery Monitoring</string>
+<!-- <string name="splash_logo_text">Professional Battery Monitoring</string> -->
+    <string name="splash_logo_text">专业电池监控</string>
 
     <string name="slide_1_header">Unique Analysis Algorithms</string>
     <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string>
