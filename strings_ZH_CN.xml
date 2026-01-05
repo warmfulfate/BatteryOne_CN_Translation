@@ -363,18 +363,25 @@ Attention. This feature is experimental and may differ significantly from real d
         The button with the transition to the page is located below.</string>
     <string name="permission_4">Conclusion</string>
     <string name="battery_level_alert_text">Use the battery level alert function to keep the battery level normal, thus prolonging battery life.</string>
-    <string name="real_capacity">Actual battery capacity</string>
+<!-- <string name="real_capacity">Actual battery capacity</string> -->
+    <string name="real_capacity">实际电池容量</string>
     <string name="real_capacity_text">Using two kinds of algorithms, with BatteryOne, you can calculate the actual capacity of a battery and predict how long it will take for it to become unusable.</string>
-    <string name="time_work_on_us">Time works for us!</string>
+<!-- <string name="time_work_on_us">Time works for us!</string> -->
+    <string name="time_work_on_us">时间见证精准！</string>
     <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string>
 
 <!-- <string name="important_information">Important information!</string> -->
     <string name="important_information">重要通知！</string>
-    <string name="dont_kill_my_app1">In order to work properly and display the correct data,
+<!-- <string name="dont_kill_my_app1">In order to work properly and display the correct data,
         BatteryOne must be constantly running in the background.
-        If BatteryOne is not running in the background, it will not be able to perform functions such as battery level alerts or other important functions.</string>
-    <string name="dont_kill_my_app2">Unfortunately, on many devices, the operating system stops the service that collects the necessary battery data. Don\'t Kill My App is a site that helps users solve this problem for various devices.</string>
-    <string name="dont_kill_my_app3">For versions of Android 11 and above, it has become critical to grant permission to run continuously in the background. Please grant this permission.</string>
+If BatteryOne is not running in the background, it will not be able to perform functions such as battery level alerts or other important functions.</string> -->
+    <string name="dont_kill_my_app1">为了适当地显示当前数据，\n
+        BatteryOne必须不断地在后台运行。\n
+        如果BatteryOne不在后台运行，那它不能执行功能，例如电池电量警告或者其他重要功能。</string>
+<!-- <string name="dont_kill_my_app2">Unfortunately, on many devices, the operating system stops the service that collects the necessary battery data. Don\'t Kill My App is a site that helps users solve this problem for various devices.</string> -->
+    <string name="dont_kill_my_app2">不幸的是，在您的设备上的操作系统停止了收集必要的电池数据服务。“Don\'t Kill My App”是一个帮助用户解决各种设备问题的网站。</string>
+<!-- <string name="dont_kill_my_app3">For versions of Android 11 and above, it has become critical to grant permission to run continuously in the background. Please grant this permission.</string> -->
+    <string name="dont_kill_my_app3">对于安卓版本在11及以上，授予后台运行权限变得至关重要，请授予这个权限。</string>
 <!-- <string name="dont_kill_my_app4">Please enable Autorun for BatteryOne so that if the service is killed, it can restart itself.</string> -->
     <string name="dont_kill_my_app4">请开启BatteryOne后台运行权限，以便它的服务被杀时可以重启。</string>
 <!-- <string name="dont_kill_my_app_permission">Work in background permission</string> -->
