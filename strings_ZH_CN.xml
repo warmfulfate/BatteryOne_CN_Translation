@@ -268,8 +268,10 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="graph_temp_text_down">\tThis graph shows how the battery temperature has changed over the time period you select.</string>
     <string name="graph">Battery wear chart</string>
     <string name="graph_temp">Temperature graph</string>
-    <string name="theme">Theme</string>
-    <string name="second_color">Second theme color</string>
+<!-- <string name="theme">Theme</string> -->
+    <string name="theme">主要主题</string>
+<!-- <string name="second_color">Second theme color</string> -->
+    <string name="second_color">次要主题颜色</string>
 <!-- <string name="language">Language</string> -->
     <string name="language">语言</string>
     <string name="view_temp">Temperature display</string>
@@ -343,32 +345,54 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="diagnostics_text">If you suspect that your device’s amperage readings are inaccurate, you can rerun the diagnostic to recalibrate the scaling factor. You don’t need to run this if your readings are already correct. Would you like to start the diagnostic now?</string>
     <string name="warning">Warning</string>
     <string name="cannot_be_calculated">This parameter cannot be calculated</string>
-    <string name="settings_autostart">Autorun settings</string>
-    <string name="user_manual">User manual</string>
-    <string name="only_with_screen_off">Only with screen off</string>
-    <string name="introduction">Introduction</string>
-    <string name="permission_1">1. Overlay on top of other windows</string>
-    <string name="permission_1_btn">Overlay on top of other windows</string>
-    <string name="permission_1_text">You need to grant access to BatteryOne to display on top of other windows.
-        The button with the transition to the page is located below.</string>
-    <string name="granting_permissions">Granting Permissions</string>
-    <string name="button_meaning">Button Meanings</string>
-    <string name="permission_22">2. Run pop-ups in the background</string>
-    <string name="permissionsssss">BatteryOne Settings</string>
-    <string name="permission_2_text">This permission is not available on all devices, but if you have it, then you need to enable it.
-        Below is a button with a transition to the BatteryOne permissions page.</string>
-    <string name="permission_3">3. Display on the lock screen</string>
-    <string name="permission_3_text">This permission is also not available on all devices.
+<!-- <string name="settings_autostart">Autorun settings</string> -->
+    <string name="settings_autostart">自动运行设置</string>
+<!-- <string name="user_manual">User manual</string> -->
+    <string name="user_manual">用户手册</string>
+<!-- <string name="only_with_screen_off">Only with screen off</string> -->
+    <string name="only_with_screen_off">仅在屏幕关闭</string>
+<!-- <string name="introduction">Introduction</string> -->
+    <string name="introduction">介绍</string>
+<!-- <string name="permission_1">1. Overlay on top of other windows</string> -->
+    <string name="permission_1">1. 在其他窗口上显示</string>
+<!-- <string name="permission_1_btn">Overlay on top of other windows</string> -->
+    <string name="permission_1_btn">在其他窗口上显示</string>
+<!-- <string name="permission_1_text">You need to grant access to BatteryOne to display on top of other windows.
+        The button with the transition to the page is located below.</string> -->
+    <string name="permission_1_text">您需要授予BatteryOne访问显示在其他窗口上的权限。\n
+        点击下方的按钮，即可跳转到授予权限页面。</string>
+<!-- <string name="granting_permissions">Granting Permissions</string> -->
+    <string name="granting_permissions">授予权限</string>
+<!-- <string name="button_meaning">Button Meanings</string> -->
+    <string name="button_meaning">按钮含义</string>
+<!-- <string name="permission_22">2. Run pop-ups in the background</string> -->
+    <string name="permission_22">2. 在后台运行弹出窗口</string>
+<!-- <string name="permissionsssss">BatteryOne Settings</string> -->
+    <string name="permissionsssss">BatteryOne设置</string>
+<!-- <string name="permission_2_text">This permission is not available on all devices, but if you have it, then you need to enable it.
+        Below is a button with a transition to the BatteryOne permissions page.</string> -->
+    <string name="permission_2_text">这个权限并非在所有设备可用，如果您有它，然后需要启用它。\n
+        点击下方的按钮，即可跳转到BatterOne权限页面。</string>
+<!-- <string name="permission_3">3. Display on the lock screen</string> -->
+    <string name="permission_3">3. 显示在锁屏上</string>
+    <!-- <string name="permission_3_text">This permission is also not available on all devices.
         If you have it, then you need to enable it.
-        The button with the transition to the page is located below.</string>
-    <string name="permission_4">Conclusion</string>
-    <string name="battery_level_alert_text">Use the battery level alert function to keep the battery level normal, thus prolonging battery life.</string>
+        The button with the transition to the page is located below.</string> -->
+    <string name="permission_3_text">这个权限并非在所有设备可用，但是如果您有它，然后需要启用它。\n
+        如果您有他，然后需要启用它。\n
+        点击下方的按钮，即可跳转到授予权限页面。</string>
+<!-- <string name="permission_4">Conclusion</string> -->
+    <string name="permission_4">算法</string>
+<!-- <string name="battery_level_alert_text">Use the battery level alert function to keep the battery level normal, thus prolonging battery life.</string> -->
+    <string name="battery_level_alert_text">使用电量警告功能来保持电量正常，从而延长电池寿命。</string>
 <!-- <string name="real_capacity">Actual battery capacity</string> -->
     <string name="real_capacity">实际电池容量</string>
-    <string name="real_capacity_text">Using two kinds of algorithms, with BatteryOne, you can calculate the actual capacity of a battery and predict how long it will take for it to become unusable.</string>
+<!-- <string name="real_capacity_text">Using two kinds of algorithms, with BatteryOne, you can calculate the actual capacity of a battery and predict how long it will take for it to become unusable.</string> -->
+    <string name="real_capacity_text">BatteryOne使用两种算法，您可以计算电池实际容量并预测它多久会变得无法使用。</string>
 <!-- <string name="time_work_on_us">Time works for us!</string> -->
     <string name="time_work_on_us">时间见证精准！</string>
-    <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string>
+<!-- <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string> -->
+    <string name="time_work_on_us_text">BatteryOne逐渐收集数据并向您展示准确的统计信息。它很简单，只要你使用BatteryOne够久，越久统计地越准确！</string>
 
 <!-- <string name="important_information">Important information!</string> -->
     <string name="important_information">重要通知！</string>
@@ -968,9 +992,13 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="slide_4_5_header">Usage History</string>
     <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string>
 
-    <string name="monthly_text_down">Easy Start</string>
-    <string name="annualy_text_down">Just %1$s / mo.</string>
-    <string name="lifetime_text_down">One-time payment — lifetime access</string>
+<!-- <string name="monthly_text_down">Easy Start</string> -->
+    <string name="monthly_text_down">轻松开始</string>
+<!-- <string name="annualy_text_down">Just %1$s / mo.</string> -->
+    <string name="annualy_text_down">每月仅%1$s。</string>
+<!-- <string name="lifetime_text_down">One-time payment — lifetime access</string> -->
+    <string name="lifetime_text_down">一次付清——终身使用</string>
+
 
     <string name="annualy_text_badge">Most Popular</string>
     <string name="lifetime_text_badge_new_user">Welcome Offer</string>
