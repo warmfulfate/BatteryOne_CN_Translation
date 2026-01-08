@@ -330,21 +330,36 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="hour">时</string>
 <!-- <string name="error">Error</string> -->
     <string name="error">错误</string>
-    <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string>
-    <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string>
-    <string name="not_identified">Not identified</string>
-    <string name="discharging">Discharging:</string>
-    <string name="auto_close_settings">Auto-Close Settings</string>
-    <string name="exclude_recents">Exclude app from Recents</string>
-    <string name="exclude_recents_text">When this feature is enabled, the app will not appear in the Recent Apps list.</string>
-    <string name="Close_on_Minimize">Close on Minimize</string>
-    <string name="Close_on_Minimize_text">When this feature is enabled, the app will automatically close when minimized. The background service will continue running.</string>
-    <string name="auto_close_5">Auto-Close After 5 Minutes</string>
-    <string name="auto_close_5_text">If Close on Minimize is disabled, the app will automatically close five minutes after being sent to the background. The background service will continue running.</string>
-    <string name="diagnostics">Diagnostics</string>
-    <string name="diagnostics_text">If you suspect that your device’s amperage readings are inaccurate, you can rerun the diagnostic to recalibrate the scaling factor. You don’t need to run this if your readings are already correct. Would you like to start the diagnostic now?</string>
-    <string name="warning">Warning</string>
-    <string name="cannot_be_calculated">This parameter cannot be calculated</string>
+<!-- <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string> -->
+    <string name="design_capacity_text_dialog">设计容量时制造商以毫安时(mAh)声明的电池容量。</string>
+<!-- <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string> -->
+    <string name="design_capacity_text_error">无效的值，之所以指定正确的容量很重要，是因为它会影响某些功能。</string>
+<!-- <string name="not_identified">Not identified</string> -->
+    <string name="not_identified">未识别到</string>
+<!-- <string name="discharging">Discharging:</string> -->
+    <string name="discharging">放电中：</string>
+<!-- <string name="auto_close_settings">Auto-Close Settings</string> -->
+    <string name="auto_close_settings">自动关闭设置</string>
+<!-- <string name="exclude_recents">Exclude app from Recents</string> -->
+    <string name="exclude_recents">从最近应用中排除</string>
+<!-- <string name="exclude_recents_text">When this feature is enabled, the app will not appear in the Recent Apps list.</string> -->
+    <string name="exclude_recents_text">当这个功能启用，app将不会出现在最近应用列表中。</string>
+<!-- <string name="Close_on_Minimize">Close on Minimize</string> -->
+    <string name="Close_on_Minimize">最小化关闭</string>
+<!-- <string name="Close_on_Minimize_text">When this feature is enabled, the app will automatically close when minimized. The background service will continue running.</string> -->
+    <string name="Close_on_Minimize_text">当这个功能启用，app最小化时，它会自动关闭并且后台服务持续运行。</string>
+<!-- <string name="auto_close_5">Auto-Close After 5 Minutes</string> -->
+    <string name="auto_close_5">在五分钟后自动关闭</string>
+<!-- <string name="auto_close_5_text">If Close on Minimize is disabled, the app will automatically close five minutes after being sent to the background. The background service will continue running.</string> -->
+    <string name="auto_close_5_text">如果在最小化时关闭被禁用，app将会在发送到后台五分钟后自动关闭。后台服务将会持续运行。</string>
+<!-- <string name="diagnostics">Diagnostics</string> -->
+    <string name="diagnostics">诊断</string>
+<!-- <string name="diagnostics_text">If you suspect that your device’s amperage readings are inaccurate, you can rerun the diagnostic to recalibrate the scaling factor. You don’t need to run this if your readings are already correct. Would you like to start the diagnostic now?</string> -->
+    <string name="diagnostics_text">如果您怀疑设备电流读取异常，您可以重新运行诊断来校准内部比例系数。如果您的读数正常则不需要诊断，您想现在就开始诊断吗？<d/string>
+<!-- <string name="warning">Warning</string> -->
+    <string name="warning">警告</string>
+<!-- <string name="cannot_be_calculated">This parameter cannot be calculated</string> -->
+    <string name="cannot_be_calculated">此参数无法计算</string>
 <!-- <string name="settings_autostart">Autorun settings</string> -->
     <string name="settings_autostart">自动运行设置</string>
 <!-- <string name="user_manual">User manual</string> -->
@@ -969,6 +984,7 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="splash_logo_text">专业电池监控</string>
 
     <string name="slide_1_header">Unique Analysis Algorithms</string>
+    <string name="slide_1_header">独特分析算法</string>
     <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string>
     <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string>
 
@@ -1000,13 +1016,19 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="lifetime_text_down">一次付清——终身使用</string>
 
 
-    <string name="annualy_text_badge">Most Popular</string>
-    <string name="lifetime_text_badge_new_user">Welcome Offer</string>
-    <string name="lifetime_text_badge_old_user">Loyal User Discount</string>
+<!-- <string name="annualy_text_badge">Most Popular</string> -->
+    <string name="annualy_text_badge">最受欢迎</string>
+<!-- <string name="lifetime_text_badge_new_user">Welcome Offer</string> -->
+    <string name="lifetime_text_badge_new_user">迎新优惠</string>
+<!-- <string name="lifetime_text_badge_old_user">Loyal User Discount</string> -->
+    <string name="lifetime_text_badge_old_user">老粉折扣</string>
+
 
     <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string>
     <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string>
 
-    <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string>
-    <string name="cumulative_text_empty">Charge by at least 15% to see initial data.</string>
+<!-- <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string> -->
+    <string name="discount_text_notification">您已获得老粉优惠！</string>
+<!-- <string name="cumulative_text_empty">Charge by at least 15% to see initial data.</string> -->
+    <string name="cumulative_text_empty">至少充电15%来查看初始数据。</string>
 </resources>
