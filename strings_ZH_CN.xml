@@ -242,29 +242,46 @@
 平均速度：总体放电速度速度。\n
 屏幕开启：屏幕亮时的放电速度。\n
 屏幕关闭：屏幕关闭的放电速度。”</string>
-    <string name="full_battery_info">"This block displays approximate information about the duration of the device from a full battery. This information is based on previously collected data about your use of the device."</string>
-    <string name="degree_of_wear_info">"This block displays approximate information about the state of your battery.
+<!-- <string name="full_battery_info">"This block displays approximate information about the duration of the device from a full battery. This information is based on previously collected data about your use of the device."</string> -->
+    <string name="full_battery_info">“此模块显示设备在电池充满电情况下的大致使用时间。该信息基于之前收集的关于您使用设备的数据。”</string>
+<!-- <string name="degree_of_wear_info">"This block displays approximate information about the state of your battery.
 
 The design capacity is the original capacity of the battery, which was specified by the manufacturer.
 The сalculated capacity is the capacity of the battery that was calculated by this program.
 
-Attention. If your Battery health is less than 50%, then you probably have a dual-cell battery. To fix capacity display you need to enable in settings for dual-cell batteries."</string>
-    <string name="predict_info">"This block displays information about the battery wear rate. Select the desired percentage and you will find out, approximately, in how many days your battery will be worn down to the selected percentage. The algorithm that calculates this information takes into account the average charge percentage required and the average battery wear per day.
+Attention. If your Battery health is less than 50%, then you probably have a dual-cell battery. To fix capacity display you need to enable in settings for dual-cell batteries."</string> -->
+    <string name="degree_of_wear_info">“此模块显示有关电池状态的近似信息。\n
 
-Attention. This feature is experimental and may differ significantly from real data."</string>
-    <string name="day_info">"This block displays how long the device will work with the SCREEN ON from the current battery level."</string>
-    <string name="all_info">"This block displays how long the device will work from the current battery level, taking into account your usage style."</string>
-    <string name="night_info">"This block displays how long the device will work with the SCREEN OFF from the current battery level."</string>
+设计容量是制造商规定的电池原始容量。\n
+计算容量是该程序计算出的电池容量。\n
+
+注意：如果您的电池健康度低于50%，则您可能使用的是双电芯电池。要修复容量显示，您需要在设置中启用双电芯电池选项。”</string>
+<!-- <string name="predict_info">"This block displays information about the battery wear rate. Select the desired percentage and you will find out, approximately, in how many days your battery will be worn down to the selected percentage. The algorithm that calculates this information takes into account the average charge percentage required and the average battery wear per day.
+
+Attention. This feature is experimental and may differ significantly from real data."</string> -->
+    <string name="predict_info">此模块显示有关电池磨损率的信息。选择所需的百分比，您将大致了解电池在多少天内会磨损到所选的百分比。计算此信息的算法会考虑所需的平均充电百分比以及每天的平均电池磨损量。\n
+注意：此功能处于实验阶段，数据可能与实际情况有较大差异。</string>
+<!-- <string name="day_info">"This block displays how long the device will work with the SCREEN ON from the current battery level."</string> -->
+    <string name="day_info">“此模块显示在当前电量下设备在屏幕开启下可用时间。”</string>
+<!-- <string name="all_info">"This block displays how long the device will work from the current battery level, taking into account your usage style."</string> -->
+    <string name="all_info">“此模块根据您当前的电池电量以及使用习惯，显示设备能够工作多长时间。”</string>
+<!-- <string name="night_info">"This block displays how long the device will work with the SCREEN OFF from the current battery level."</string> -->
+    <string name="night_info">“此模块显示在当前电量下设备在屏幕关闭下可用时间。”</string>
 <!-- <string name="what_time">What is this time?</string> -->
     <string name="what_time">这个时间是什么？</string>
 <!-- <string name="dead_time">Battery wear prediction</string> -->
     <string name="dead_time">电池损耗预测</string>
-    <string name="dead_time_text_down">\tTo reduce the rate of wear and increase battery life, it is recommended to keep the battery charge level between 20% and 80%. \n\tWhen the battery reaches more than 20% wear, it is recommended to replace the battery with a new one."</string>
-    <string name="dead_time_days">With the current style of use, through&#160;</string>
-    <string name="graph_text_down">\tThis graph displays the wear rate of the battery over
+<!-- <string name="dead_time_text_down">\tTo reduce the rate of wear and increase battery life, it is recommended to keep the battery charge level between 20% and 80%. \n\tWhen the battery reaches more than 20% wear, it is recommended to replace the battery with a new one."</string> -->
+    <string name="dead_time_text_down">\t为了降低电池磨损速率和延长电池寿命。推荐电池电量保持在20%至80%之间。\n\t当电池损耗超过20%，推荐替换一块新的。</string>
+<!-- <string name="dead_time_days">With the current style of use, through&#160;</string> -->
+    <string name="dead_time_days">以目前的使用方式，通过&#160;</string>
+<!-- <string name="graph_text_down">\tThis graph displays the wear rate of the battery over
     last week. Each column is one day. Height
     column is the degree of wear that the battery has received
-    on a specific day.</string>
+    on a specific day.</string> -->
+    <string name="graph_text_down">\t这个图显示了电池在上周的磨损率，\n
+    每一列代表一天，\n
+    列的高度表示电磁在特定一天所受的磨损程度。</string>
 <!-- <string name="graph_temp_text_down">\tThis graph shows how the battery temperature has changed over the time period you select.</string> -->
     <string name="graph_temp_text_down">\t这个图表显示随着时间推移,电池温度达到您所选值的变化。</string>
 <!-- <string name="graph">Battery wear chart</string> -->
@@ -1009,27 +1026,41 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
 
 <!-- <string name="slide_1_header">Unique Analysis Algorithms</string> -->
     <string name="slide_1_header">独特分析算法</string>
-    <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string>
-    <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string>
+<!-- <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string> -->
+    <string name="slide_1_text">我们采用两种方法来评估电池健康状况，需要快速的结果？选择单次充电计算。需要准确结果？ 使用累计模式，它会在每次充电时优化数据。</string>
+<!-- <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string> -->
+    <string name="slide_1_tip">📌所显示的数据仅用于界面演示，不能反映您的电池实际状态。</string>
 
-    <string name="slide_2_header">Fully Customizable Widgets</string>
-    <string name="slide_2_text">Monitor charge and temperature right from your home screen. Adjust text size for perfect readability and choose any colors to match your wallpaper style.</string>
-    <string name="slide_2_tip">⚙️ To open customization settings, simply tap on the installed widget on your home screen.</string>
+<!-- <string name="slide_2_header">Fully Customizable Widgets</string> -->
+    <string name="slide_2_header">完全个性部件</string>
+<!-- <string name="slide_2_text">Monitor charge and temperature right from your home screen. Adjust text size for perfect readability and choose any colors to match your wallpaper style.</string> -->
+    <string name="slide_2_text">在您的主屏幕上监控合适的充电温度，调整文本尺寸获得最佳可读性，选择任意颜色适配您的壁纸。</string>
+<!-- <string name="slide_2_tip">⚙️ To open customization settings, simply tap on the installed widget on your home screen.</string> -->
+    <string name="slide_2_tip">⚙️要打开自定义设置，只需要在主屏幕上点击已经安装的小部件即可。</string>
 
-    <string name="slide_3_header">Notifications That Work</string>
-    <string name="slide_3_text">Configure alerts for charge levels, discharge, and overheating. Enable our unique full-screen mode (like an alarm clock) to ensure you hear when your phone is charged, even from another room.</string>
-    <string name="slide_3_tip">🔔 You can always change triggers and notification types in the app settings.</string>
+<!-- <string name="slide_3_header">Notifications That Work</string> -->
+    <string name="slide_3_header">有效的通知</string>
+<!-- <string name="slide_3_text">Configure alerts for charge levels, discharge, and overheating. Enable our unique full-screen mode (like an alarm clock) to ensure you hear when your phone is charged, even from another room.</string> -->
+    <string name="slide_3_text">设置提醒电量，放电或者过热。使用我们独特的全屏模式（就像闹钟），即使在另一个房间，你也可以听到手机充满电的提示。</string>
+<!-- <string name="slide_3_tip">🔔 You can always change triggers and notification types in the app settings.</string> -->
+    <string name="slide_3_tip">🔔您可以随时在应用设置中更改触发器和通知类型。</string>
 
-    <string name="slide_4_header">Everything for Total Control</string>
-    <string name="slide_4_1_header">Session Graphs</string>
-    <string name="slide_4_1_text">Evaluate charger stability and identify peak battery discharge moments.</string>
-    <string name="slide_4_2_header">App Consumption</string>
+<!-- <string name="slide_4_header">Everything for Total Control</string> -->
+    <string name="slide_4_header">为了完全控制一切</string>
+<!-- <string name="slide_4_1_header">Session Graphs</string> -->
+    <string name="slide_4_1_header">使用图表</string>
+
+<!-- <string name="slide_4_1_text">Evaluate charger stability and identify peak battery discharge moments.</string> -->
+    <string name="slide_4_1_text">评估充电器的稳定性并识别电池放电峰值时刻。</string>
+<!-- <string name="slide_4_2_header">App Consumption</string> -->
+    <string name="slide_4_2_header">应用消耗</string>
     <string name="slide_4_2_text">Identify apps that consume the most energy.</string>
     <string name="slide_4_3_header">Info Overlays</string>
     <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string>
     <string name="slide_4_4_header">Temperature Graph</string>
     <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string>
-    <string name="slide_4_5_header">Usage History</string>
+<!-- <string name="slide_4_5_header">Usage History</string> -->
+    <string name="slide_4_5_header">使用历史 </string>
     <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string>
 
 <!-- <string name="monthly_text_down">Easy Start</string> -->
@@ -1048,8 +1079,10 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="lifetime_text_badge_old_user">老粉优惠</string>
 
 
-    <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string>
-    <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string>
+<!-- <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string> -->
+    <string name="cumulative_text">此方法基于使用多次部分充电来随时间估算容量，从而侧重于便利性。要更新数据，请至少为设备充电15%。注意：在记录足够多的充电次数之前，估算值可能会波动。</string>
+<!-- <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string> -->
+    <string name="singular_text">此方法基于单次完整充电周期来计算容量。它要求从低于15%充电至100%，中途不得中断。为了进行有效计算，请勿在应用程序通知充电完成之前断开充电器。</string>
 
 <!-- <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string> -->
     <string name="discount_text_notification">您已获得老粉优惠！</string>
