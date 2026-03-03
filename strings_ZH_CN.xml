@@ -1054,14 +1054,20 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="slide_4_1_text">评估充电器的稳定性并识别电池放电峰值时刻。</string>
 <!-- <string name="slide_4_2_header">App Consumption</string> -->
     <string name="slide_4_2_header">应用消耗</string>
-    <string name="slide_4_2_text">Identify apps that consume the most energy.</string>
-    <string name="slide_4_3_header">Info Overlays</string>
-    <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string>
-    <string name="slide_4_4_header">Temperature Graph</string>
-    <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string>
+<!-- <string name="slide_4_2_text">Identify apps that consume the most energy.</string> -->
+    <string name="slide_4_2_text">识别消耗最多电量的应用程序。</string>
+<!-- <string name="slide_4_3_header">Info Overlays</string> -->
+    <string name="slide_4_3_header">叠加信息</string>
+<!-- <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string> -->
+    <string name="slide_4_3_text">实时监控游戏或者播放视频中的电流、充电和温度。</string>
+<!-- <string name="slide_4_4_header">Temperature Graph</string> -->
+    <string name="slide_4_4_header">温度图表</string>
+<!-- <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string> -->
+    <string name="slide_4_4_text">随时间监控设备温度，以防加速电池的化学磨损。</string>
 <!-- <string name="slide_4_5_header">Usage History</string> -->
     <string name="slide_4_5_header">使用历史 </string>
-    <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string>
+<!-- <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string> -->
+    <string name="slide_4_5_text">浏览过去充放电历史的记录来进行详细比较。</string>
 
 <!-- <string name="monthly_text_down">Easy Start</string> -->
     <string name="monthly_text_down">轻松开始</string>
