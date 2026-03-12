@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding-"utf-8"?>
 <resources>
- 
-<!-- <string name="charge">Charge</string> -->
+ <!-- <string name="charge">Charge</string> -->
     <string name="charge">充电</string>
-<!-- <string name="discharge">Discharge</string> -->
+    <!-- <string name="discharge">Discharge</string> -->
     <string name="discharge">放电</string>
-<!-- <string name="settings">Settings</string> -->
+    <!-- <string name="settings">Settings</string> -->
     <string name="settings">设置</string>
-<!-- <string name="health">Health</string> -->
+    <!-- <string name="health">Health</string> -->
     <string name="health">健康</string>
-<!-- <string name="empty_history">Oops… It\'s empty for now</string> -->
+    <!-- <string name="empty_history">Oops… It\'s empty for now</string> -->
     <string name="empty_history">现在暂无数据</string>
-<!-- <string name="update_downloading">Downloading update…</string> -->
+    <!-- <string name="update_downloading">Downloading update…</string> -->
     <string name="update_downloading">正在下载更新</string>
-<!-- <string name="update_downloaded">The update has been downloaded.</string>  -->
-    <string name="update_downloaded">已经下载更新</string> 
-<!-- <string name="update_install">Install</string> -->
+    <!-- <string name="update_downloaded">The update has been downloaded.</string>  -->
+    <string name="update_downloaded">已经下载更新</string>
+    <!-- <string name="update_install">Install</string> -->
     <string name="update_install">安装</string>
-<!-- <string name="repeat_alert">Repeat alert</string> -->
+    <!-- <string name="repeat_alert">Repeat alert</string> -->
     <string name="repeat_alert">重复提醒</string>
-<!-- <string name="repeat_alert_after">Repeat alert after</string> -->
+    <!-- <string name="repeat_alert_after">Repeat alert after</string> -->
     <string name="repeat_alert_after">重复提醒间隔</string>
-<!-- <string name="important_action">Important action</string> -->
+    <!-- <string name="important_action">Important action</string> -->
     <string name="important_action">重要操作</string>
-<!-- <string name="grant_permission">Grant permission</string> -->
+    <!-- <string name="grant_permission">Grant permission</string> -->
     <string name="grant_permission">授予权限</string>
-<!-- <string name="important_action_text">In order for the application to collect the necessary data and display correct statistics, -->
-        <!-- you must grant permission to work in the background.</string> -->
+    <!-- <string name="important_action_text">In order for the application to collect the necessary data and display correct statistics, -->
+    <!-- you must grant permission to work in the background.</string> -->
     <string name="important_action_text">为了确保应用能够收集必要数据并显示准确的统计信息，您必须授予后台运行权限。</string>
-<!-- <string name="low_capacity_detected">Low capacity detected</string> -->
+    <!-- <string name="low_capacity_detected">Low capacity detected</string> -->
     <string name="low_capacity_detected">低电量提醒！</string>
-<!-- <string name="low_capacity_detected_text">Most likely, your battery consists of 2 parts. -->
-        <!-- To correctly display the battery capacity, you must enable the function in the settings -->
-        <!-- \"Setting for dual-cell battery\" -> \"Amperage correcting\"</string> -->
+    <!-- <string name="low_capacity_detected_text">Most likely, your battery consists of 2 parts. -->
+    <!-- To correctly display the battery capacity, you must enable the function in the settings -->
+    <!-- \"Setting for dual-cell battery\" -> \"Amperage correcting\"</string> -->
     <string name="low_capacity_detected_text">你的电池很可能是双电芯设计，为了显示正确的电池容量，
     您必须在设置中启用功能：“双电芯电流设置” -> “电流校正”。</string>
-<!-- <string name="incorrect_promocode">Incorrect code</string> -->
+    <!-- <string name="incorrect_promocode">Incorrect code</string> -->
     <string name="incorrect_promocode">兑换码无效</string>
-<!-- <string name="code_already_used">Code has already been used</string> -->
+    <!-- <string name="code_already_used">Code has already been used</string> -->
     <string name="code_already_used">兑换码已使用</string>
-<!-- <string name="enable_vibration">Vibration</string> -->
+    <!-- <string name="enable_vibration">Vibration</string> -->
     <string name="enable_vibration">震动</string>
-<!-- <string name="promo_succesfull_used_up">Promo code applied!</string> -->
+    <!-- <string name="promo_succesfull_used_up">Promo code applied!</string> -->
     <string name="promo_succesfull_used_up">成功使用兑换码！</string>
-<!-- <string name="promo">Promo code</string> -->
+    <!-- <string name="promo">Promo code</string> -->
     <string name="promo">兑换码</string>
-<!-- <string name="enter_code_here">Enter code here</string> -->
+    <!-- <string name="enter_code_here">Enter code here</string> -->
     <string name="enter_code_here">在此输入兑换码</string>
-<!-- <string name="promo_succesfull_used_main">Advanced Access has been activated successfully. All functions are unlocked. Enjoy using!</string> -->
+    <!-- <string name="promo_succesfull_used_main">Advanced Access has been activated successfully. All functions are unlocked. Enjoy using!</string> -->
     <string name="promo_succesfull_used_main">成功激活高级功能，所有项目已解锁，祝您使用愉快!</string>
-<!-- <string name="current_session">Current session</string> -->
+    <!-- <string name="current_session">Current session</string> -->
     <string name="current_session">本次充电</string>
-<!-- <string name="info_text">Show hints</string> -->
+    <!-- <string name="info_text">Show hints</string> -->
     <string name="info_text">开启提示</string>
     <!-- <string name="support_us">Support the project</string> -->
     <string name="support_us">支持项目</string>
@@ -90,7 +89,7 @@
     <!-- <string name="padding_text">Internal indent</string> -->
     <string name="padding_text">内部间距</string>
     <!-- <string name="round_corners">Rounding corners</string> -->
-    <string name="round_corners">圆角大小</string>  
+    <string name="round_corners">圆角大小</string>
     <!-- <string name="back_color">Background color</string> -->
     <string name="back_color">背景颜色</string>
     <!-- <string name="add_widget">Add Battery Level to Home Screen</string> -->
@@ -125,8 +124,8 @@
     <string name="save">保存</string>
     <!-- <string name="dont_save">Don’t Save</string> -->
     <string name="dont_save">放弃</string>
-    <!-- <string name="hyper_os_text">On some devices running HyperOS 2, battery temperature values may stop updating due to system restrictions. If this happens, restarting your device can temporarily restore updates. We also recommend updating your operating system to the latest version, as this issue may already be fixed in recent updates. \nThank you for your understanding.</string> -->
-    <string name="hyper_os_text">在部分运行HyperOS 2的设备上，由于系统限制，电池温度数值可能会停止更新，如果出现此情况，重启设备以临时恢复，我们推荐您将系统更新至最新版本，该问题可能得到修复\n感谢您的理解。</string>
+    <!-- <string name="hyper_os_text">On some devices running HyperOS, battery temperature values may stop updating due to system restrictions. If this happens, restarting your device can temporarily restore updates. We also recommend updating your operating system to the latest version, as this issue may already be fixed in recent updates. \nThank you for your understanding.</string> -->
+    <string name="hyper_os_text">在部分运行HyperOS的设备上，由于系统限制，电池温度数值可能会停止更新，如果出现此情况，重启设备以临时恢复，我们推荐您将系统更新至最新版本，该问题可能得到修复\n感谢您的理解。</string>
     <!-- <string name="app_widget_description_temp">Shows the current battery temperature.</string> -->
     <string name="app_widget_description_temp">显示当前电池温度。</string>
     <!-- <string name="h_8">8h</string> -->
@@ -136,13 +135,13 @@
     <!-- <string name="h_16">16h</string> -->
     <string name="h_16">16小时</string>
     <!-- <string name="h_24">24h</string>  -->
-    <string name="h_24">24小时</string> 
+    <string name="h_24">24小时</string>
     <!-- <string name="time_to_100">Charging time up to 100%</string> -->
     <string name="time_to_100">充到 100% 的时间</string>
     <!-- <string name="time_to_var">Charging time up to %1$s%%</string> -->
     <string name="time_to_var">充到 %1$s%% 的时间</string>
     <!-- <string name="charge_to">Charging up to %1$s%% leads to %2$s wear cycles</string> -->
-    <string name="charge_to">充电到 %1$s%%,计入%1$s%%次循环损耗</string>
+    <string name="charge_to">充电到 %1$s%%,计入%2$s次循环损耗</string>
     <!-- <string name="active_mode">Screen on</string> -->
     <string name="active_mode">屏幕开启</string>
     <!-- <string name="complex_use">Combined use</string> -->
@@ -169,49 +168,45 @@
     <string name="singular_date_text">%1$s的充电数据</string>
     <!-- <string name="singular">Singular</string> -->
     <string name="singular">单次</string>
-    <!-- <string name="cumulative_text">This method is more convenient because it does not require the user to fully charge. But, it may be inferior in accuracy to the singular method. To update the statistics, charge the device at least 15%. Attention, with a low number of sessions, the level of battery wear can differ significantly from the real ones.</string> -->
-    <string name="cumulative_text">这种方法更加便捷，因为它不要求用户充满电。但其精确度可能不如单次计算。若更新统计，请至少充15%电量，注意，在充电次数较少时，电池损耗水平可能与实际情况存在差异。</string>
-    <!-- <string name="singular_text">This method is potentially more accurate because it only takes into account the last full charge of the battery. But, it is more demanding for the user, as it requires charging from less than 15% to 100%. To increase data accuracy, do not stop charging until you are notified that it is fully charged.</string> -->
-    <string name="singular_text">这种方法更加准确，因为它只考虑上一次完整充电的数据。但是对充电条件要求更高，需要从低于15%充到到100%.为提高数据精度，请勿在完全充电提示前中断。</string>
     <!-- <string name="info_in_current_session">Loss of charge</string> -->
     <string name="info_in_current_session">电量损耗</string>
-<!-- <string name="using_energy">App power consumption</string> -->
+    <!-- <string name="using_energy">App power consumption</string> -->
     <string name="using_energy">应用消耗电量</string>
-<!-- <string name="using_baterry_middle">Average battery usage</string> -->
+    <!-- <string name="using_baterry_middle">Average battery usage</string> -->
     <string name="using_baterry_middle">平均电量消耗</string>
-<!-- <string name="timework_on_fullbaterry">Full battery time estimates</string> -->
+    <!-- <string name="timework_on_fullbaterry">Full battery time estimates</string> -->
     <string name="timework_on_fullbaterry">满电续航估算</string>
-<!-- <string name="charging">The charge of %1$s%% is enough for</string> -->
+    <!-- <string name="charging">The charge of %1$s%% is enough for</string> -->
     <string name="charging">当前 %1$s%% 电量可使用</string>
-<!-- <string name="design_capacity">Design capacity</string> -->
+    <!-- <string name="design_capacity">Design capacity</string> -->
     <string name="design_capacity">设计容量</string>
-<!-- <string name="calculated_capacity">Calculated capacity</string> -->
+    <!-- <string name="calculated_capacity">Calculated capacity</string> -->
     <string name="calculated_capacity">计算容量</string>
-<!-- <string name="maximum_capacity">Battery health</string> -->
+    <!-- <string name="maximum_capacity">Battery health</string> -->
     <string name="maximum_capacity">电池健康</string>
-<!-- <string name="wear_rate">Degree of wear</string> -->
+    <!-- <string name="wear_rate">Degree of wear</string> -->
     <string name="wear_rate">健康程度</string>
-<!-- <plurals name="calculated_for"> -->
-        <!-- <item quantity="one">Calculated for %s session</item> -->
-        <!-- <item quantity="other">Calculated for %s sessions</item> -->
-<!-- </plurals> -->
+    <!-- <plurals name="calculated_for"> -->
+    <!-- <item quantity="one">Calculated for %s session</item> -->
+    <!-- <item quantity="other">Calculated for %s sessions</item> -->
+    <!-- </plurals> -->
     <plurals name="calculated_for">
         <item quantity="one">根据 %s 次充电计算</item>
         <item quantity="other">根据 %s 次充电计算</item>
     </plurals>
-<!-- <string name="battery_wear_info_up">What is battery wear?</string> -->
+    <!-- <string name="battery_wear_info_up">What is battery wear?</string> -->
     <string name="battery_wear_info_up">什么是电池损耗？</string>
-<!-- <string name="battery_wear_info">"Every time you charge your device, the battery wears out. In this block, you can roughly find out how much damage your battery will take when charged to the selected percentage. The higher the wear cycle ratio of the battery, the more damage the battery takes."</string> -->
+    <!-- <string name="battery_wear_info">"Every time you charge your device, the battery wears out. In this block, you can roughly find out how much damage your battery will take when charged to the selected percentage. The higher the wear cycle ratio of the battery, the more damage the battery takes."</string> -->
     <string name="battery_wear_info">“你的设备每次充电都会损耗。在此模块中，您可以大致估算，充电至所选百分比电量将对电池造成多少损伤，电池的损耗比例越高，即充电对电池造成的损伤就越大。”</string>
-<!-- <string name="current_session_info">"This block displays information about the current or last charging session. If the battery is charging, the current session will be displayed. If the battery is discharging, it will display the last session during which at least 1% was charged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
-    Average Speed is the overall charging speed.
-    Screen on is the charging speed with the screen on.
-    Screen off is the charging speed with the screen off."</string> -->
+    <!-- <string name="current_session_info">"This block displays information about the current or last charging session. If the battery is charging, the current session will be displayed. If the battery is discharging, it will display the last session during which at least 1% was charged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
+        Average Speed is the overall charging speed.
+        Screen on is the charging speed with the screen on.
+        Screen off is the charging speed with the screen off."</string> -->
     <string name="current_session_info">“此模块显示当前或者上次充电信息。如果电池正在充电，则显示当前充电；若在放电，它会显示最近一次充入1%的电量详情。您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
     平均速度：总体充电速度。\n
     屏幕开启：屏幕亮时的充电速度。\n
     屏幕关闭：屏幕关闭的充电速度。”</string>
-<!-- <string name="avg_charge_info">"This block displays the average charging speed for all sessions. You have the option to reset this data by clearing the database in settings. -->
+    <!-- <string name="avg_charge_info">"This block displays the average charging speed for all sessions. You have the option to reset this data by clearing the database in settings. -->
     <!-- Screen on is the average speed with the screen on. -->
     <!-- Screen off is the average speed with the screen off. -->
     <!-- Combined use is the average speed based on how you use your phone while charging."</string> -->
@@ -219,84 +214,84 @@
     屏幕开启：屏幕亮时的平均充电速度。\n
     屏幕关闭：屏幕熄灭时的平均充电速度。\n
     综合使用：基于您充电时的使用情况计算的平均速度。”</string>
-<!-- <string name="avg_discharge_info">"This block displays the average discharging speed for all sessions. You have the option to reset this data by clearing the database in settings.
-    Screen on is the average speed with the screen on.
-    Screen off is the average speed with the screen off.
-    Combined use is the average speed based on how you use your phone while discharging."</string> -->
-     <string name="avg_discharge_info">“此模块显示所有放电电的平均速度，你可以在设置中清除数据库以重置此数据。\n
+    <!-- <string name="avg_discharge_info">"This block displays the average discharging speed for all sessions. You have the option to reset this data by clearing the database in settings.
+        Screen on is the average speed with the screen on.
+        Screen off is the average speed with the screen off.
+        Combined use is the average speed based on how you use your phone while discharging."</string> -->
+    <string name="avg_discharge_info">“此模块显示所有放电电的平均速度，你可以在设置中清除数据库以重置此数据。\n
     屏幕开启：屏幕亮时的放电速度。\n
     屏幕关闭：屏幕关闭的放电速度。\n
     综合使用：基于您放电时的使用情况计算的平均速度。”</string>
-<!-- <string name="loss_charge_info">"This block displays the percentage of charge and mah that were spent during the current or last session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged.
-    Screen on is the amount of interest spent with the screen on.
-    Screen off is the amount of interest spent with the screen turned off."</string> -->
+    <!-- <string name="loss_charge_info">"This block displays the percentage of charge and mah that were spent during the current or last session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged.
+        Screen on is the amount of interest spent with the screen on.
+        Screen off is the amount of interest spent with the screen turned off."</string> -->
     <string name="loss_charge_info">“此模块显示本次或上次放电所消耗的百分比电量和毫安时。若电池正在放电，则显示本次放电。 如果电池正在充电，则显示上次至少消耗了1%电量的数据。\n
     屏幕开启：屏幕开启期间所消耗的总电量。\n
     屏幕关闭：屏幕关闭期间所消耗的总电量。”</string>
-<!-- <string namssdsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings. -->
+    <!-- <string namssdsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings. -->
     <!-- Average Speed is the overall discharging speed.
     Screen on is the discharging speed with the screen on.
     Screen off is the discharging speed with the screen off."</string> -->
-    <string name="dsddurrent_session_info_discharge">“此模块显示当前或者上次放电详情。如果电池正在放电，则当前充电将显示。如果电池正在充电， 它将显示在上次至少放电1%期间的放电数据。 您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
+    <string name="current_session_info_discharge">“此模块显示当前或者上次放电详情。如果电池正在放电，则当前充电将显示。如果电池正在充电， 它将显示在上次至少放电1%期间的放电数据。 您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
 
 平均速度：总体放电速度速度。\n
 屏幕开启：屏幕亮时的放电速度。\n
 屏幕关闭：屏幕关闭的放电速度。”</string>
-<!-- <string name="full_battery_info">"This block displays approximate information about the duration of the device from a full battery. This information is based on previously collected data about your use of the device."</string> -->
+    <!-- <string name="full_battery_info">"This block displays approximate information about the duration of the device from a full battery. This information is based on previously collected data about your use of the device."</string> -->
     <string name="full_battery_info">“此模块显示设备在电池充满电情况下的大致使用时间。该信息基于之前收集的关于您使用设备的数据。”</string>
-<!-- <string name="degree_of_wear_info">"This block displays approximate information about the state of your battery.
+    <!-- <string name="degree_of_wear_info">"This block displays approximate information about the state of your battery.
 
-The design capacity is the original capacity of the battery, which was specified by the manufacturer.
-The сalculated capacity is the capacity of the battery that was calculated by this program.
+    The design capacity is the original capacity of the battery, which was specified by the manufacturer.
+    The сalculated capacity is the capacity of the battery that was calculated by this program.
 
-Attention. If your Battery health is less than 50%, then you probably have a dual-cell battery. To fix capacity display you need to enable in settings for dual-cell batteries."</string> -->
+    Attention. If your Battery health is less than 50%, then you probably have a dual-cell battery. To fix capacity display you need to enable in settings for dual-cell batteries."</string> -->
     <string name="degree_of_wear_info">“此模块显示有关电池状态的近似信息。\n
 
 设计容量是制造商规定的电池原始容量。\n
 计算容量是该程序计算出的电池容量。\n
 
 注意：如果您的电池健康度低于50%，则您可能使用的是双电芯电池。要修复容量显示，您需要在设置中启用双电芯电池选项。”</string>
-<!-- <string name="predict_info">"This block displays information about the battery wear rate. Select the desired percentage and you will find out, approximately, in how many days your battery will be worn down to the selected percentage. The algorithm that calculates this information takes into account the average charge percentage required and the average battery wear per day.
+    <!-- <string name="predict_info">"This block displays information about the battery wear rate. Select the desired percentage and you will find out, approximately, in how many days your battery will be worn down to the selected percentage. The algorithm that calculates this information takes into account the average charge percentage required and the average battery wear per day.
 
-Attention. This feature is experimental and may differ significantly from real data."</string> -->
+    Attention. This feature is experimental and may differ significantly from real data."</string> -->
     <string name="predict_info">此模块显示有关电池磨损率的信息。选择所需的百分比，您将大致了解电池在多少天内会磨损到所选的百分比。计算此信息的算法会考虑所需的平均充电百分比以及每天的平均电池磨损量。\n
 注意：此功能处于实验阶段，数据可能与实际情况有较大差异。</string>
-<!-- <string name="day_info">"This block displays how long the device will work with the SCREEN ON from the current battery level."</string> -->
+    <!-- <string name="day_info">"This block displays how long the device will work with the SCREEN ON from the current battery level."</string> -->
     <string name="day_info">“此模块显示在当前电量下设备在屏幕开启下可用时间。”</string>
-<!-- <string name="all_info">"This block displays how long the device will work from the current battery level, taking into account your usage style."</string> -->
+    <!-- <string name="all_info">"This block displays how long the device will work from the current battery level, taking into account your usage style."</string> -->
     <string name="all_info">“此模块根据您当前的电池电量以及使用习惯，显示设备能够工作多长时间。”</string>
-<!-- <string name="night_info">"This block displays how long the device will work with the SCREEN OFF from the current battery level."</string> -->
+    <!-- <string name="night_info">"This block displays how long the device will work with the SCREEN OFF from the current battery level."</string> -->
     <string name="night_info">“此模块显示在当前电量下设备在屏幕关闭下可用时间。”</string>
-<!-- <string name="what_time">What is this time?</string> -->
+    <!-- <string name="what_time">What is this time?</string> -->
     <string name="what_time">这个时间是什么？</string>
-<!-- <string name="dead_time">Battery wear prediction</string> -->
+    <!-- <string name="dead_time">Battery wear prediction</string> -->
     <string name="dead_time">电池损耗预测</string>
-<!-- <string name="dead_time_text_down">\tTo reduce the rate of wear and increase battery life, it is recommended to keep the battery charge level between 20% and 80%. \n\tWhen the battery reaches more than 20% wear, it is recommended to replace the battery with a new one."</string> -->
+    <!-- <string name="dead_time_text_down">\tTo reduce the rate of wear and increase battery life, it is recommended to keep the battery charge level between 20% and 80%. \n\tWhen the battery reaches more than 20% wear, it is recommended to replace the battery with a new one."</string> -->
     <string name="dead_time_text_down">\t为了降低电池磨损速率和延长电池寿命。推荐电池电量保持在20%至80%之间。\n\t当电池损耗超过20%，推荐替换一块新的。</string>
-<!-- <string name="dead_time_days">With the current style of use, through&#160;</string> -->
+    <!-- <string name="dead_time_days">With the current style of use, through&#160;</string> -->
     <string name="dead_time_days">以目前的使用方式，通过&#160;</string>
-<!-- <string name="graph_text_down">\tThis graph displays the wear rate of the battery over
-    last week. Each column is one day. Height
-    column is the degree of wear that the battery has received
-    on a specific day.</string> -->
+    <!-- <string name="graph_text_down">\tThis graph displays the wear rate of the battery over
+        last week. Each column is one day. Height
+        column is the degree of wear that the battery has received
+        on a specific day.</string> -->
     <string name="graph_text_down">\t这个图显示了电池在上周的磨损率，\n
     每一列代表一天，\n
     列的高度表示电磁在特定一天所受的磨损程度。</string>
-<!-- <string name="graph_temp_text_down">\tThis graph shows how the battery temperature has changed over the time period you select.</string> -->
+    <!-- <string name="graph_temp_text_down">\tThis graph shows how the battery temperature has changed over the time period you select.</string> -->
     <string name="graph_temp_text_down">\t这个图表显示随着时间推移,电池温度达到您所选值的变化。</string>
-<!-- <string name="graph">Battery wear chart</string> -->
+    <!-- <string name="graph">Battery wear chart</string> -->
     <string name="graph">电池损耗图表</string>
-<!-- <string name="graph_temp">Temperature graph</string> -->
+    <!-- <string name="graph_temp">Temperature graph</string> -->
     <string name="graph_temp">温度图</string>
-<!-- <string name="theme">Theme</string> -->
+    <!-- <string name="theme">Theme</string> -->
     <string name="theme">主要主题</string>
-<!-- <string name="second_color">Second theme color</string> -->
+    <!-- <string name="second_color">Second theme color</string> -->
     <string name="second_color">次要主题颜色</string>
-<!-- <string name="language">Language</string> -->
+    <!-- <string name="language">Language</string> -->
     <string name="language">语言</string>
-<!-- <string name="view_temp">Temperature display</string> -->
+    <!-- <string name="view_temp">Temperature display</string> -->
     <string name="view_temp">温度显示</string>
-<!-- <string name="pers">Personalization</string> -->
+    <!-- <string name="pers">Personalization</string> -->
     <string name="pers">个性化</string>
     <string name="zero">0</string>
     <string name="zero_seconds">0s</string>
@@ -304,132 +299,132 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="percent_without_tab">%</string>
     <!-- <string name="notification">Notification</string> -->
     <string name="notification">通知</string>
-<!-- <string name="notification_for_limit">Notify when charged</string> -->
+    <!-- <string name="notification_for_limit">Notify when charged</string> -->
     <string name="notification_for_limit">当充电时通知</string>
-<!-- <string name="notification_for_tempBat">Notify when battery overheats</string> -->
+    <!-- <string name="notification_for_tempBat">Notify when battery overheats</string> -->
     <string name="notification_for_tempBat">当电池过热时通知</string>
-<!-- <string name="show_on_panel_notif">Show on notification bar</string> -->
+    <!-- <string name="show_on_panel_notif">Show on notification bar</string> -->
     <string name="show_on_panel_notif">显示在通知栏上</string>
-<!-- <string name="show_on_lockscreen">Show on lock screen</string> -->
+    <!-- <string name="show_on_lockscreen">Show on lock screen</string> -->
     <string name="show_on_lockscreen">显示在锁屏上</string>
-<!-- <string name="priority_notif">Notification priority</string> -->
+    <!-- <string name="priority_notif">Notification priority</string> -->
     <string name="priority_notif">通知优先级</string>
-<!-- <string name="cancel">Cancel</string> -->
+    <!-- <string name="cancel">Cancel</string> -->
     <string name="cancel">取消</string>
-<!-- <string name="to_apply">Apply</string> -->
+    <!-- <string name="to_apply">Apply</string> -->
     <string name="to_apply">应用</string>
-<!-- <string name="to">&#160;to&#160;</string> -->
+    <!-- <string name="to">&#160;to&#160;</string> -->
     <string name="to">&#160;到&#160;</string>
-<!-- <string name="light">Light</string> -->
+    <!-- <string name="light">Light</string> -->
     <string name="light">浅色</string>
-<!-- <string name="black">Dark</string> -->
+    <!-- <string name="black">Dark</string> -->
     <string name="black">深色</string>
     <string name="amoled">Amoled</string>
-<!-- <string name="foreground_service">Background service</string> -->
+    <!-- <string name="foreground_service">Background service</string> -->
     <string name="foreground_service">后台服务</string>
-<!-- <string name="battery_level">Other</string> -->
+    <!-- <string name="battery_level">Other</string> -->
     <string name="battery_level">其他</string>
-<!-- <string name="grey">Grey</string> -->
+    <!-- <string name="grey">Grey</string> -->
     <string name="grey">灰色</string>
-<!-- <string name="light_іnverted">Light Inverted</string> -->
+    <!-- <string name="light_іnverted">Light Inverted</string> -->
     <string name="light_іnverted">浅色（反转）</string>
-<!-- <string name="black_inverted">Dark Inverted</string> -->
+    <!-- <string name="black_inverted">Dark Inverted</string> -->
     <string name="black_inverted">深色（反转）</string>
-<!-- <string name="amoled_inverted">Amoled Inverted</string> -->
+    <!-- <string name="amoled_inverted">Amoled Inverted</string> -->
     <string name="amoled_inverted">Amoled（反转）</string>
-<!-- <string name="grey_inverted">Grey Inverted</string> -->
+    <!-- <string name="grey_inverted">Grey Inverted</string> -->
     <string name="grey_inverted">灰色（反转）</string>
-<!-- <string name="іncorrect_сolor_value">Incorrect color value</string> -->
+    <!-- <string name="іncorrect_сolor_value">Incorrect color value</string> -->
     <string name="іncorrect_сolor_value">颜色数值错误</string>
-<!-- <string name="choose_theme">Choose the theme</string> -->
+    <!-- <string name="choose_theme">Choose the theme</string> -->
     <string name="choose_theme">选择主题</string>
-<!-- <string name="choose_color">Choose the color</string> -->
+    <!-- <string name="choose_color">Choose the color</string> -->
     <string name="choose_color">选择颜色</string>
-<!-- <string name="choose_temp">Choose a temperature unit</string> -->
+    <!-- <string name="choose_temp">Choose a temperature unit</string> -->
     <string name="choose_temp">选择温度单位</string>
-<!-- <string name="celsius">Celsius</string> -->
+    <!-- <string name="celsius">Celsius</string> -->
     <string name="celsius">摄氏度</string>
-<!-- <string name="device">Device:</string> -->
+    <!-- <string name="device">Device:</string> -->
     <string name="device">设备：</string>
-<!-- <string name="desing_capacity">Design capacity:</string> -->
+    <!-- <string name="desing_capacity">Design capacity:</string> -->
     <string name="desing_capacity">设计容量：</string>
-<!-- <string name="design_capacity_text_incorrect">The design capacity was determined automatically. If it is not true, you can change it.</string> -->
+    <!-- <string name="design_capacity_text_incorrect">The design capacity was determined automatically. If it is not true, you can change it.</string> -->
     <string name="design_capacity_text_incorrect">您可以修改它。</string>
-<!-- <string name="change_design_capacity">Change design capacity</string> -->
+    <!-- <string name="change_design_capacity">Change design capacity</string> -->
     <string name="change_design_capacity">更改设计容量</string>
-<!-- <string name="disconnect_charge">Disconnect the device from charging. Diagnostics occurs only when the device is discharging.</string> -->
+    <!-- <string name="disconnect_charge">Disconnect the device from charging. Diagnostics occurs only when the device is discharging.</string> -->
     <string name="disconnect_charge">设备未连接充电器，仅在设备放电时开始诊断。</string>
-<!-- <string name="farengate">Fahrenheit</string> -->
+    <!-- <string name="farengate">Fahrenheit</string> -->
     <string name="farengate">华氏度</string>
-<!-- <string name="kelvinu">Kelvin</string> -->
+    <!-- <string name="kelvinu">Kelvin</string> -->
     <string name="kelvinu">开尔文</string>
-<!-- <string name="showing_components_of_notify">Notification components</string> -->
+    <!-- <string name="showing_components_of_notify">Notification components</string> -->
     <string name="showing_components_of_notify">通知组件</string>
-<!-- <string name="average">The average</string> -->
-    <string name="average">平均</string>     
-<!-- <string name="hour">h</string> -->
+    <!-- <string name="average">The average</string> -->
+    <string name="average">平均</string>
+    <!-- <string name="hour">h</string> -->
     <string name="hour">时</string>
-<!-- <string name="error">Error</string> -->
+    <!-- <string name="error">Error</string> -->
     <string name="error">错误</string>
-<!-- <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string> -->
+    <!-- <string name="design_capacity_text_dialog">The design capacity is the battery capacity declared by the manufacturer in mAh.</string> -->
     <string name="design_capacity_text_dialog">设计容量时制造商以毫安时(mAh)声明的电池容量。</string>
-<!-- <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string> -->
+    <!-- <string name="design_capacity_text_error">Invalid value. It\'s important to specify the correct capacity as it affects some features.</string> -->
     <string name="design_capacity_text_error">无效的值，之所以指定正确的容量很重要，是因为它会影响某些功能。</string>
-<!-- <string name="not_identified">Not identified</string> -->
+    <!-- <string name="not_identified">Not identified</string> -->
     <string name="not_identified">未识别到</string>
-<!-- <string name="discharging">Discharging:</string> -->
+    <!-- <string name="discharging">Discharging:</string> -->
     <string name="discharging">放电中：</string>
-<!-- <string name="auto_close_settings">Auto-Close Settings</string> -->
+    <!-- <string name="auto_close_settings">Auto-Close Settings</string> -->
     <string name="auto_close_settings">自动关闭设置</string>
-<!-- <string name="exclude_recents">Exclude app from Recents</string> -->
+    <!-- <string name="exclude_recents">Exclude app from Recents</string> -->
     <string name="exclude_recents">从最近应用中排除</string>
-<!-- <string name="exclude_recents_text">When this feature is enabled, the app will not appear in the Recent Apps list.</string> -->
+    <!-- <string name="exclude_recents_text">When this feature is enabled, the app will not appear in the Recent Apps list.</string> -->
     <string name="exclude_recents_text">当这个功能启用，app将不会出现在最近应用列表中。</string>
-<!-- <string name="Close_on_Minimize">Close on Minimize</string> -->
+    <!-- <string name="Close_on_Minimize">Close on Minimize</string> -->
     <string name="Close_on_Minimize">最小化关闭</string>
-<!-- <string name="Close_on_Minimize_text">When this feature is enabled, the app will automatically close when minimized. The background service will continue running.</string> -->
+    <!-- <string name="Close_on_Minimize_text">When this feature is enabled, the app will automatically close when minimized. The background service will continue running.</string> -->
     <string name="Close_on_Minimize_text">当这个功能启用，app最小化时，它会自动关闭并且后台服务持续运行。</string>
-<!-- <string name="auto_close_5">Auto-Close After 5 Minutes</string> -->
+    <!-- <string name="auto_close_5">Auto-Close After 5 Minutes</string> -->
     <string name="auto_close_5">在五分钟后自动关闭</string>
-<!-- <string name="auto_close_5_text">If Close on Minimize is disabled, the app will automatically close five minutes after being sent to the background. The background service will continue running.</string> -->
+    <!-- <string name="auto_close_5_text">If Close on Minimize is disabled, the app will automatically close five minutes after being sent to the background. The background service will continue running.</string> -->
     <string name="auto_close_5_text">如果在最小化时关闭被禁用，app将会在发送到后台五分钟后自动关闭。后台服务将会持续运行。</string>
-<!-- <string name="diagnostics">Diagnostics</string> -->
+    <!-- <string name="diagnostics">Diagnostics</string> -->
     <string name="diagnostics">诊断</string>
-<!-- <string name="diagnostics_text">If you suspect that your device’s amperage readings are inaccurate, you can rerun the diagnostic to recalibrate the scaling factor. You don’t need to run this if your readings are already correct. Would you like to start the diagnostic now?</string> -->
-    <string name="diagnostics_text">如果您怀疑设备电流读取异常，您可以重新运行诊断来校准内部比例系数。如果您的读数正常则不需要诊断，您想现在就开始诊断吗？<d/string>
-<!-- <string name="warning">Warning</string> -->
+    <!-- <string name="diagnostics_text">If you suspect that your device’s amperage readings are inaccurate, you can rerun the diagnostic to recalibrate the scaling factor. You don’t need to run this if your readings are already correct. Would you like to start the diagnostic now?</string> -->
+    <string name="diagnostics_text">如果您怀疑设备电流读取异常，您可以重新运行诊断来校准内部比例系数。如果您的读数正常则不需要诊断，您想现在就开始诊断吗？</string>
+    <!-- <string name="warning">Warning</string> -->
     <string name="warning">警告</string>
-<!-- <string name="cannot_be_calculated">This parameter cannot be calculated</string> -->
+    <!-- <string name="cannot_be_calculated">This parameter cannot be calculated</string> -->
     <string name="cannot_be_calculated">此参数无法计算</string>
-<!-- <string name="settings_autostart">Autorun settings</string> -->
+    <!-- <string name="settings_autostart">Autorun settings</string> -->
     <string name="settings_autostart">自动运行设置</string>
-<!-- <string name="user_manual">User manual</string> -->
+    <!-- <string name="user_manual">User manual</string> -->
     <string name="user_manual">用户手册</string>
-<!-- <string name="only_with_screen_off">Only with screen off</string> -->
+    <!-- <string name="only_with_screen_off">Only with screen off</string> -->
     <string name="only_with_screen_off">仅在屏幕关闭</string>
-<!-- <string name="introduction">Introduction</string> -->
+    <!-- <string name="introduction">Introduction</string> -->
     <string name="introduction">介绍</string>
-<!-- <string name="permission_1">1. Overlay on top of other windows</string> -->
+    <!-- <string name="permission_1">1. Overlay on top of other windows</string> -->
     <string name="permission_1">1. 在其他窗口上显示</string>
-<!-- <string name="permission_1_btn">Overlay on top of other windows</string> -->
+    <!-- <string name="permission_1_btn">Overlay on top of other windows</string> -->
     <string name="permission_1_btn">在其他窗口上显示</string>
-<!-- <string name="permission_1_text">You need to grant access to BatteryOne to display on top of other windows.
-        The button with the transition to the page is located below.</string> -->
+    <!-- <string name="permission_1_text">You need to grant access to BatteryOne to display on top of other windows.
+            The button with the transition to the page is located below.</string> -->
     <string name="permission_1_text">您需要授予BatteryOne访问显示在其他窗口上的权限。\n
         点击下方的按钮，即可跳转到授予权限页面。</string>
-<!-- <string name="granting_permissions">Granting Permissions</string> -->
+    <!-- <string name="granting_permissions">Granting Permissions</string> -->
     <string name="granting_permissions">授予权限</string>
-<!-- <string name="button_meaning">Button Meanings</string> -->
+    <!-- <string name="button_meaning">Button Meanings</string> -->
     <string name="button_meaning">按钮含义</string>
-<!-- <string name="permission_22">2. Run pop-ups in the background</string> -->
+    <!-- <string name="permission_22">2. Run pop-ups in the background</string> -->
     <string name="permission_22">2. 在后台运行弹出窗口</string>
-<!-- <string name="permissionsssss">BatteryOne Settings</string> -->
+    <!-- <string name="permissionsssss">BatteryOne Settings</string> -->
     <string name="permissionsssss">BatteryOne设置</string>
-<!-- <string name="permission_2_text">This permission is not available on all devices, but if you have it, then you need to enable it.
-        Below is a button with a transition to the BatteryOne permissions page.</string> -->
+    <!-- <string name="permission_2_text">This permission is not available on all devices, but if you have it, then you need to enable it.
+            Below is a button with a transition to the BatteryOne permissions page.</string> -->
     <string name="permission_2_text">这个权限并非在所有设备可用，如果您有它，然后需要启用它。\n
         点击下方的按钮，即可跳转到BatterOne权限页面。</string>
-<!-- <string name="permission_3">3. Display on the lock screen</string> -->
+    <!-- <string name="permission_3">3. Display on the lock screen</string> -->
     <string name="permission_3">3. 显示在锁屏上</string>
     <!-- <string name="permission_3_text">This permission is also not available on all devices.
         If you have it, then you need to enable it.
@@ -437,500 +432,500 @@ Attention. This feature is experimental and may differ significantly from real d
     <string name="permission_3_text">这个权限并非在所有设备可用，但是如果您有它，然后需要启用它。\n
         如果您有他，然后需要启用它。\n
         点击下方的按钮，即可跳转到授予权限页面。</string>
-<!-- <string name="permission_4">Conclusion</string> -->
+    <!-- <string name="permission_4">Conclusion</string> -->
     <string name="permission_4">算法</string>
-<!-- <string name="battery_level_alert_text">Use the battery level alert function to keep the battery level normal, thus prolonging battery life.</string> -->
+    <!-- <string name="battery_level_alert_text">Use the battery level alert function to keep the battery level normal, thus prolonging battery life.</string> -->
     <string name="battery_level_alert_text">使用电量警告功能来保持电量正常，从而延长电池寿命。</string>
-<!-- <string name="real_capacity">Actual battery capacity</string> -->
+    <!-- <string name="real_capacity">Actual battery capacity</string> -->
     <string name="real_capacity">实际电池容量</string>
-<!-- <string name="real_capacity_text">Using two kinds of algorithms, with BatteryOne, you can calculate the actual capacity of a battery and predict how long it will take for it to become unusable.</string> -->
+    <!-- <string name="real_capacity_text">Using two kinds of algorithms, with BatteryOne, you can calculate the actual capacity of a battery and predict how long it will take for it to become unusable.</string> -->
     <string name="real_capacity_text">BatteryOne使用两种算法，您可以计算电池实际容量并预测它多久会变得无法使用。</string>
-<!-- <string name="time_work_on_us">Time works for us!</string> -->
+    <!-- <string name="time_work_on_us">Time works for us!</string> -->
     <string name="time_work_on_us">时间见证精准！</string>
-<!-- <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string> -->
+    <!-- <string name="time_work_on_us_text">BatteryOne collects data gradually to show you the most accurate statistics. It\'s simple, the longer you use BatteryOne, the more accurate the statistics become!</string> -->
     <string name="time_work_on_us_text">BatteryOne逐渐收集数据并向您展示准确的统计信息。它很简单，只要你使用BatteryOne够久，越久统计地越准确！</string>
 
-<!-- <string name="important_information">Important information!</string> -->
+    <!-- <string name="important_information">Important information!</string> -->
     <string name="important_information">重要通知！</string>
-<!-- <string name="dont_kill_my_app1">In order to work properly and display the correct data,
-        BatteryOne must be constantly running in the background.
-If BatteryOne is not running in the background, it will not be able to perform functions such as battery level alerts or other important functions.</string> -->
+    <!-- <string name="dont_kill_my_app1">In order to work properly and display the correct data,
+            BatteryOne must be constantly running in the background.
+    If BatteryOne is not running in the background, it will not be able to perform functions such as battery level alerts or other important functions.</string> -->
     <string name="dont_kill_my_app1">为了适当地显示当前数据，\n
         BatteryOne必须不断地在后台运行。\n
         如果BatteryOne不在后台运行，那它不能执行功能，例如电池电量警告或者其他重要功能。</string>
-<!-- <string name="dont_kill_my_app2">Unfortunately, on many devices, the operating system stops the service that collects the necessary battery data. Don\'t Kill My App is a site that helps users solve this problem for various devices.</string> -->
+    <!-- <string name="dont_kill_my_app2">Unfortunately, on many devices, the operating system stops the service that collects the necessary battery data. Don\'t Kill My App is a site that helps users solve this problem for various devices.</string> -->
     <string name="dont_kill_my_app2">不幸的是，在您的设备上的操作系统停止了收集必要的电池数据服务。“Don\'t Kill My App”是一个帮助用户解决各种设备问题的网站。</string>
-<!-- <string name="dont_kill_my_app3">For versions of Android 11 and above, it has become critical to grant permission to run continuously in the background. Please grant this permission.</string> -->
+    <!-- <string name="dont_kill_my_app3">For versions of Android 11 and above, it has become critical to grant permission to run continuously in the background. Please grant this permission.</string> -->
     <string name="dont_kill_my_app3">对于安卓版本在11及以上，授予后台运行权限变得至关重要，请授予这个权限。</string>
-<!-- <string name="dont_kill_my_app4">Please enable Autorun for BatteryOne so that if the service is killed, it can restart itself.</string> -->
+    <!-- <string name="dont_kill_my_app4">Please enable Autorun for BatteryOne so that if the service is killed, it can restart itself.</string> -->
     <string name="dont_kill_my_app4">请开启BatteryOne后台运行权限，以便它的服务被杀时可以重启。</string>
-<!-- <string name="dont_kill_my_app_permission">Work in background permission</string> -->
+    <!-- <string name="dont_kill_my_app_permission">Work in background permission</string> -->
     <string name="dont_kill_my_app_permission">后台工作权限</string>
-<!-- <string name="permission_granted">Permission has already been granted. Thank you!</string> -->
+    <!-- <string name="permission_granted">Permission has already been granted. Thank you!</string> -->
     <string name="permission_granted">已经授予权限，谢谢！</string>
-<!-- <string name="is_ammeter_exist_text">"We regret to inform you that your device does not have a built-in sensor to measure amperage data. This sensor is crucial for several functions within our application, and without it, many features may not work as intended.
+    <!-- <string name="is_ammeter_exist_text">"We regret to inform you that your device does not have a built-in sensor to measure amperage data. This sensor is crucial for several functions within our application, and without it, many features may not work as intended.
 
-It's important to note that the absence of the amperage sensor is a hardware limitation specific to your device and not a shortcoming of our application. Unfortunately, we rely on the availability of certain hardware features to provide accurate and comprehensive battery information.
+    It's important to note that the absence of the amperage sensor is a hardware limitation specific to your device and not a shortcoming of our application. Unfortunately, we rely on the availability of certain hardware features to provide accurate and comprehensive battery information.
 
-We understand that this may be disappointing, and we apologize for any inconvenience this may cause. If you have any questions or need further assistance, feel free to contact our support team. We appreciate your understanding and value your use of our application."</string> -->
+    We understand that this may be disappointing, and we apologize for any inconvenience this may cause. If you have any questions or need further assistance, feel free to contact our support team. We appreciate your understanding and value your use of our application."</string> -->
     <string name="is_ammeter_exist_text">“我们很遗憾地通知您，您的设备没有内置传感器来测量电流数据。该传感器对于我们应用中的多个功能至关重要，没有它，许多功能可能无法正常工作。\n
 需要注意的是，缺少电流传感器是您设备的硬件限制，而不是我们应用的不足。不幸的是，我们依赖某些硬件功能的可用性来提供准确和全面的电池信息。\n
 我们理解这可能令人失望，并为由此可能造成的不便向您道歉。如果您有任何疑问或需要进一步的帮助，请随时联系我们的支持团队。感谢您的理解，并感谢您使用我们的应用程序。”</string>
-<!-- <string name="yes">Yes</string> -->
+    <!-- <string name="yes">Yes</string> -->
     <string name="yes">是</string>
-<!-- <string name="no">No</string> -->
+    <!-- <string name="no">No</string> -->
     <string name="no">否</string>
-<!-- <string name="measurement_parameter">Measured parameter:</string> -->
+    <!-- <string name="measurement_parameter">Measured parameter:</string> -->
     <string name="measurement_parameter">测量参数：</string>
-<!-- <string name="polarity">Polarity:</string> -->
+    <!-- <string name="polarity">Polarity:</string> -->
     <string name="polarity">极性：</string>
-<!-- <string name="positive">Positive</string> -->
+    <!-- <string name="positive">Positive</string> -->
     <string name="positive">正极</string>
-<!-- <string name="negative">Negative</string> -->
+    <!-- <string name="negative">Negative</string> -->
     <string name="negative">负极   </string>
-<!-- <string name="calibration_going">Waiting for diagnostics</string> -->
+    <!-- <string name="calibration_going">Waiting for diagnostics</string> -->
     <string name="calibration_going">正在诊断</string>
-<!-- <string name="calibration_ended">Diagnostics completed</string> -->
+    <!-- <string name="calibration_ended">Diagnostics completed</string> -->
     <string name="calibration_ended">诊断完成</string>
     <string name="minute">m</string>
-<!-- <string name="dual_battery">Setting for dual-cell battery</string> -->
+    <!-- <string name="dual_battery">Setting for dual-cell battery</string> -->
     <string name="dual_battery">双电芯电池设置</string>
-<!-- <string name="seven_volt">Voltage correction</string> -->
+    <!-- <string name="seven_volt">Voltage correction</string> -->
     <string name="seven_volt">电压更正</string>
-<!-- <string name="dual_battery_fix">Amperage correction</string> -->
+    <!-- <string name="dual_battery_fix">Amperage correction</string> -->
     <string name="dual_battery_fix">温度更正</string>
-<!-- <string name="dual_battery_fix_text">Some dual-cell battery devices may display the amperage incorrectly, lowering it by half. Use this feature to fix it.</string> -->
+    <!-- <string name="dual_battery_fix_text">Some dual-cell battery devices may display the amperage incorrectly, lowering it by half. Use this feature to fix it.</string> -->
     <string name="dual_battery_fix_text">一些双电芯设备可能会显示错误的温度，使用这个功能将其降低一半来修复。</string>
 
-<!-- <string name="seven_volt_text">Some dual-cell battery devices may incorrectly display voltage by reporting the voltage of two cells at the same time. Use this function only if your voltage is greater than 7V.</string> -->
+    <!-- <string name="seven_volt_text">Some dual-cell battery devices may incorrectly display voltage by reporting the voltage of two cells at the same time. Use this function only if your voltage is greater than 7V.</string> -->
     <string name="seven_volt_text">有些双电芯设备可能会显示错误的电源，因为它们同时报告两个电池的电压。只有你的电压大于7v时可用。</string>
-<!-- <string name="average_speed_charge">Charging speed average</string> -->
+    <!-- <string name="average_speed_charge">Charging speed average</string> -->
     <string name="average_speed_charge">平均充电速度</string>
-<!-- <string name="sleep_mode">Sleeping mode</string> -->
+    <!-- <string name="sleep_mode">Sleeping mode</string> -->
     <string name="sleep_mode">睡眠模式中</string>
-<!-- <string name="all_time_charge">Total time</string> -->
+    <!-- <string name="all_time_charge">Total time</string> -->
     <string name="all_time_charge">总计时间</string>
-<!-- <string name="average_speed">Average speed</string> -->
+    <!-- <string name="average_speed">Average speed</string> -->
     <string name="average_speed">平均速度</string>
-<!-- <string name="since_above">from %1$s to %2$s</string> -->
+    <!-- <string name="since_above">from %1$s to %2$s</string> -->
     <string name="since_above">从%1$s至%2$s</string>
-<!-- <string name="since">from %1$s</string> -->
+    <!-- <string name="since">from %1$s</string> -->
     <string name="since">从%1$s</string>
-<!-- <string name="charge_to_percent">%1$s to %2$s%%</string> -->
+    <!-- <string name="charge_to_percent">%1$s to %2$s%%</string> -->
     <string name="charge_to_percent">%1$s至%2$s%%</string>
-<!-- <string name="screen_off">Screen off</string> -->
+    <!-- <string name="screen_off">Screen off</string> -->
     <string name="screen_off">屏幕关闭</string>
-<!-- <string name="not_available_on_your_device">Not available on your device</string> -->
+    <!-- <string name="not_available_on_your_device">Not available on your device</string> -->
     <string name="not_available_on_your_device">在您的设备上不可用</string>
-<!-- <string name="charge_reached">The battery is charged!</string> -->
+    <!-- <string name="charge_reached">The battery is charged!</string> -->
     <string name="charge_reached">电池已充电</string>
-<!-- <string name="please_disconnect_charger">Please turn off the charge.</string> -->
+    <!-- <string name="please_disconnect_charger">Please turn off the charge.</string> -->
     <string name="please_disconnect_charger">请拔掉充电器。</string>
-<!-- <string name="overheat_battery">Battery overheating!</string> -->
+    <!-- <string name="overheat_battery">Battery overheating!</string> -->
     <string name="overheat_battery">电池过热</string>
-<!-- <string name="battery_temp_bigger_then_normal">The battery temperature is above normal.</string> -->
+    <!-- <string name="battery_temp_bigger_then_normal">The battery temperature is above normal.</string> -->
     <string name="battery_temp_bigger_then_normal">电池温度高于正常值。</string>
-<!-- <string name="battery_temp_critical">The temperature has reached critical! Cooling required.</string> -->
+    <!-- <string name="battery_temp_critical">The temperature has reached critical! Cooling required.</string> -->
     <string name="battery_temp_critical">温度已达到临界，请降温！ Cooling required.</string>
-<!-- <string name="stab_database">Manual database stabilization</string> -->
+    <!-- <string name="stab_database">Manual database stabilization</string> -->
     <string name="stab_database">数据库手动校准</string>
-<!-- <string name="data_base">Database</string> -->
+    <!-- <string name="data_base">Database</string> -->
     <string name="data_base">数据</string>
-<!-- <string name="clear_database">Clear database</string> -->
+    <!-- <string name="clear_database">Clear database</string> -->
     <string name="clear_database">清除数据</string>
-<!-- <string name="auto_stab_database">Automatic stabilization of database</string> -->
+    <!-- <string name="auto_stab_database">Automatic stabilization of database</string> -->
     <string name="auto_stab_database">数据库自动校准</string>
-<!-- <string name="setting_notify">Setting up notifications via Android</string> -->
+    <!-- <string name="setting_notify">Setting up notifications via Android</string> -->
     <string name="setting_notify">通过安卓的设置来通知</string>
-<!-- <string name="setting_notify_battery_service">Displaying information in a notification</string> -->
+    <!-- <string name="setting_notify_battery_service">Displaying information in a notification</string> -->
     <string name="setting_notify_battery_service">显示一条通知信息</string>
-<!-- <string name="periodicity_of_autostab">Periodicity of stabilization</string> -->
+    <!-- <string name="periodicity_of_autostab">Periodicity of stabilization</string> -->
     <string name="periodicity_of_autostab">校准周期</string>
-<!-- <string name="one_of_3_days">1 day</string> -->
+    <!-- <string name="one_of_3_days">1 day</string> -->
     <string name="one_of_3_days">1天</string>
-<!-- <string name="one_of_week">3 days</string> -->
+    <!-- <string name="one_of_week">3 days</string> -->
     <string name="one_of_week">3天</string>
-<!-- <string name="one_of_2_week">1 week</string> -->
+    <!-- <string name="one_of_2_week">1 week</string> -->
     <string name="one_of_2_week">1周</string>
-<!-- <string name="one_of_month">2 weeks</string> -->
+    <!-- <string name="one_of_month">2 weeks</string> -->
     <string name="one_of_month">2周</string>
-<!-- <string name="stab_database_info">Database stabilization is a procedure in which the coefficients data are reduced so that new data has a greater impact on statistics. (Not recommended for frequent use)</string> -->
+    <!-- <string name="stab_database_info">Database stabilization is a procedure in which the coefficients data are reduced so that new data has a greater impact on statistics. (Not recommended for frequent use)</string> -->
     <string name="stab_database_info">数据校准是一直将系数数据进行减少的过程，以使新数据对统计结果产生更大的影响。(不推荐经常使用)</string>
-<!-- <string name="confirm">Confirm</string> -->
+    <!-- <string name="confirm">Confirm</string> -->
     <string name="confirm">确认</string>
-<!-- <string name="cancell">Cancel</string> -->
+    <!-- <string name="cancell">Cancel</string> -->
     <string name="cancell">取消</string>
-<!-- <string name="canceling">Canceled</string> -->
+    <!-- <string name="canceling">Canceled</string> -->
     <string name="canceling">已取消</string>
-<!-- <string name="succesfully">Successfully</string> -->
+    <!-- <string name="succesfully">Successfully</string> -->
     <string name="succesfully">成功</string>
-<!-- <string name="answer_stab_database">Stabilization confirmation</string> -->
-    <string name="answer_stab_database"><校准完成/string>
-<!-- <string name="answer_clearing_database">Cleaning confirmation</string> -->
+    <!-- <string name="answer_stab_database">Stabilization confirmation</string> -->
+    <string name="answer_stab_database">校准完成</string>
+    <!-- <string name="answer_clearing_database">Cleaning confirmation</string> -->
     <string name="answer_clearing_database">清理完成</string>
-<!-- <string name="clearing_database_info">Clearing the database entails a complete reset of the usage statistics. This action is irreversible.</string> -->
+    <!-- <string name="clearing_database_info">Clearing the database entails a complete reset of the usage statistics. This action is irreversible.</string> -->
     <string name="clearing_database_info">清除数据意味着使用统计数据完全重置。此操作不可逆</string>
-<!-- <string name="history">Usage history</string> -->
+    <!-- <string name="history">Usage history</string> -->
     <string name="history">使用历史</string>
     <string name="v">&#160;V</string>
-<!-- <string name="status_battery">Battery status</string> -->
+    <!-- <string name="status_battery">Battery status</string> -->
     <string name="status_battery">电池状态</string>
-<!-- <string name="сomponents_notify">Notification components</string> -->
+    <!-- <string name="сomponents_notify">Notification components</string> -->
     <string name="сomponents_notify">通知组件</string>
-<!-- <string name="projected_time_charge_to_100">Expected charging time up to 100%</string> -->
+    <!-- <string name="projected_time_charge_to_100">Expected charging time up to 100%</string> -->
     <string name="projected_time_charge_to_100">预期充电到100%的时间</string>
 
-<!-- <string name="projected_time_charge_to_var">Expected charging time up to %1$s%%</string> -->
+    <!-- <string name="projected_time_charge_to_var">Expected charging time up to %1$s%%</string> -->
     <string name="projected_time_charge_to_var">预期充电时间最长为 %1$s%%</string>
     <string name="seconds">s</string>
     <string name="for_time_up_charge">000h 000m</string>
-<!-- <string name="thanks">We express our sincere gratitude for the purchase of Advanced Access! All functions are unlocked. Happy using!</string> -->
+    <!-- <string name="thanks">We express our sincere gratitude for the purchase of Advanced Access! All functions are unlocked. Happy using!</string> -->
     <string name="thanks">我们对您购买高级功能表示衷心的感谢，所有功能已解锁。感谢使用！</string>
-<!-- <string name="battery_damage">Battery wear</string> -->
+    <!-- <string name="battery_damage">Battery wear</string> -->
     <string name="battery_damage">电池损耗</string>
-<!-- <string name="cycles">&#160;cycles</string> -->
+    <!-- <string name="cycles">&#160;cycles</string> -->
     <string name="cycles">&#160;循环</string>
-<!-- <string name="reset_sessions">Reset session</string> -->
+    <!-- <string name="reset_sessions">Reset session</string> -->
     <string name="reset_sessions">重置充电数据</string>
-<!-- <string name="hand_reset_sessions">Manual session</string> -->
+    <!-- <string name="hand_reset_sessions">Manual session</string> -->
     <string name="hand_reset_sessions">手动重置充电数据n</string>
-<!-- <string name="extended_access">Advanced Access</string> -->
+    <!-- <string name="extended_access">Advanced Access</string> -->
     <string name="extended_access">高级功能</string>
-<!-- <string name="buy">Sure thing!</string> -->
+    <!-- <string name="buy">Sure thing!</string> -->
     <string name="buy">当然</string>
-<!-- <string name="after_buy">Support our project by switching to Advanced Access and unlock this and other blocked features. Do you want to switch to Advanced Access?</string> -->
+    <!-- <string name="after_buy">Support our project by switching to Advanced Access and unlock this and other blocked features. Do you want to switch to Advanced Access?</string> -->
     <string name="after_buy">通过升级到高级功能来支持我们的项目，并解锁这个以及其他被屏蔽的功能。您想升级到高级功能吗？</string>
-<!-- <string name="app">Application</string> -->
+    <!-- <string name="app">Application</string> -->
     <string name="app">应用</string>
-<!-- <string name="write_me">Contact us</string> -->
+    <!-- <string name="write_me">Contact us</string> -->
     <string name="write_me">联系我们</string>
-<!-- <string name="versions">Application version:&#160;</string> -->
+    <!-- <string name="versions">Application version:&#160;</string> -->
     <string name="versions">应用评分：&#160;</string>
-<!-- <string name="function_available_in_extended_version">Function available in advanced version</string> -->
+    <!-- <string name="function_available_in_extended_version">Function available in advanced version</string> -->
     <string name="function_available_in_extended_version">功能在高级版本可用</string>
-<!-- <string name="rate">Rate and review</string> -->
+    <!-- <string name="rate">Rate and review</string> -->
     <string name="rate">评分与评价</string>
-<!-- <string name="purchases_reset_confirm">Purchase successfully found. Advanced Access granted.</string> -->
+    <!-- <string name="purchases_reset_confirm">Purchase successfully found. Advanced Access granted.</string> -->
     <string name="purchases_reset_confirm">购买记录成功找到，高级功能已获得。</string>
-<!-- <string name="no_thanks">No, thanks</string> -->
+    <!-- <string name="no_thanks">No, thanks</string> -->
     <string name="no_thanks">不了，谢谢</string>
-<!-- <string name="stay_in_free">Continue with Free Version</string> -->
+    <!-- <string name="stay_in_free">Continue with Free Version</string> -->
     <string name="stay_in_free">继续使用免费版本</string>
-<!-- <string name="thanks_donations">Thank you!</string> -->
+    <!-- <string name="thanks_donations">Thank you!</string> -->
     <string name="thanks_donations">感谢捐赠！</string>
     <string name="thanks_donations_text">We would like to express our heartfelt gratitude for your substantial contribution to the ongoing development of BatteryOne. Your support holds immense significance for us, serving as a driving force that propels our efforts forward. Your belief in our project invigorates our team, motivating us to reach new heights of innovation and excellence.</string>
-<!-- <string name="access_unlocked">All functions are unlocked. Happy using!</string> -->
+    <!-- <string name="access_unlocked">All functions are unlocked. Happy using!</string> -->
     <string name="access_unlocked">所有功能已解锁，使用愉快！</string>
     <string name="thanks_donations_text_and_access_unlocked">We would like to express our heartfelt gratitude for your substantial contribution to the ongoing development of BatteryOne. Your support holds immense significance for us, serving as a driving force that propels our efforts forward. Your belief in our project invigorates our team, motivating us to reach new heights of innovation and excellence. All functions are unlocked. Happy using!</string>
-<!-- <string name="needed_advanced_access">Advanced Access required</string> -->
+    <!-- <string name="needed_advanced_access">Advanced Access required</string> -->
     <string name="needed_advanced_access">需要高级功能</string>
     <string name="degree_celsius">&#160;°C</string>
-<!-- <string name="Privacy_Policy">Privacy Policy</string> -->
+    <!-- <string name="Privacy_Policy">Privacy Policy</string> -->
     <string name="Privacy_Policy">隐私政策</string>
     <string name="degree_farengeit">&#160;°F</string>
-<!-- <string name="reset_purchases">Restore Advanced Access</string> -->
+    <!-- <string name="reset_purchases">Restore Advanced Access</string> -->
     <string name="reset_purchases">重置高级功能</string>
-<!-- <string name="purchases_reset_already_bought">Advanced Access already granted.</string> -->
+    <!-- <string name="purchases_reset_already_bought">Advanced Access already granted.</string> -->
     <string name="purchases_reset_already_bought">高级功能已解锁。</string>
-<!-- <string name="purchases_reset_not_found">Purchase not found. You may have used a different account to make the purchase.</string> -->
+    <!-- <string name="purchases_reset_not_found">Purchase not found. You may have used a different account to make the purchase.</string> -->
     <string name="purchases_reset_not_found">购买记录未找到，您也许在不同账号上购买。</string>
     <string name="celvin">&#160;K</string>
-<!-- <string name="subscription_cancel">Your subscription will continue until you cancel.</string> -->
+    <!-- <string name="subscription_cancel">Your subscription will continue until you cancel.</string> -->
     <string name="subscription_cancel">您的订阅将自动续约，直到您取消订阅。</string>
-<!-- <string name="do_not_disturb">Don\'t disturb</string> -->
+    <!-- <string name="do_not_disturb">Don\'t disturb</string> -->
     <string name="do_not_disturb">不再打扰</string>
-<!-- <string name="do_not_disturb_from">Don\'t disturb from</string> -->
+    <!-- <string name="do_not_disturb_from">Don\'t disturb from</string> -->
     <string name="do_not_disturb_from">从\'t不打扰 </string>
-<!-- <string name="do_not_disturb_until">Don\'t disturb until</string> -->
+    <!-- <string name="do_not_disturb_until">Don\'t disturb until</string> -->
     <string name="do_not_disturb_until">直到\'t 不打扰</string>
-<!-- <string name="sound">Sound:&#160;</string> -->
+    <!-- <string name="sound">Sound:&#160;</string> -->
     <string name="sound">音量：&#160;</string>
-<!-- <string name="import_database">Import Database</string> -->
+    <!-- <string name="import_database">Import Database</string> -->
     <string name="import_database">导入数据</string>
-<!-- <string name="export_database">Export Database</string> -->
+    <!-- <string name="export_database">Export Database</string> -->
     <string name="export_database">导出数据</string>
-<!-- <string name="import_database_text">Your database has been successfully imported.</string> -->
+    <!-- <string name="import_database_text">Your database has been successfully imported.</string> -->
     <string name="import_database_text">您的数据已成功地导入。</string>
-<!-- <string name="export_database_text">Your database  has been successfully exported.</string> -->
+    <!-- <string name="export_database_text">Your database  has been successfully exported.</string> -->
     <string name="export_database_text">您的数据已成功地导出。</string>
-<!-- <string name="service_error">Error service. Please restart the application.</string> -->
+    <!-- <string name="service_error">Error service. Please restart the application.</string> -->
     <string name="service_error">服务错误。\n请重启应用。</string>
-<!-- <string name="defaullt">Default</string> -->
+    <!-- <string name="defaullt">Default</string> -->
     <string name="defaullt">默认</string>
-<!-- <string name="by_consumption">By consumption</string> -->
+    <!-- <string name="by_consumption">By consumption</string> -->
     <string name="by_consumption">根据消耗速度</string>
-<!-- <string name="by_average_speed">By average speed</string> -->
+    <!-- <string name="by_average_speed">By average speed</string> -->
     <string name="by_average_speed">根据平均速度</string>
-<!-- <string name="status_icon">Notification icon in status bar</string> -->
+    <!-- <string name="status_icon">Notification icon in status bar</string> -->
     <string name="status_icon">状态栏的通知图标</string>
-<!-- <string name="remaining_time_screen_on">Remaining time: Screen On</string> -->
+    <!-- <string name="remaining_time_screen_on">Remaining time: Screen On</string> -->
     <string name="remaining_time_screen_on">剩余时间：屏幕开启</string>
-<!-- <string name="remaining_time_screen_off">Remaining time: Screen Off</string> -->
+    <!-- <string name="remaining_time_screen_off">Remaining time: Screen Off</string> -->
     <string name="remaining_time_screen_off">剩余时间：屏幕关闭</string>
-<!-- <string name="remaining_time_combined_use">Remaining time: Combined use</string> -->
+    <!-- <string name="remaining_time_combined_use">Remaining time: Combined use</string> -->
     <string name="remaining_time_combined_use">剩余时间：综合使用</string>
-<!-- <string name="battery_level_in_circle">Battery charge level in circle</string> -->
+    <!-- <string name="battery_level_in_circle">Battery charge level in circle</string> -->
     <string name="battery_level_in_circle">圆形内电量</string>
-<!-- <string name="temperature_in_status_bar_circle">Temperature in circle</string> -->
+    <!-- <string name="temperature_in_status_bar_circle">Temperature in circle</string> -->
     <string name="temperature_in_status_bar_circle">圆形内温度</string>
-<!-- <string name="temperature_in_status_bar">Temperature</string> -->
+    <!-- <string name="temperature_in_status_bar">Temperature</string> -->
     <string name="temperature_in_status_bar">温度</string>
-<!-- <string name="awake">Awake</string> -->
+    <!-- <string name="awake">Awake</string> -->
     <string name="awake">系统唤醒</string>
-<!-- <string name="deep_sleep">Deep sleep</string> -->
+    <!-- <string name="deep_sleep">Deep sleep</string> -->
     <string name="deep_sleep">深度睡眠</string>
-<!-- <string name="operating_time">Operating time with screen off</string> -->
+    <!-- <string name="operating_time">Operating time with screen off</string> -->
     <string name="operating_time">屏幕关闭下运行时间</string>
-<!-- <string name="operating_time_info">"In this block you can see the operating time of your device with the screen turned off.
-"Awake" is the total amount of time the phone used the processor to complete tasks.
-"Deep sleep" is the total amount of time the phone's processor is idle."</string> -->
-<string name="operating_time_info">“此模块显示您的设备屏幕已关闭的运行时间。\n
+    <!-- <string name="operating_time_info">"In this block you can see the operating time of your device with the screen turned off.
+    "Awake" is the total amount of time the phone used the processor to complete tasks.
+    "Deep sleep" is the total amount of time the phone's processor is idle."</string> -->
+    <string name="operating_time_info">“此模块显示您的设备屏幕已关闭的运行时间。\n
 “系统唤醒”是指手机使用处理器运行任务的总时间。\n
 “深度睡眠”是指手机处理器空闲的总时间。”</string>
-<!-- <string name="remove_add">Remove advertising</string> -->
+    <!-- <string name="remove_add">Remove advertising</string> -->
     <string name="remove_add">移除广告</string>
-<!-- <string name="watch_the_video">Watch the video</string> -->
-    <string name="watch_the_video">观看视频< /string>
-<!-- <string name="remove_add_thanks">Thanks for your support. Advertising has been removed for 24 hours.</string> -->
+    <!-- <string name="watch_the_video">Watch the video</string> -->
+    <string name="watch_the_video">观看视频</string>
+    <!-- <string name="remove_add_thanks">Thanks for your support. Advertising has been removed for 24 hours.</string> -->
     <string name="remove_add_thanks">感谢您的支持，24小时内不会出现广告。</string>
-<!-- <string name="no_video_text">Unfortunately, there are no videos available at the moment. Please try again later.</string> -->
+    <!-- <string name="no_video_text">Unfortunately, there are no videos available at the moment. Please try again later.</string> -->
     <string name="no_video_text">不幸的是，此刻没有视频了，请稍后再试吧。</string>
-<!-- <string name="remove_add_text">Watch one advertising video to remove ads for 24 hours. Please note: This feature does not provide the benefits of Advanced Access, it only removes ads.</string> -->
+    <!-- <string name="remove_add_text">Watch one advertising video to remove ads for 24 hours. Please note: This feature does not provide the benefits of Advanced Access, it only removes ads.</string> -->
     <string name="remove_add_text">观看一个广告视频可以去除24小时广告，请注意：它无法提供高级会员的功能，只会移除广告。</string>
-<!-- <string name="failed_to_connect">Failed to connect to Google Play services. Please clear the cache and data of the Google Play application and try again.</string> -->
+    <!-- <string name="failed_to_connect">Failed to connect to Google Play services. Please clear the cache and data of the Google Play application and try again.</string> -->
     <string name="failed_to_connect">连接谷歌商店服务失败，请在清除谷歌商店的缓存和数据后再试一次。</string>
-<!-- <string name="not_database">The file you selected is not a database.</string> -->
+    <!-- <string name="not_database">The file you selected is not a database.</string> -->
     <string name="not_database">您选择的文件不是数据库。</string>
-<!-- <string name="selected_database_not_required">Error! The selected database does not match the required parameters.</string> -->
+    <!-- <string name="selected_database_not_required">Error! The selected database does not match the required parameters.</string> -->
     <string name="selected_database_not_required">错误!所选的数据库不含所需参数。</string>
-<!-- <string name="decryption_error">Decryption error! Select the file which is the BatteryOne database.</string> -->
+    <!-- <string name="decryption_error">Decryption error! Select the file which is the BatteryOne database.</string> -->
     <string name="decryption_error">解密出错！选择BatteryOne的数据库文件。</string>
-<!-- <string name="repeat_sound">Repeat sound</string> -->
+    <!-- <string name="repeat_sound">Repeat sound</string> -->
     <string name="repeat_sound">重复声音</string>
-<!-- <string name="unexpected_error">Unexpected error!</string> -->
+    <!-- <string name="unexpected_error">Unexpected error!</string> -->
     <string name="unexpected_error">意外错误！</string>
-<!-- <string name="privacy_policy_starting">Please read and accept the privacy policy to continue.</string> -->
+    <!-- <string name="privacy_policy_starting">Please read and accept the privacy policy to continue.</string> -->
     <string name="privacy_policy_starting">请阅读并接受隐私条款以继续。</string>
-<!-- <string name="confirm_and_continue">Accept and continue</string> -->
+    <!-- <string name="confirm_and_continue">Accept and continue</string> -->
     <string name="confirm_and_continue">接受并继续</string>
-<!-- <string name="confirmed">The terms of the privacy policy are accepted. Thanks!</string> -->
+    <!-- <string name="confirmed">The terms of the privacy policy are accepted. Thanks!</string> -->
     <string name="confirmed">隐私条款已接受，感谢！</string>
-<!-- <string name="sale_text">Buy a monthly subscription to Advanced Access with a 50% discount</string> -->
+    <!-- <string name="sale_text">Buy a monthly subscription to Advanced Access with a 50% discount</string> -->
     <string name="sale_text">购买一个月订阅以提前获取五折优惠</string>
-<!-- <string name="app_widget_description">Shows the percentage of your battery.</string> -->
+    <!-- <string name="app_widget_description">Shows the percentage of your battery.</string> -->
     <string name="app_widget_description">显示电量百分比</string>
-<!-- <string name="ring_color">Ring color</string> -->
+    <!-- <string name="ring_color">Ring color</string> -->
     <string name="ring_color">圆环颜色</string>
-<!-- <string name="line_color">Line color</string> -->
+    <!-- <string name="line_color">Line color</string> -->
     <string name="line_color">线条颜色</string>
-<!-- <string name="text_color">Text color</string> -->
+    <!-- <string name="text_color">Text color</string> -->
     <string name="text_color">文本颜色</string>
-   <!-- <string name="widget_read_access">For a better experience using the widget, you can grant access to the internal memory.</string> -->
+    <!-- <string name="widget_read_access">For a better experience using the widget, you can grant access to the internal memory.</string> -->
     <string name="widget_read_access">为了获得更好的小部件使用体验，您可以授权访问内存。</string>
-<!-- <string name="no_read_memory_access">No read memory access</string> -->
+    <!-- <string name="no_read_memory_access">No read memory access</string> -->
     <string name="no_read_memory_access">无可读内存访问</string>
-<!-- <string name="notify_access">In order to use this feature, you must grant access to display notifications.</string> -->
+    <!-- <string name="notify_access">In order to use this feature, you must grant access to display notifications.</string> -->
     <string name="notify_access">为了使用这个功能，您必须授予“显示通知权限。</string>
-<!-- <string name="low_battery">Low Battery</string> -->
+    <!-- <string name="low_battery">Low Battery</string> -->
     <string name="low_battery">电量低</string>
-<!-- <string name="low_battery_text_1">The battery level has reached&#160;</string> -->
+    <!-- <string name="low_battery_text_1">The battery level has reached&#160;</string> -->
     <string name="low_battery_text_1">电池电量已达到&#160;</string>
-<!-- <string name="low_battery_text_2">. Charge your device.</string> -->
+    <!-- <string name="low_battery_text_2">. Charge your device.</string> -->
     <string name="low_battery_text_2">.充电您的设备.</string>
-<!-- <string name="battery_level_alert">Battery Level Alert</string> -->
+    <!-- <string name="battery_level_alert">Battery Level Alert</string> -->
     <string name="battery_level_alert">电量警告</string>
-<!-- <string name="charge_alarm_text">By enabling this feature, you will receive a notification each time your battery is charged to the selected level.</string> -->
+    <!-- <string name="charge_alarm_text">By enabling this feature, you will receive a notification each time your battery is charged to the selected level.</string> -->
     <string name="charge_alarm_text">启用此功能后，每当电池电量充到您所选水平时，您将收到通知。</string>
-<!-- <string name="low_battery_alarm_text">By enabling this function, you will receive a notification every time the battery level drops to the selected level.</string> -->
+    <!-- <string name="low_battery_alarm_text">By enabling this function, you will receive a notification every time the battery level drops to the selected level.</string> -->
     <string name="low_battery_alarm_text">启用此功能后，每当电池电量降到您所选水平时，您将收到通知。</string>
 
-<!-- <string name="grant_access">Grant access</string> -->
+    <!-- <string name="grant_access">Grant access</string> -->
     <string name="grant_access">授予权限</string>
-<!-- <string name="size_widget">If desired, you can change the size of the widget. It can be done in this way.</string> -->
+    <!-- <string name="size_widget">If desired, you can change the size of the widget. It can be done in this way.</string> -->
     <string name="size_widget">如果您期望改变小部件大小，可以用这种方式完成。</string>
-<!-- <string name="notice">Notice</string> -->
+    <!-- <string name="notice">Notice</string> -->
     <string name="notice">通知</string>
-<!-- <string name="service_notice">For the widget to work correctly, it is necessary to ensure the constant operation of the service. If you see this notification in your notification bar, then the widget should work properly. Otherwise, restart the application to restore the widget.</string> -->
+    <!-- <string name="service_notice">For the widget to work correctly, it is necessary to ensure the constant operation of the service. If you see this notification in your notification bar, then the widget should work properly. Otherwise, restart the application to restore the widget.</string> -->
     <string name="service_notice">为了让小部件正常工作，有必要确保服务的持续运行。如果您在通知栏看见这条通知，那么这个小部件应该可以正常工作，否则重启应用恢复小部件</string>
-<!-- <string name="text_dead">Unfortunately, due to the fact that your phone does not have the required sensor, this function is not available to you.</string> -->
+    <!-- <string name="text_dead">Unfortunately, due to the fact that your phone does not have the required sensor, this function is not available to you.</string> -->
     <string name="text_dead">不幸的是，由于您的手机没有必需传感器，该功能不可用</string>
-<!-- <string name="percentage_graph">Percentage graph</string> -->
+    <!-- <string name="percentage_graph">Percentage graph</string> -->
     <string name="percentage_graph">百分比图表</string>
-<!-- <string name="graph_percentage_text_down">\tThis graph shows how the battery percentage has changed over the time period you selected.</string> -->
+    <!-- <string name="graph_percentage_text_down">\tThis graph shows how the battery percentage has changed over the time period you selected.</string> -->
     <string name="graph_percentage_text_down">\t此图表显示在您选择的时间段内电磁百分比如何变化。</string>
-<!-- <string name="discharge_notification_switch">Notify when the device is discharging</string> -->
+    <!-- <string name="discharge_notification_switch">Notify when the device is discharging</string> -->
     <string name="discharge_notification_switch">当您的设备拔电时通知</string>
-<!-- <string name="charge_notification_switch">Notify when the device is charging</string> -->
+    <!-- <string name="charge_notification_switch">Notify when the device is charging</string> -->
     <string name="charge_notification_switch">当您的设备充电时通知</string>
-<!-- <string name="discharge_notification">Discharge notification</string> -->
+    <!-- <string name="discharge_notification">Discharge notification</string> -->
     <string name="discharge_notification">拔电通知</string>
-<!-- <string name="discharge_notification_text">Your device is not charging</string> -->
+    <!-- <string name="discharge_notification_text">Your device is not charging</string> -->
     <string name="discharge_notification_text">您的设备未在充电</string>
-<!-- <string name="charge_notification">Charge notification</string> -->
+    <!-- <string name="charge_notification">Charge notification</string> -->
     <string name="charge_notification">充电通知</string>
-<!-- <string name="charge_notification_text">Your device is charging</string> -->
+    <!-- <string name="charge_notification_text">Your device is charging</string> -->
     <string name="charge_notification_text">您的设备正在充电</string>
-<!-- <string name="notification_now">Now</string> -->
+    <!-- <string name="notification_now">Now</string> -->
     <string name="notification_now">现在</string>
-<!-- <string name="notification_average">Average</string> -->
+    <!-- <string name="notification_average">Average</string> -->
     <string name="notification_average">平均</string>
-<!-- <string name="amperage_current_session">Current session amperage graph</string> -->
+    <!-- <string name="amperage_current_session">Current session amperage graph</string> -->
     <string name="amperage_current_session">当前充电电流</string>
-<!-- <string name="database_export_in_progress">Database export in progress</string> -->
+    <!-- <string name="database_export_in_progress">Database export in progress</string> -->
     <string name="database_export_in_progress">数据正在导出</string>
-<!-- <string name="full_time">All Time</string> -->
+    <!-- <string name="full_time">All Time</string> -->
     <string name="full_time">所有时间</string>
-<!-- <string name="m8">8m</string> -->
+    <!-- <string name="m8">8m</string> -->
     <string name="m8">8分钟</string>
-<!-- <string name="m36">36m</string> -->
+    <!-- <string name="m36">36m</string> -->
     <string name="m36">36分钟</string>
-<!-- <string name="s80">80s</string> -->
+    <!-- <string name="s80">80s</string> -->
     <string name="s80">80秒</string>
-<!-- <string name="session_screen_time">Screen time</string> -->
+    <!-- <string name="session_screen_time">Screen time</string> -->
     <string name="session_screen_time">屏幕时间</string>
-<!-- <string name="display_charging_amperage_graph">Display charging amperage graph</string> -->
+    <!-- <string name="display_charging_amperage_graph">Display charging amperage graph</string> -->
     <string name="display_charging_amperage_graph">显示充电电流</string>
-<!-- <string name="ignore">Ignore</string> -->
+    <!-- <string name="ignore">Ignore</string> -->
     <string name="ignore">忽略</string>
-<!-- <string name="error_accessing_file">Error accessing the file. Try again.</string> -->
+    <!-- <string name="error_accessing_file">Error accessing the file. Try again.</string> -->
     <string name="error_accessing_file">访问文件错误，请重试。</string>
-<!-- <string name="work_in_background">Work in the background</string> -->
+    <!-- <string name="work_in_background">Work in the background</string> -->
     <string name="work_in_background">在后台工作</string>
-<!-- <string name="use_old_style">Use the old style</string> -->
+    <!-- <string name="use_old_style">Use the old style</string> -->
     <string name="use_old_style">使用旧样式</string>
-<!-- <string name="count_of_sessions">Number of sessions</string> -->
+    <!-- <string name="count_of_sessions">Number of sessions</string> -->
     <string name="count_of_sessions">充电次数</string>
-<!-- <string name="about_app_android">About the application (Android)</string> -->
+    <!-- <string name="about_app_android">About the application (Android)</string> -->
     <string name="about_app_android">关于应用 (Android)</string>
-<!-- <string name="detailed_information">Detailed information</string> -->
+    <!-- <string name="detailed_information">Detailed information</string> -->
     <string name="detailed_information">详细信息</string>
-<!-- <string name="usage_history">Usage history</string> -->
+    <!-- <string name="usage_history">Usage history</string> -->
     <string name="usage_history">使用历史</string>
     <!-- <string name="usage_history_text">"For this feature to work correctly, you must grant permission to read usage history. BatteryOne will be able to receive data about when and what applications you use.
 BatteryOne does not share this data with third parties. BatteryOne requests this data only at the moment when it is necessary to calculate statistics. You may revoke this permission at any time."</string> -->
     <string name="usage_history_text">“为了这个功能正常工作，您必须授予读取使用历史权限。BatteryOne将能够接受您使用应用时的数据。
 BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计计算时请求此数据。您可以随时撤销该授权。”</string>
-<!-- <string name="battery_notify_text_start">Choose whether you want to receive a notification every time your battery reaches the selected percentage. You can turn this feature off at any time.</string> -->
+    <!-- <string name="battery_notify_text_start">Choose whether you want to receive a notification every time your battery reaches the selected percentage. You can turn this feature off at any time.</string> -->
     <string name="battery_notify_text_start">您是否选择希望每次电池达到所选百分比时收到通知，您可以随时关闭这个功能。</string>
-<!-- <string name="enable_notification">Enable Notification</string> -->
+    <!-- <string name="enable_notification">Enable Notification</string> -->
     <string name="enable_notification">启用通知</string>
-<!-- <string name="battery_info">Battery information (Android)</string> -->
+    <!-- <string name="battery_info">Battery information (Android)</string> -->
     <string name="battery_info">电池信息(Android)</string>
-<!-- <string name="overheat_alarm_text">By enabling this feature, you will receive a notification whenever the battery temperature rises above the selected level.</string> -->
+    <!-- <string name="overheat_alarm_text">By enabling this feature, you will receive a notification whenever the battery temperature rises above the selected level.</string> -->
     <string name="overheat_alarm_text">随着该功能的启用你将收到一个通知，无论电池温度超过所选水平。</string>
-<!-- <string name="my_subscribe">My subscription</string> -->
+    <!-- <string name="my_subscribe">My subscription</string> -->
     <string name="my_subscribe">我的订阅</string>
-<!-- <string name="unlimited">Unlimited</string> -->
+    <!-- <string name="unlimited">Unlimited</string> -->
     <string name="unlimited">未限制</string>
-<!-- <string name="expiration_date">Expiration date: %1$s</string> -->
+    <!-- <string name="expiration_date">Expiration date: %1$s</string> -->
     <string name="expiration_date">到期日期: %1$s</string>
-<!-- <string name="status">Status: %1$s</string> -->
+    <!-- <string name="status">Status: %1$s</string> -->
     <string name="status">状态%1$s</string>
-<!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
+    <!-- <string name="date_of_purchase">Date of purchase: %1$s</string> -->
     <string name="date_of_purchase">购买日期：%1$s</string>
-<!-- <string name="no_active_sub">No active subscriptions found</string> -->
+    <!-- <string name="no_active_sub">No active subscriptions found</string> -->
     <string name="no_active_sub">未找到订阅许可</string>
-<!-- <string name="alternative_charge_level">Alternative charge level method</string> -->
+    <!-- <string name="alternative_charge_level">Alternative charge level method</string> -->
     <string name="alternative_charge_level">备用充电水平方法</string>
-<!-- <string name="firstweek">&#160;for the first week</string> -->
+    <!-- <string name="firstweek">&#160;for the first week</string> -->
     <string name="firstweek">&#160;在第一月</string>
-<!-- <string name="firstmonth">&#160;for the first month</string> -->
+    <!-- <string name="firstmonth">&#160;for the first month</string> -->
     <string name="firstmonth">&#160;在第一月</string>
-<!-- <string name="firstsemiyear">&#160;for the first six months</string> -->
+    <!-- <string name="firstsemiyear">&#160;for the first six months</string> -->
     <string name="firstsemiyear">&#160;在第六月</string>
-<!-- <string name="firstyear">&#160;for the first year</string> -->
+    <!-- <string name="firstyear">&#160;for the first year</string> -->
     <string name="firstyear">&#160;在第一年</string>
-<!-- <string name="then">then&#160;</string> -->
+    <!-- <string name="then">then&#160;</string> -->
     <string name="then">然后&#160;</string>
-<!-- <string name="icon">Application icon</string> -->
+    <!-- <string name="icon">Application icon</string> -->
     <string name="icon">应用图标</string>
-<!-- <string name="select_icon">Select icon</string> -->
+    <!-- <string name="select_icon">Select icon</string> -->
     <string name="select_icon">选择图标</string>
-<!-- <string name="fullbattery_top">The battery is fully charged!</string> -->
+    <!-- <string name="fullbattery_top">The battery is fully charged!</string> -->
     <string name="fullbattery_top">电池已完全充满电！</string>
-<!-- <string name="fullbattery">You can disconnect your phone from charging.</string> -->
+    <!-- <string name="fullbattery">You can disconnect your phone from charging.</string> -->
     <string name="fullbattery">您可以断开手机的电源了。</string>
-<!-- <string name="notify_full">Notify when fully charged</string> -->
+    <!-- <string name="notify_full">Notify when fully charged</string> -->
     <string name="notify_full">充满电时通知</string>
-<!-- <string name="show_charging_status">Show charging status</string> -->
+    <!-- <string name="show_charging_status">Show charging status</string> -->
     <string name="show_charging_status">显示充电状态</string>
-<!-- <string name="date">Start date</string> -->
+    <!-- <string name="date">Start date</string> -->
     <string name="date">开始日期</string>
-<!-- <string name="bla">Full Screen Alert</string> -->
+    <!-- <string name="bla">Full Screen Alert</string> -->
     <string name="bla">全屏警告</string>
-<!-- <string name="bla_trial_info">The Full Screen Alert feature is exclusively available with %1$s, but it may not be compatible with your device. To ensure it works for you, we offer a free one-day trial. After the trial ends, the feature will be locked. To regain access, simply upgrade to %1$s. -->
-        <!-- \n\nWould you like to start your trial now?</string> -->
+    <!-- <string name="bla_trial_info">The Full Screen Alert feature is exclusively available with %1$s, but it may not be compatible with your device. To ensure it works for you, we offer a free one-day trial. After the trial ends, the feature will be locked. To regain access, simply upgrade to %1$s. -->
+    <!-- \n\nWould you like to start your trial now?</string> -->
     <string name="bla_trial_info">全屏警告功能仅可用于%1$s，但它可能与你的设备不兼容。为了确保它能工作，我们给您免费试用一天。在试用结束之后，该功能无法使用。如若再次使用，只需升级到 %1$s。
         \n\n您愿意开启试用吗？</string>
-<!-- <string name="premium_3_2_2">Full Screen Alert: Unlock Full Screen Alert feature without limitations.</string> -->
+    <!-- <string name="premium_3_2_2">Full Screen Alert: Unlock Full Screen Alert feature without limitations.</string> -->
     <string name="premium_3_2_2">全屏警告：解锁无限制的屏幕警告。</string>
-<!-- <string name="user_manual_text">Attention: This feature is experimental and may not function on all devices.
-    \nBefore using it, please:
-    \n\t1. Grant all required permissions.
-    \n\t2. Familiarize yourself with the meaning of the alert screen buttons.
-    \nFailure to do so may prevent the alert from working properly.</string> -->
+    <!-- <string name="user_manual_text">Attention: This feature is experimental and may not function on all devices.
+        \nBefore using it, please:
+        \n\t1. Grant all required permissions.
+        \n\t2. Familiarize yourself with the meaning of the alert screen buttons.
+        \nFailure to do so may prevent the alert from working properly.</string> -->
     <string name="user_manual_text">注意: 此为实验性功能，可能无法在所有设备上运行。
 \n请在使用它之前，
 \n\t1. 授予所有请求的权限。
 \n\t2. 熟悉屏幕警告按钮的含义。
 \n3.未这样做可能会导致警告无法正常工作。</string>
-<!-- <string name="permission_4_text">Due to differences in OS system settings across devices, granting these permissions doesn’t guarantee the Full Screen Alert will always work perfectly, but it significantly improves the chances of it functioning correctly.</string> -->
+    <!-- <string name="permission_4_text">Due to differences in OS system settings across devices, granting these permissions doesn’t guarantee the Full Screen Alert will always work perfectly, but it significantly improves the chances of it functioning correctly.</string> -->
     <string name="permission_4_text">由于不同操作系统的跨设备设置，虽然授予这些权限并不能保证全屏警告总是完美运行，但是这样做显著提高它正常运行的可能性。</string>
-<!-- <string name="enable_alarm2">Enable</string> -->
+    <!-- <string name="enable_alarm2">Enable</string> -->
     <string name="enable_alarm2">启用</string>
-<!-- <string name="introduction_text">For the Full Screen Alert to function properly, you need to grant several permissions. Keep in mind that the names of these permissions may vary depending on the manufacturer of your device. Below is a list of the required permissions.</string> -->
+    <!-- <string name="introduction_text">For the Full Screen Alert to function properly, you need to grant several permissions. Keep in mind that the names of these permissions may vary depending on the manufacturer of your device. Below is a list of the required permissions.</string> -->
     <string name="introduction_text">为了全屏警告能够正常工作，你需要授予几个权限。  Below is a list of the required permissions.</string>
-<!-- <string name="alarm_button_1">Pressing this button will stop the alert. The Full Screen Alert will reappear if the session continues.</string> -->
+    <!-- <string name="alarm_button_1">Pressing this button will stop the alert. The Full Screen Alert will reappear if the session continues.</string> -->
     <string name="alarm_button_1">按下这个按钮将停止警告。如果继续充电，这个全屏警告将会再次出现。</string>
-<!-- <string name="alarm_button_2">Pressing this button will disable the Full Screen Alert for the current session. If the session continues, the Full Screen Alert will not turn on again, but notifications will still be received.</string> -->
+    <!-- <string name="alarm_button_2">Pressing this button will disable the Full Screen Alert for the current session. If the session continues, the Full Screen Alert will not turn on again, but notifications will still be received.</string> -->
     <string name="alarm_button_2">按下这个按钮将禁用当前充电的全屏警告。如果继续充电，这个全屏警告将不会再次开启，但是依然会收到通知。</string>
-<!-- <string name="alarm_button_3">Pressing this button will completely disable the Full Screen Alert. It will no longer appear in the current or future sessions. You can enable the Full Screen Alert again in the app settings.</string> -->
+    <!-- <string name="alarm_button_3">Pressing this button will completely disable the Full Screen Alert. It will no longer appear in the current or future sessions. You can enable the Full Screen Alert again in the app settings.</string> -->
     <string name="alarm_button_3">按下这个按钮将在充电完成时禁用全屏警告。它不再出现在当前或者未来充电上。你可以在应用设置中重新启用全屏警告。</string>
-<!-- <string name="charge_alarm">Charging completion notification</string> -->
+    <!-- <string name="charge_alarm">Charging completion notification</string> -->
     <string name="charge_alarm">充电完成通知</string>
-<!-- <string name="low_battery_alarm">Low battery notification</string> -->
+    <!-- <string name="low_battery_alarm">Low battery notification</string> -->
     <string name="low_battery_alarm">低电量提醒！</string>
-<!-- <string name="full_charge_alert">Full charge notification</string> -->
+    <!-- <string name="full_charge_alert">Full charge notification</string> -->
     <string name="full_charge_alert">电量充满提醒</string>
-<!-- <string name="battery_overheating_alert">Battery overheating notification</string> -->
+    <!-- <string name="battery_overheating_alert">Battery overheating notification</string> -->
     <string name="battery_overheating_alert">电池过热提醒</string>
-<!-- <string name="charging_connection_alert">Charging connection notification</string> -->
+    <!-- <string name="charging_connection_alert">Charging connection notification</string> -->
     <string name="charging_connection_alert">充电器连接通知</string>
-<!-- <string name="charging_disconnection_alert">Charging disconnection notification</string> -->
+    <!-- <string name="charging_disconnection_alert">Charging disconnection notification</string> -->
     <string name="charging_disconnection_alert">充电器断开通知</string>
-<!-- <string name="font_size">Font size</string> -->
+    <!-- <string name="font_size">Font size</string> -->
     <string name="font_size">字体大小</string>
-<!-- <string name="show_percent">Show %</string> -->
+    <!-- <string name="show_percent">Show %</string> -->
     <string name="show_percent">展示 %</string>
-<!-- <string name="open_on_click">When clicked open</string> -->
+    <!-- <string name="open_on_click">When clicked open</string> -->
     <string name="open_on_click">当点击时打开</string>
-<!-- <string name="widget_settings">Widget settings</string> -->
+    <!-- <string name="widget_settings">Widget settings</string> -->
     <string name="widget_settings">小部件设置</string>
-<!-- <string name="appp">Application</string> -->
+    <!-- <string name="appp">Application</string> -->
     <string name="appp">应用</string>
-<!-- <string name="notify_percent_with_percent">Battery level with %</string> -->
+    <!-- <string name="notify_percent_with_percent">Battery level with %</string> -->
     <string name="notify_percent_with_percent">电池电量 %</string>
- <!-- <string name="notify_percent_without_percent">Battery level without %</string> -->
+    <!-- <string name="notify_percent_without_percent">Battery level without %</string> -->
     <string name="notify_percent_without_percent">电池电量无 %</string>
-<!-- <string name="setting_notify_rate">Notification update rate</string> -->
+    <!-- <string name="setting_notify_rate">Notification update rate</string> -->
     <string name="setting_notify_rate">通知更新频率</string>
-<!-- <string name="notify_percent">Battery level</string> -->
+    <!-- <string name="notify_percent">Battery level</string> -->
     <string name="notify_percent">电池电量</string>
-<!-- <string name="buy_advanced_access">Get Advanced Access</string> -->
+    <!-- <string name="buy_advanced_access">Get Advanced Access</string> -->
     <string name="buy_advanced_access">获取高级功能</string>
-<!-- <string name="monthly1">Monthly</string> -->
+    <!-- <string name="monthly1">Monthly</string> -->
     <string name="monthly1">每月</string>
-<!-- <string name="annually1">Annually</string> -->
+    <!-- <string name="annually1">Annually</string> -->
     <string name="annually1">每年</string>
-<!-- <string name="weekly1">Weekly</string> -->
+    <!-- <string name="weekly1">Weekly</string> -->
     <string name="weekly1">每周</string>
-<!-- <string name="lifetime1">Lifetime</string> -->
+    <!-- <string name="lifetime1">Lifetime</string> -->
     <string name="lifetime1">永久</string>
-<!-- <string name="press_again_to_exit">Press again to exit</string> -->
+    <!-- <string name="press_again_to_exit">Press again to exit</string> -->
     <string name="press_again_to_exit">再按一次退出</string>
-<!-- <plurals name="free_for_days"> -->
-        <!-- <item quantity="one">Free for %s day</item> -->
-        <!-- <item quantity="other">Free for %s days</item> -->
+    <!-- <plurals name="free_for_days"> -->
+    <!-- <item quantity="one">Free for %s day</item> -->
+    <!-- <item quantity="other">Free for %s days</item> -->
     <!-- </plurals> -->
     <plurals name="free_for_days">
         <item quantity="one">免费 %s 天</item>
@@ -944,154 +939,211 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
         <item quantity="one">信息不足，无法计算。（将在 %s 天后可用）</item>
         <item quantity="other">信息不足，无法计算。（将在 %s 天后可用）</item>
     </plurals>
-<!-- <plurals name="current_battery_damage_t"> -->
-        <!-- <item quantity="one">This battery wear will be reached, presumably, in %s day</item> -->
-        <!-- <item quantity="other">This battery wear will be reached, presumably, in %s days</item> -->
+    <!-- <plurals name="current_battery_damage_t"> -->
+    <!-- <item quantity="one">This battery wear will be reached, presumably, in %s day</item> -->
+    <!-- <item quantity="other">This battery wear will be reached, presumably, in %s days</item> -->
     <!-- </plurals> -->
     <plurals name="current_battery_damage_t">
         <item quantity="one">此电池大概 %s 天后到达此损耗。</item>
         <item quantity="other">此电池大概 %s 天后到达此损耗。</item>
     </plurals>
-<!-- <string name="premium_1">Your next step is %1$s!</string> -->
+    <!-- <string name="premium_1">Your next step is %1$s!</string> -->
     <string name="premium_1">您的下一步是%1$s!</string>
-<!-- <string name="premium_2">No advertising, full access to closed functions</string> -->
+    <!-- <string name="premium_2">No advertising, full access to closed functions</string> -->
     <string name="premium_2">无广告，使用所有功能</string>
-<!-- <string name="info">Your subscription will automatically renew and continue until you cancel. You can cancel your subscription anytime.</string> -->
+    <!-- <string name="info">Your subscription will automatically renew and continue until you cancel. You can cancel your subscription anytime.</string> -->
     <string name="info">您的订阅将自动续约，直到您取消。您可以在任何时间取消订阅。</string>
     <!-- <string name="subscribe">Subscribe</string> -->
     <string name="subscribe">订阅</string>
-<!-- <string name="purchase">Purchase</string> -->
+    <!-- <string name="purchase">Purchase</string> -->
     <string name="purchase">购买</string>
-<!-- <string name="premium_3">By upgrading to %1$s, you unlock:</string> -->
+    <!-- <string name="premium_3">By upgrading to %1$s, you unlock:</string> -->
     <string name="premium_3">通过升级到%1$s，你将解锁：</string>
-<!-- <string name="premium_3_1">Ad-Free Experience: Enjoy uninterrupted use.</string> -->
+    <!-- <string name="premium_3_1">Ad-Free Experience: Enjoy uninterrupted use.</string> -->
     <string name="premium_3_1">无广告体验：享受无打扰的使用。</string>
-<!-- <string name="premium_3_2">Database management: Organize and manage battery usage data efficiently.</string> -->
+    <!-- <string name="premium_3_2">Database management: Organize and manage battery usage data efficiently.</string> -->
     <string name="premium_3_2">数据管理：高效地组织并管理电池使用数据。</string>
-<!-- <string name="premium_3_3">Advanced interface customization: Personalize the app’s appearance to match your style.</string> -->
+    <!-- <string name="premium_3_3">Advanced interface customization: Personalize the app’s appearance to match your style.</string> -->
     <string name="premium_3_3">高级界面定制：定制应用外观，打造专属风格。</string>
-<!-- <string name="premium_3_4">Battery Level Widget: Access battery level quickly with a customizable home screen widget.</string> -->
+    <!-- <string name="premium_3_4">Battery Level Widget: Access battery level quickly with a customizable home screen widget.</string> -->
     <string name="premium_3_4">电池小部件：添加桌面组件，快速访问电量。</string>
-<!-- <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string> -->
+    <!-- <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string> -->
     <string name="premium_3_6">电池损耗预测：评估电池健康，主动规划更换。</string>
-<!-- <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string> -->
+    <!-- <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string> -->
     <string name="premium_3_7">完整历史记录: 无限次数查看，电量使用详情。</string>
-<!-- <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string> -->
+    <!-- <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string> -->
     <string name="premium_4">立刻升级，畅享完整功能！</string>
-<!-- <string name="free_trial">Free trial</string> -->
+    <!-- <string name="free_trial">Free trial</string> -->
     <string name="free_trial">免费试用</string>
-<!-- <string name="discount">Discount</string> -->
+    <!-- <string name="discount">Discount</string> -->
     <string name="discount">折扣</string>
-<!-- <string name="auto">Auto</string> -->
+    <!-- <string name="auto">Auto</string> -->
     <string name="auto">自动</string>
-<!-- <string name="nothing">Nothing</string> -->
+    <!-- <string name="nothing">Nothing</string> -->
     <string name="nothing">无</string>
-<!-- <string name="never">Never</string> -->
+    <!-- <string name="never">Never</string> -->
     <string name="never">不了</string>
-<!-- <string name="rate_line">This is the highest possible rating</string> -->
+    <!-- <string name="rate_line">This is the highest possible rating</string> -->
     <string name="rate_line">这是最高评分</string>
-<!-- <string name="rate_question">How would you rate BatteryOne?</string> -->
+    <!-- <string name="rate_question">How would you rate BatteryOne?</string> -->
     <string name="rate_question">您愿意给BatteryOne几分?</string>
-<!-- <string name="later">Maybe later</string> -->
+    <!-- <string name="later">Maybe later</string> -->
     <string name="later">稍后</string>
-<!-- <string name="submit">Submit</string> -->
+    <!-- <string name="submit">Submit</string> -->
     <string name="submit">提交</string>
-<!-- <string name="suggest">Suggest us what went wrong and we\'ll work on it!</string> -->
+    <!-- <string name="suggest">Suggest us what went wrong and we\'ll work on it!</string> -->
     <string name="suggest">告诉我们问题所在并修复它</string>
-<!-- <string name="feedback">Feedback</string> -->
+    <!-- <string name="feedback">Feedback</string> -->
     <string name="feedback">反馈</string>
-<!-- <string name="thanks_for_feedback">Thank you for your feedback</string> -->
+    <!-- <string name="thanks_for_feedback">Thank you for your feedback</string> -->
     <string name="thanks_for_feedback">感谢您的反馈！</string>
-<!-- <string name="overlay_settings">Overlay Settings</string> -->
+    <!-- <string name="overlay_settings">Overlay Settings</string> -->
     <string name="overlay_settings">悬浮窗设置</string>
-<!-- <string name="battery_level_overlay">Battery Level</string> -->
-   <string name="battery_level_overlay">电池电量</string>
-<!-- <string name="size">Size</string> -->
+    <!-- <string name="battery_level_overlay">Battery Level</string> -->
+    <string name="battery_level_overlay">电池电量</string>
+    <!-- <string name="size">Size</string> -->
     <string name="size">大小</string>
-<!-- <string name="show_measurement_unit">Show measurement unit</string> -->
+    <!-- <string name="show_measurement_unit">Show measurement unit</string> -->
     <string name="show_measurement_unit">显示测量单位</string>
-<!-- <string name="error_over_permission">Error. Permission to display over other applications is missing.</string> -->
+    <!-- <string name="error_over_permission">Error. Permission to display over other applications is missing.</string> -->
     <string name="error_over_permission">错误，缺失在其他应用上显示的权限。</string>
-<!-- <string name="customise_style">Customize style</string> -->
+    <!-- <string name="customise_style">Customize style</string> -->
     <string name="customise_style">个性风格</string>
-<!-- <string name="lock_position">Lock Position</string> -->
+    <!-- <string name="lock_position">Lock Position</string> -->
     <string name="lock_position">固定位置</string>
-<!-- <string name="snap_to_edge">Snap to Edge</string> -->
+    <!-- <string name="snap_to_edge">Snap to Edge</string> -->
     <string name="snap_to_edge">边缘吸附</string>
-<!-- <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string> -->
+    <!-- <string name="permission_over_text">To enable this feature, you need to grant permission to display over other apps.</string> -->
     <string name="permission_over_text">为了启用这个功能，你需要授予在其他应用上显示的权限。</string>
 
-<!-- <string name="splash_logo_text">Professional Battery Monitoring</string> -->
+    <!-- <string name="splash_logo_text">Professional Battery Monitoring</string> -->
     <string name="splash_logo_text">专业电池监控</string>
 
-<!-- <string name="slide_1_header">Unique Analysis Algorithms</string> -->
+    <!-- <string name="slide_1_header">Unique Analysis Algorithms</string> -->
     <string name="slide_1_header">独特分析算法</string>
-<!-- <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string> -->
+    <!-- <string name="slide_1_text">We offer two methods to estimate battery health. Need a fast result? Choose the single-charge calculation. Is precision your priority? Use the cumulative mode, which refines data with every charge.</string> -->
     <string name="slide_1_text">我们采用两种方法来评估电池健康状况，需要快速的结果？选择单次充电计算。需要准确结果？ 使用累计模式，它会在每次充电时优化数据。</string>
-<!-- <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string> -->
+    <!-- <string name="slide_1_tip">📌 The data shown is for interface demonstration only and does not reflect the actual state of your battery.</string> -->
     <string name="slide_1_tip">📌所显示的数据仅用于界面演示，不能反映您的电池实际状态。</string>
 
-<!-- <string name="slide_2_header">Fully Customizable Widgets</string> -->
+    <!-- <string name="slide_2_header">Fully Customizable Widgets</string> -->
     <string name="slide_2_header">完全个性部件</string>
-<!-- <string name="slide_2_text">Monitor charge and temperature right from your home screen. Adjust text size for perfect readability and choose any colors to match your wallpaper style.</string> -->
+    <!-- <string name="slide_2_text">Monitor charge and temperature right from your home screen. Adjust text size for perfect readability and choose any colors to match your wallpaper style.</string> -->
     <string name="slide_2_text">在您的主屏幕上监控合适的充电温度，调整文本尺寸获得最佳可读性，选择任意颜色适配您的壁纸。</string>
-<!-- <string name="slide_2_tip">⚙️ To open customization settings, simply tap on the installed widget on your home screen.</string> -->
+    <!-- <string name="slide_2_tip">⚙️ To open customization settings, simply tap on the installed widget on your home screen.</string> -->
     <string name="slide_2_tip">⚙️要打开自定义设置，只需要在主屏幕上点击已经安装的小部件即可。</string>
 
-<!-- <string name="slide_3_header">Notifications That Work</string> -->
+    <!-- <string name="slide_3_header">Notifications That Work</string> -->
     <string name="slide_3_header">有效的通知</string>
-<!-- <string name="slide_3_text">Configure alerts for charge levels, discharge, and overheating. Enable our unique full-screen mode (like an alarm clock) to ensure you hear when your phone is charged, even from another room.</string> -->
+    <!-- <string name="slide_3_text">Configure alerts for charge levels, discharge, and overheating. Enable our unique full-screen mode (like an alarm clock) to ensure you hear when your phone is charged, even from another room.</string> -->
     <string name="slide_3_text">设置提醒电量，放电或者过热。使用我们独特的全屏模式（就像闹钟），即使在另一个房间，你也可以听到手机充满电的提示。</string>
-<!-- <string name="slide_3_tip">🔔 You can always change triggers and notification types in the app settings.</string> -->
+    <!-- <string name="slide_3_tip">🔔 You can always change triggers and notification types in the app settings.</string> -->
     <string name="slide_3_tip">🔔您可以随时在应用设置中更改触发器和通知类型。</string>
 
-<!-- <string name="slide_4_header">Everything for Total Control</string> -->
+    <!-- <string name="slide_4_header">Everything for Total Control</string> -->
     <string name="slide_4_header">为了完全控制一切</string>
-<!-- <string name="slide_4_1_header">Session Graphs</string> -->
+    <!-- <string name="slide_4_1_header">Session Graphs</string> -->
     <string name="slide_4_1_header">使用图表</string>
 
-<!-- <string name="slide_4_1_text">Evaluate charger stability and identify peak battery discharge moments.</string> -->
+    <!-- <string name="slide_4_1_text">Evaluate charger stability and identify peak battery discharge moments.</string> -->
     <string name="slide_4_1_text">评估充电器的稳定性并识别电池放电峰值时刻。</string>
-<!-- <string name="slide_4_2_header">App Consumption</string> -->
+    <!-- <string name="slide_4_2_header">App Consumption</string> -->
     <string name="slide_4_2_header">应用消耗</string>
-<!-- <string name="slide_4_2_text">Identify apps that consume the most energy.</string> -->
+    <!-- <string name="slide_4_2_text">Identify apps that consume the most energy.</string> -->
     <string name="slide_4_2_text">识别消耗最多电量的应用程序。</string>
-<!-- <string name="slide_4_3_header">Info Overlays</string> -->
+    <!-- <string name="slide_4_3_header">Info Overlays</string> -->
     <string name="slide_4_3_header">叠加信息</string>
-<!-- <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string> -->
+    <!-- <string name="slide_4_3_text">Monitor current, charge, and temperature over games or video in real-time.</string> -->
     <string name="slide_4_3_text">实时监控游戏或者播放视频中的电流、充电和温度。</string>
-<!-- <string name="slide_4_4_header">Temperature Graph</string> -->
+    <!-- <string name="slide_4_4_header">Temperature Graph</string> -->
     <string name="slide_4_4_header">温度图表</string>
-<!-- <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string> -->
+    <!-- <string name="slide_4_4_text">Monitor device heat over time to prevent accelerated chemical wear.</string> -->
     <string name="slide_4_4_text">随时间监控设备温度，以防加速电池的化学磨损。</string>
-<!-- <string name="slide_4_5_header">Usage History</string> -->
+    <!-- <string name="slide_4_5_header">Usage History</string> -->
     <string name="slide_4_5_header">使用历史 </string>
-<!-- <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string> -->
+    <!-- <string name="slide_4_5_text">Browse the archive of past charging and discharging sessions for detailed comparison.</string> -->
     <string name="slide_4_5_text">浏览过去充放电历史的记录来进行详细比较。</string>
 
-<!-- <string name="monthly_text_down">Easy Start</string> -->
+    <!-- <string name="monthly_text_down">Easy Start</string> -->
     <string name="monthly_text_down">轻松开始</string>
-<!-- <string name="annualy_text_down">Just %1$s / mo.</string> -->
+    <!-- <string name="annualy_text_down">Just %1$s / mo.</string> -->
     <string name="annualy_text_down">每月仅%1$s。</string>
-<!-- <string name="lifetime_text_down">One-time payment — lifetime access</string> -->
+    <!-- <string name="lifetime_text_down">One-time payment — lifetime access</string> -->
     <string name="lifetime_text_down">一次付清——终身使用</string>
 
 
-<!-- <string name="annualy_text_badge">Most Popular</string> -->
+    <!-- <string name="annualy_text_badge">Most Popular</string> -->
     <string name="annualy_text_badge">最受欢迎</string>
-<!-- <string name="lifetime_text_badge_new_user">Welcome Offer</string> -->
+    <!-- <string name="lifetime_text_badge_new_user">Welcome Offer</string> -->
     <string name="lifetime_text_badge_new_user">迎新优惠</string>
-<!-- <string name="lifetime_text_badge_old_user">Loyal User Discount</string> -->
+    <!-- <string name="lifetime_text_badge_old_user">Loyal User Discount</string> -->
     <string name="lifetime_text_badge_old_user">老粉优惠</string>
 
 
-<!-- <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string> -->
+    <!-- <string name="cumulative_text">This method focuses on convenience by estimating capacity over time using multiple partial charges. To update the data, charge the device by at least 15%. Note: The estimated value may fluctuate until a sufficient number of sessions are recorded.</string> -->
     <string name="cumulative_text">此方法基于使用多次部分充电来随时间估算容量，从而侧重于便利性。要更新数据，请至少为设备充电15%。注意：在记录足够多的充电次数之前，估算值可能会波动。</string>
-<!-- <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string> -->
+    <!-- <string name="singular_text">This method calculates capacity based on a single complete charge cycle. It requires charging from below 15% to 100% without interruption. For a valid calculation, do not disconnect the charger until the app notifies you that charging is fully complete.</string> -->
     <string name="singular_text">此方法基于单次完整充电周期来计算容量。它要求从低于15%充电至100%，中途不得中断。为了进行有效计算，请勿在应用程序通知充电完成之前断开充电器。</string>
 
-<!-- <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string> -->
+    <!-- <string name="discount_text_notification">You\'ve unlocked a loyal user discount!</string> -->
     <string name="discount_text_notification">您已获得老粉优惠！</string>
-<!-- <string name="cumulative_text_empty">Charge by at least 15% to see initial data.</string> -->
+    <!-- <string name="cumulative_text_empty">Charge by at least 15% to see initial data.</string> -->
     <string name="cumulative_text_empty">至少充电15%来查看初始数据。</string>
+
+
+    <string name="stop_alarm">Stop alert</string>
+    <string name="stop_alarm_no_repeat">Stop alert, no repeat</string>
+    <string name="stop_alarm_completely">Stop alert completely</string>
+    <string name="alarm_button_1">Pressing this button will stop the alert.
+        If the %1$s option is enabled, the Full Screen Alert will restart the next time it\'s triggered.</string>
+    <string name="alarm_button_2">Pressing this button will stop the alert.
+        The Full Screen Alert will ignore the %1$s function and will not restart when it\'s triggered, during the current session.</string>
+    <string name="alarm_button_3">Pressing this button completely disables Full Screen Alert for this alert.
+        The Full Screen Alert will no longer be activated until you re-enable it in the settings.</string>
+    <string name="low_battery_text_full">The battery level has reached %1$s. Charge your device.</string>
+    <string name="please_disconnect_charger_full">The battery level has reached %1$s. Please turn off the charge.</string>
+    <string name="error_loading">Error. Unable to fetch data from the database.</string>
+    <string name="retry">Retry</string>
+    <string name="id_error">Error: Invalid widget ID. Please try recreating the widget.</string>
+    <string name="battery_level_description">Battery Level %1$s</string>
+    <string name="battery_level_temperature">Battery Temperature %1$s</string>
+    <string name="colors">Colors</string>
+    <string name="typography">Typography</string>
+    <string name="layout">Layout</string>
+    <string name="shape">Shape</string>
+    <string name="behavior">Behavior</string>
+    <string name="selected_color">Selected Color</string>
+    <string name="outer_indent">Outer indent</string>
+    <string name="inner_indent">Inner indent</string>
+    <string name="apply_color">Apply</string>
+    <string name="ring_width">Ring width</string>
+    <string name="line_width">Line width</string>
+    <string name="on_click_action">On-click action</string>
+    <string name="open_widget_settings">Open widget settings</string>
+    <string name="open_app">Open app</string>
+    <string name="open_system_battery_settings">System battery settings</string>
+    <string name="refresh_widget">Refresh widget</string>
+    <string name="do_nothing">Do nothing</string>
+    <string name="normal">Normal</string>
+    <string name="charging_btn">Charging</string>
+    <string name="copy_from_normal">Copy from Normal</string>
+    <string name="copy_from_charging">Copy from Charging</string>
+    <string name="copy_from_high_temperature">Copy from High</string>
+    <string name="sizing_mode_auto">Automatic</string>
+    <string name="sizing_mode_manual">Manual</string>
+
+    <string name="rendering_mode">Rendering Mode</string>
+    <string name="sizing_mode_auto_desc">Automatically calculates the optimal resolution based on the widget\'s actual size. This mode allows you to customize Alignment to position the widget within its boundaries.\nNote: This mode may function incorrectly on some custom launchers.</string>
+    <string name="sizing_mode_manual_desc">Ignores cell dimensions and stretches the widget to fill the entire space. You can manually adjust the Render Quality, but Alignment settings are disabled as the widget is always centered.\nNote: Extremely high quality settings may occasionally cause stability issues.</string>
+    <string name="rate_t">Rate our app</string>
+    <string name="render_quality">Render Quality</string>
+    <string name="show_charging_indicator">Show charging indicator</string>
+    <string name="change_style_when_charging">Change style when charging</string>
+    <string name="presets">Presets</string>
+    <string name="artificial_smoothing">Artificial Smoothing</string>
+    <string name="switch2">&#160;Switch</string>
+    <string name="gravity_note">Note: If the alignment doesn\'t update immediately after saving, try resizing the widget on your home screen.</string>
+
+    <string name="watch_to_unlock">Or, watch a video to unlock</string>
+    <string name="btn_join_community">Join our community</string>
 </resources>
