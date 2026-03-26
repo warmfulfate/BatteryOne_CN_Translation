@@ -1146,4 +1146,9 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
 
     <string name="watch_to_unlock">Or, watch a video to unlock</string>
     <string name="btn_join_community">Join our community</string>
+    
+    <string name="edit_ui">Edit UI</string>
+    <string name="reset_to_default">Reset to default</string>
+    <string name="show_ui_setting_button">Show the UI settings button</string>
+    <string name="edit_ui_locked_text">Customize your screen layout — reorder, hide, or show blocks to match your preferences. This feature is available with Advanced Access. Do you want to switch to Advanced Access?</string>
 </resources>
