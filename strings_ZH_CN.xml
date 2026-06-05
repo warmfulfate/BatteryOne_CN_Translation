@@ -1091,64 +1091,365 @@ BatteryOne不会分享此数据给第三方。BatteryOne仅在进行必要统计
     <string name="cumulative_text_empty">至少充电15%来查看初始数据。</string>
 
 
-    <string name="stop_alarm">Stop alert</string>
-    <string name="stop_alarm_no_repeat">Stop alert, no repeat</string>
-    <string name="stop_alarm_completely">Stop alert completely</string>
-    <string name="alarm_button_1">Pressing this button will stop the alert.
-        If the %1$s option is enabled, the Full Screen Alert will restart the next time it\'s triggered.</string>
-    <string name="alarm_button_2">Pressing this button will stop the alert.
-        The Full Screen Alert will ignore the %1$s function and will not restart when it\'s triggered, during the current session.</string>
-    <string name="alarm_button_3">Pressing this button completely disables Full Screen Alert for this alert.
-        The Full Screen Alert will no longer be activated until you re-enable it in the settings.</string>
-    <string name="low_battery_text_full">The battery level has reached %1$s. Charge your device.</string>
-    <string name="please_disconnect_charger_full">The battery level has reached %1$s. Please turn off the charge.</string>
-    <string name="error_loading">Error. Unable to fetch data from the database.</string>
-    <string name="retry">Retry</string>
-    <string name="id_error">Error: Invalid widget ID. Please try recreating the widget.</string>
-    <string name="battery_level_description">Battery Level %1$s</string>
-    <string name="battery_level_temperature">Battery Temperature %1$s</string>
-    <string name="colors">Colors</string>
-    <string name="typography">Typography</string>
-    <string name="layout">Layout</string>
-    <string name="shape">Shape</string>
-    <string name="behavior">Behavior</string>
-    <string name="selected_color">Selected Color</string>
-    <string name="outer_indent">Outer indent</string>
-    <string name="inner_indent">Inner indent</string>
-    <string name="apply_color">Apply</string>
-    <string name="ring_width">Ring width</string>
-    <string name="line_width">Line width</string>
-    <string name="on_click_action">On-click action</string>
-    <string name="open_widget_settings">Open widget settings</string>
-    <string name="open_app">Open app</string>
-    <string name="open_system_battery_settings">System battery settings</string>
-    <string name="refresh_widget">Refresh widget</string>
-    <string name="do_nothing">Do nothing</string>
-    <string name="normal">Normal</string>
-    <string name="charging_btn">Charging</string>
-    <string name="copy_from_normal">Copy from Normal</string>
-    <string name="copy_from_charging">Copy from Charging</string>
-    <string name="copy_from_high_temperature">Copy from High</string>
-    <string name="sizing_mode_auto">Automatic</string>
-    <string name="sizing_mode_manual">Manual</string>
-
-    <string name="rendering_mode">Rendering Mode</string>
-    <string name="sizing_mode_auto_desc">Automatically calculates the optimal resolution based on the widget\'s actual size. This mode allows you to customize Alignment to position the widget within its boundaries.\nNote: This mode may function incorrectly on some custom launchers.</string>
-    <string name="sizing_mode_manual_desc">Ignores cell dimensions and stretches the widget to fill the entire space. You can manually adjust the Render Quality, but Alignment settings are disabled as the widget is always centered.\nNote: Extremely high quality settings may occasionally cause stability issues.</string>
-    <string name="rate_t">Rate our app</string>
-    <string name="render_quality">Render Quality</string>
-    <string name="show_charging_indicator">Show charging indicator</string>
-    <string name="change_style_when_charging">Change style when charging</string>
-    <string name="presets">Presets</string>
-    <string name="artificial_smoothing">Artificial Smoothing</string>
-    <string name="switch2">&#160;Switch</string>
-    <string name="gravity_note">Note: If the alignment doesn\'t update immediately after saving, try resizing the widget on your home screen.</string>
-
-    <string name="watch_to_unlock">Or, watch a video to unlock</string>
-    <string name="btn_join_community">Join our community</string>
     
-    <string name="edit_ui">Edit UI</string>
-    <string name="reset_to_default">Reset to default</string>
-    <string name="show_ui_setting_button">Show the UI settings button</string>
-    <string name="edit_ui_locked_text">Customize your screen layout — reorder, hide, or show blocks to match your preferences. This feature is available with Advanced Access. Do you want to switch to Advanced Access?</string>
+    <string name="stop_alarm">停止警报</string>
+    <string name="stop_alarm_no_repeat">停止警报，不再重复</string>
+    <string name="stop_alarm_completely">彻底关闭警报</string>
+    <string name="alarm_button_1">点击此按钮将停止警报。如果启用了 %1$s 选项，全屏警报将在下次触发时重新启动。</string>
+    <string name="alarm_button_2">点击此按钮将停止警报。在此次会话中，全屏警报将忽略 %1$s 功能，且在触发时不会重新启动。</string>
+    <string name="alarm_button_3">点击此按钮将彻底禁用此项全屏警报。除非您在设置中重新启用，否则全屏警报将不再激活。</string>
+    <string name="low_battery_text_full">电池电量已达到 %1$s。请为您的设备充电。</string>
+    <string name="please_disconnect_charger_full">电池电量已达到 %1$s。请断开电源。</string>
+    <string name="error_loading">错误。无法从数据库获取数据。</string>
+    <string name="retry">重试</string>
+    <string name="id_error">错误：小部件 ID 无效。请尝试重新创建该小部件。</string>
+    <string name="battery_level_description">当前电量 %1$s</string>
+    <string name="battery_level_temperature">电池温度 %1$s</string>
+    <string name="colors">颜色</string>
+    <string name="typography">字体排版</string>
+    <string name="layout">布局</string>
+    <string name="shape">形状</string>
+    <string name="behavior">交互行为</string>
+    <string name="selected_color">已选颜色</string>
+    <string name="outer_indent">外边距</string>
+    <string name="inner_indent">内边距</string>
+    <string name="apply_color">应用</string>
+    <string name="ring_width">圆环宽度</string>
+    <string name="line_width">线条宽度</string>
+    <string name="on_click_action">点击操作</string>
+    <string name="open_widget_settings">打开小部件设置</string>
+    <string name="open_app">打开应用</string>
+    <string name="open_system_battery_settings">系统电池设置</string>
+    <string name="refresh_widget">刷新小部件</string>
+    <string name="do_nothing">无操作</string>
+    <string name="normal">普通状态</string>
+    <string name="charging_btn">充电状态</string>
+    <string name="copy_from_normal">从“普通”复制</string>
+    <string name="copy_from_charging">从“充电”复制</string>
+    <string name="copy_from_high_temperature">从“高温”复制</string>
+    <string name="sizing_mode_auto">自动模式</string>
+    <string name="sizing_mode_manual">手动模式</string>
+    <string name="rendering_mode">渲染模式</string>
+    <string name="sizing_mode_auto_desc">根据小部件的实际尺寸自动计算最佳分辨率。此模式允许您使用“对齐方式”来调整小部件在其边界内的位置。\n注意：此模式在某些第三方启动器上可能运行不正常。</string>
+    <string name="sizing_mode_manual_desc">忽略网格单元尺寸，拉伸小部件以填满整个空间。您可以手动调整“渲染质量”，但由于小部件始终居中，对齐设置将被禁用。\n注意：过高的质量设置偶尔可能会影响稳定性。</string>
+    <string name="rate_t">给应用评分</string>
+    <string name="render_quality">渲染质量</string>
+    <string name="show_charging_indicator">显示充电指示器</string>
+    <string name="change_style_when_charging">充电时更改样式</string>
+    <string name="presets">预设</string>
+    <string name="artificial_smoothing">人工平滑处理</string>
+    <string name="gravity_note">注意：如果保存后对齐方式没有立即更新，请尝试在主屏幕上调整小部件的大小。</string>
+    <string name="watch_to_unlock">或者，通过观看视频解锁</string>
+    <string name="btn_join_community">加入我们的社区</string>
+    <string name="edit_ui">编辑界面</string>
+    <string name="reset_to_default">恢复默认</string>
+    <string name="show_ui_setting_button">显示界面设置按钮</string>
+    <string name="edit_ui_locked_text">自定义您的屏幕布局 —— 重新排列、隐藏或显示区块以满足您的偏好。此功能仅限“高级功能”使用。您想升级到高级功能吗？</string>
+    <string name="join_community_popup">加入我们的 Telegram 社区！</string>
+    <string name="charge_cycles_system">充电循环次数(系统数据)</string>
+    <plurals name="cycles_count">
+        <item quantity="other">%d 次循环</item>
+    </plurals>
+
+    <!-- Section 2: New feature list bullets -->
+    <!-- <string name="premium_3_plus">Plus you also get:</string> -->
+    <string name="premium_3_plus">此外您还将获得：</string>
+    <!-- <string name="premium_3_8">Custom layout: Move or hide any section on your main screens.</string> -->
+    <string name="premium_3_8">自定义布局：在主界面上移动或隐藏任意区块。</string>
+    <!-- <string name="premium_3_9">Status bar stats: See voltage, amperage, or temperature at a glance.</string> -->
+    <string name="premium_3_9">状态栏数据：在状态栏一目了然地查看电压、电流或温度。</string>
+    <!-- <string name="premium_3_10">Live overlay: Show power, amperage, voltage, or temperature over any app.</string> -->
+    <string name="premium_3_10">实时悬浮窗：在任意应用之上显示功率、电流、电压或温度。</string>
+
+    <!-- Section 3: Personalized paywall hero copy -->
+    <!-- <string name="paywall_db_title">Don\'t start over</string> -->
+    <string name="paywall_db_title">无需重新开始</string>
+    <!-- <string name="paywall_db_subtitle">One tap saves your entire battery history. Restore it after a factory reset or app reinstall — nothing gets lost.</string> -->
+    <string name="paywall_db_subtitle">一键保存您的全部电池历史。恢复出厂设置或重装应用后即可还原——数据永不丢失。</string>
+
+    <!-- <string name="paywall_db_clear_title">Start fresh, on your terms</string> -->
+    <string name="paywall_db_clear_title">按你的节奏重新开始</string>
+    <!-- <string name="paywall_db_clear_subtitle">Clear all recorded sessions in one tap — ideal after a battery replacement or when you want a fresh baseline for tracking.</string> -->
+    <string name="paywall_db_clear_subtitle">一键清除所有已记录的会话——非常适合更换电池之后，或当您希望为追踪建立全新基准时使用。</string>
+
+    <!-- <string name="paywall_session_reset_title">Run your own battery tests</string> -->
+    <string name="paywall_session_reset_title">自行测试电池</string>
+    <!-- <string name="paywall_session_reset_subtitle">End any charge or discharge session on demand and start a new one — perfect for testing how a specific app affects your battery.</string> -->
+    <string name="paywall_session_reset_subtitle">随时结束任何充电或放电会话并开始新的会话——非常适合测试某个特定应用对电池的影响。</string>
+
+    <!-- <string name="paywall_personalization_title">Make it yours</string> -->
+    <string name="paywall_personalization_title">打造专属风格</string>
+    <!-- <string name="paywall_personalization_subtitle">Themes, colors, icons — all unlocked. Build the look you want, down to the app icon on your home screen.</string> -->
+    <string name="paywall_personalization_subtitle">主题、颜色、图标——全部解锁。打造您想要的外观，连主屏幕上的应用图标也不例外。</string>
+
+    <!-- <string name="paywall_edit_ui_title">Cut the clutter</string> -->
+    <string name="paywall_edit_ui_title">告别杂乱</string>
+    <!-- <string name="paywall_edit_ui_subtitle">Hide every section you don\'t use and reorder the rest any way you want. Your main screens reflect you, not the default.</string> -->
+    <string name="paywall_edit_ui_subtitle">隐藏所有不常用的区块，并以您喜欢的方式重新排列其余内容。主界面由您决定，而非默认样式。</string>
+
+    <!-- <string name="paywall_status_bar_title">See it at a glance</string> -->
+    <string name="paywall_status_bar_title">一目了然</string>
+    <!-- <string name="paywall_status_bar_subtitle">Show live voltage, amperage, or temperature right in your status bar — check your battery without opening the app.</string> -->
+    <string name="paywall_status_bar_subtitle">在状态栏直接显示实时电压、电流或温度——无需打开应用即可查看电池状态。</string>
+
+    <!-- <string name="paywall_overlay_title">Always in view</string> -->
+    <string name="paywall_overlay_title">始终可见</string>
+    <!-- <string name="paywall_overlay_subtitle">Unlock customizable overlays for power, amperage, voltage, and temperature — watch them float over any app without leaving what you\'re doing.</string> -->
+    <string name="paywall_overlay_subtitle">解锁可自定义的功率、电流、电压和温度悬浮窗——它们会浮动显示在任意应用之上，无需中断您正在进行的操作。</string>
+
+    <!-- <string name="paywall_usage_history_title">The full story of every session</string> -->
+    <string name="paywall_usage_history_title">完整记录每个会话</string>
+    <!-- <string name="paywall_usage_history_subtitle">Detailed amperage curves for each charge. App-by-app drain for each discharge. Know exactly what happened in any session.</string> -->
+    <string name="paywall_usage_history_subtitle">每次充电的详细电流曲线。每次放电的逐应用耗电详情。精准了解任意会话中发生的一切。</string>
+
+    <!-- <string name="paywall_wear_prediction_title">Know when to replace</string> -->
+    <string name="paywall_wear_prediction_title">精准预知更换时机</string>
+    <!-- <string name="paywall_wear_prediction_subtitle">Simulate any wear level and get a precise day-count forecast — replace your battery when it really needs it, not when you guess.</string> -->
+    <string name="paywall_wear_prediction_subtitle">模拟任意损耗水平并获得精准的天数预测——在电池真正需要时更换，而非凭猜测。</string>
+
+    <!-- Section 4: Paywall preview strings -->
+    <!-- <string name="paywall_db_preview_export">Export</string> -->
+    <string name="paywall_db_preview_export">导出</string>
+    <!-- <string name="paywall_db_preview_import">Import</string> -->
+    <string name="paywall_db_preview_import">导入</string>
+    <!-- <string name="paywall_db_preview_metric_sessions">585 sessions</string> -->
+    <string name="paywall_db_preview_metric_sessions">585 次会话</string>
+    <!-- <string name="paywall_db_preview_metric_readings">34k readings</string> -->
+    <string name="paywall_db_preview_metric_readings">3.4万 次读数</string>
+    <!-- <string name="paywall_db_preview_metric_years">1.4 years</string> -->
+    <string name="paywall_db_preview_metric_years">1.4 年</string>
+    <!-- <string name="paywall_db_clear_preview_health">Health %1$s</string> -->
+    <string name="paywall_db_clear_preview_health">健康 %1$s</string>
+    <!-- <string name="paywall_usage_history_preview_app_game">Game</string> -->
+    <string name="paywall_usage_history_preview_app_game">游戏</string>
+    <!-- <string name="paywall_usage_history_preview_app_browser">Browser</string> -->
+    <string name="paywall_usage_history_preview_app_browser">浏览器</string>
+
+    <!-- <plurals name="paywall_db_clear_preview_cycles">
+        <item quantity="one">%s cycle</item>
+        <item quantity="other">%s cycles</item>
+    </plurals> -->
+    <plurals name="paywall_db_clear_preview_cycles">
+        <item quantity="other">%s 次循环</item>
+    </plurals>
+
+    <!-- Section 5: Widget save flow -->
+    <!-- <string name="feature_in_use_title">Premium features in use</string> -->
+    <string name="feature_in_use_title">正在使用高级功能</string>
+    <!-- <string name="feature_in_use_subtitle">Your current widget setup includes premium customization. You can continue adjusting freely — when you\'re ready to save, you\'ll have the option to unlock Advanced Access or save with default settings.</string> -->
+    <string name="feature_in_use_subtitle">您当前的小部件配置包含高级自定义选项。您可以继续自由调整——准备保存时，您可以选择解锁高级功能，或使用默认设置保存。</string>
+
+    <!-- <string name="paywall_title_after_save">Save your custom widget</string> -->
+    <string name="paywall_title_after_save">保存您的自定义小部件</string>
+    <!-- <string name="paywall_subtitle_after_save">Your widget uses premium features. Unlock them to keep this style.</string> -->
+    <string name="paywall_subtitle_after_save">您的小部件使用了高级功能。解锁即可保留此风格。</string>
+    <!-- <string name="save_with_default_style">Save with default style</string> -->
+    <string name="save_with_default_style">以默认风格保存</string>
+    <!-- <string name="your_style">Your style</string> -->
+    <string name="your_style">您的风格</string>
+    <!-- <string name="default_style">Default</string> -->
+    <string name="default_style">默认</string>
+
+    <!-- <string name="purchase_pending_widget_subtitle">Your payment is still being processed by Google Play. We\'ve saved your widget with the default style — it will switch to your chosen style automatically once the payment goes through. This can take a few minutes.</string> -->
+    <string name="purchase_pending_widget_subtitle">Google Play 仍在处理您的付款。我们已使用默认风格保存了您的小部件——付款完成后，它将自动切换为您所选的风格。此过程可能需要几分钟。</string>
+    <!-- <string name="purchase_success_widget_toast">Purchase complete. Enjoy your widget!</string> -->
+    <string name="purchase_success_widget_toast">购买完成。祝您使用愉快！</string>
+
+    <!-- Section 6: Generic purchase result dialogs -->
+    <!-- <string name="processing_purchase">Processing your purchase…</string> -->
+    <string name="processing_purchase">正在处理您的购买…</string>
+    <!-- <string name="purchase_pending_title">Payment is being processed</string> -->
+    <string name="purchase_pending_title">付款处理中</string>
+    <!-- <string name="purchase_pending_subtitle">Google Play is still processing your payment. You can close this window — Advanced Access will unlock automatically as soon as the payment goes through. This usually takes a few minutes but can take longer for some payment methods.</string> -->
+    <string name="purchase_pending_subtitle">Google Play 仍在处理您的付款。您可以关闭此窗口——付款完成后，高级功能将自动解锁。通常只需几分钟，但某些付款方式可能需要更长时间。</string>
+    <!-- <string name="purchase_pending_bnt">Got it</string> -->
+    <string name="purchase_pending_bnt">知道了</string>
+    <!-- <string name="purchase_error_title">Payment didn\'t go through</string> -->
+    <string name="purchase_error_title">付款未成功</string>
+    <!-- <string name="purchase_error_subtitle">Something went wrong during the purchase. Please try again — no charges were made.</string> -->
+    <string name="purchase_error_subtitle">购买过程中出了些问题。请重试——未产生任何扣费。</string>
+    <!-- <string name="purchase_error_btn">Try again</string> -->
+    <string name="purchase_error_btn">重试</string>
+
+    <!-- Section 7: Other new strings -->
+    <!-- <string name="montly_under_text">Renews monthly</string> -->
+    <string name="montly_under_text">按月续订</string>
+    <!-- <string name="volume_effect">Volume Effect</string> -->
+    <string name="volume_effect">3D效果</string>
+
+    <!-- ============================================================
+         WAKELOCKS feature
+         ============================================================ -->
+
+    <!-- <string name="wakelocks_title">Wakelocks</string> -->
+    <string name="wakelocks_title">唤醒锁</string>
+
+    <!-- <string name="wakelocks_source_tags">Userspace</string> -->
+    <string name="wakelocks_source_tags">用户空间</string>
+
+    <!-- <string name="wakelocks_empty">No data</string> -->
+    <string name="wakelocks_empty">暂无数据</string>
+
+    <!-- <string name="wakelocks_shizuku_not_installed_body">Wakelock data is read through Shizuku — a free, open-source helper app that gives BatteryOne controlled access to system stats without requiring root. It\'s not installed on this device.</string> -->
+    <string name="wakelocks_shizuku_not_installed_body">唤醒锁数据通过 Shizuku 读取——这是一款免费的开源辅助应用，可在无需 Root 的情况下，让 BatteryOne 受控地访问系统统计数据。当前设备上未安装该应用。</string>
+
+    <!-- <string name="wakelocks_shizuku_install_action">Install Shizuku</string> -->
+    <string name="wakelocks_shizuku_install_action">安装 Shizuku</string>
+
+    <!-- <string name="wakelocks_shizuku_not_running_body">Shizuku is installed but isn\'t running right now. Open Shizuku and follow its setup steps (ADB or root) to start the service. You may need to repeat this after each device reboot, depending on how you start it.</string> -->
+    <string name="wakelocks_shizuku_not_running_body">Shizuku 已安装，但当前未在运行。请打开 Shizuku 并按照其设置步骤（ADB 或 Root）启动服务。根据您选择的启动方式不同，每次设备重启后可能都需要重复此操作。</string>
+
+    <!-- <string name="wakelocks_shizuku_open_action">Open Shizuku</string> -->
+    <string name="wakelocks_shizuku_open_action">打开 Shizuku</string>
+
+    <!-- <string name="wakelocks_shizuku_perm_denied_body">Shizuku is running. Tap below to allow BatteryOne to access wakelock data through it — Shizuku will show a permission prompt.</string> -->
+    <string name="wakelocks_shizuku_perm_denied_body">Shizuku 正在运行。点击下方按钮允许 BatteryOne 通过它访问唤醒锁数据——Shizuku 将弹出权限请求提示。</string>
+
+    <!-- <string name="wakelocks_shizuku_grant_action">Grant access</string> -->
+    <string name="wakelocks_shizuku_grant_action">授予权限</string>
+
+    <!-- <string name="wakelocks_reset_on_unplug">Reset stats on unplug</string> -->
+    <string name="wakelocks_reset_on_unplug">拔出充电器时重置统计</string>
+
+    <!-- <plurals name="wakelocks_count_format"> -->
+    <plurals name="wakelocks_count_format">
+        <item quantity="other">%1$d 次</item>
+    </plurals>
+
+    <!-- <plurals name="wakelocks_tags_format"> -->
+    <plurals name="wakelocks_tags_format">
+        <item quantity="other">%1$d 个标签</item>
+    </plurals>
+
+    <!-- <string name="milliseconds">ms</string> -->
+    <string name="milliseconds">毫秒</string>
+
+    <!-- <string name="wakelocks_detail_acquisitions">Acquisitions</string> -->
+    <string name="wakelocks_detail_acquisitions">获取次数</string>
+
+    <!-- <string name="wakelocks_detail_unique_tags">Unique tags</string> -->
+    <string name="wakelocks_detail_unique_tags">独立标签</string>
+
+    <!-- <string name="wakelocks_detail_max_hold">Max hold</string> -->
+    <string name="wakelocks_detail_max_hold">最长持有</string>
+
+    <!-- <string name="wakelocks_detail_bg_time">Background (screen off)</string> -->
+    <string name="wakelocks_detail_bg_time">后台（息屏时）</string>
+
+    <!-- <string name="wakelocks_detail_no_tags">No per-tag detail available</string> -->
+    <string name="wakelocks_detail_no_tags">暂无单独标签的详细信息</string>
+
+    <!-- <string name="wakelocks_detail_tags_section">Tags</string> -->
+    <string name="wakelocks_detail_tags_section">标签</string>
+
+    <!-- <string name="wakelocks_detail_count_label">count</string> -->
+    <string name="wakelocks_detail_count_label">次数</string>
+
+    <!-- <string name="wakelocks_detail_avg_label">avg</string> -->
+    <string name="wakelocks_detail_avg_label">平均</string>
+
+    <!-- <string name="wakelocks_detail_max_label">max</string> -->
+    <string name="wakelocks_detail_max_label">最大</string>
+
+    <!-- <string name="wakelocks_detail_bg_label">bg</string> -->
+    <string name="wakelocks_detail_bg_label">后台</string>
+
+    <!-- <string name="wakelocks_tag_copied">Tag copied</string> -->
+    <string name="wakelocks_tag_copied">标签已复制</string>
+
+    <!-- <string name="note_about_wakelocks">What is a wakelock?</string> -->
+    <string name="note_about_wakelocks">什么是唤醒锁？</string>
+
+    <!-- <string name="note_about_wakelock_details">What do these numbers mean?</string> -->
+    <string name="note_about_wakelock_details">这些数字代表什么？</string>
+
+    <string name="wakelocks_info_general"><![CDATA[
+<b>什么是唤醒锁？</b><br/>
+唤醒锁是 Android 的一种机制，用于阻止 CPU 进入深度睡眠（Doze）状态。只要持有至少一个唤醒锁，芯片就会保持工作——即使屏幕已关闭。当所有唤醒锁都被释放后，系统才能将 CPU 切换到电池消耗极低的低功耗状态。<br/>
+<br/>
+<b>应用为何使用唤醒锁</b><br/>
+应用在需要确保后台任务执行完成时，会获取唤醒锁：账号同步、推送送达、音频播放、GPS 定位、定时闹钟、文件下载、网络请求等。如果没有唤醒锁，系统会在屏幕关闭后立即挂起这些任务。<br/>
+<br/>
+<b>为何会影响电池</b><br/>
+唤醒锁被持有期间，待机耗电会明显升高——常常比真正的待机状态高出 <b>5–10 倍</b>。粗略估算：在「息屏但持有唤醒锁」的状态下使用 10 小时，所消耗的电量大致相当于 1–2 小时的亮屏使用。因此，一个失控的唤醒锁就足以让手机在一夜之间被耗尽，而表面上看不出任何异常。<br/>
+<br/>
+<b>如何阅读这份列表</b><br/>
+列表按当前放电周期内的总持有时长排序。每个应用旁会显示三个数字：总持有时间、获取次数以及使用的独立标签数量。有几种典型情形值得关注：<br/>
+<br/>
+• <b>一次长时间的连续持有</b>（例如 1时30m，1 次获取）——通常表示一项长时间运行的任务：同步、下载或音频播放。多数情况下属于正常行为。<br/>
+• <b>数千次短促的脉冲</b>（例如总计 5m，但获取 8000 次）——很可能是轮询或重试循环。有时是已知设计（在没有 Google Play 服务的设备上轮询推送），有时则是不断重新触发的故障任务。<br/>
+• <b>总时长长 + 标签很多</b>——表明这是一款执行多种不同后台活动的复杂应用。打开详情视图即可看到具体涉及哪些子系统。<br/>
+<br/>
+<b>用户空间 与 内核</b><br/>
+这是唤醒锁统计的两个不同层级。<br/>
+<br/>
+<b>用户空间</b>——由应用代码通过 <tt>PowerManager.WakeLock</tt> API 持有的唤醒锁。每一行对应一款应用，点击即可查看按标签划分的详细分布。这里就是您查找「哪个应用让设备保持唤醒」的地方。<br/>
+<br/>
+<b>内核</b>——驱动层级的唤醒源（Wi-Fi、蓝牙、基带、传感器、USB）。这份列表通常较长属于正常现象：驱动会短暂唤醒 CPU 以处理中断、数据包和 ACK。需要留意的是 <tt>wlan_wake</tt>（Wi-Fi）或 <tt>qcom_rx_wakelock</tt>（蜂窝基带）等条目数值异常偏高的情况——这些通常可以追溯到某个让无线模块持续繁忙的应用，尽管列表里显示的是无线模块本身，而非该应用。<br/>
+<br/>
+<b>关于重置</b><br/>
+数值会从 Android 上次重置电池统计时开始累计。上方的开关（「拔出充电器时重置统计」）让系统在每次断开充电器时自动执行重置，使每个放电周期都从干净的窗口开始。如果不开启，数值可能连续累积数天。<br/>
+<br/>
+请注意，自动重置仅在拔出充电器的那一刻 Shizuku 已连接并已被授权时才会触发——若彼时 Shizuku 未连接或不可用，本次重置会被静默跳过，下次快照仍会反映此前累积的数据。
+]]></string>
+
+    <string name="wakelocks_info_detail"><![CDATA[
+<b>本对话框展示的内容</b><br/>
+单个应用的唤醒锁详细分布，按标签划分。每个标签对应该应用使用过的一个具体唤醒锁名称——应用通常会并行持有多个不同的标签，每个标签对应不同的子系统（闹钟、任务、同步、网络等）。<br/>
+<br/>
+<b>什么是标签？</b><br/>
+标签是应用获取唤醒锁时传入的可读名称——例如 <tt>*alarm*</tt>、<tt>*sync*</tt>、<tt>Job/JobScheduler</tt>。Android 借此把同一应用内部不同原因所占用的时间区分开，而不是混在一起统计。许多标签由框架自动生成（任何以 <tt>*</tt> 开头的都是自动标签）；开发者也可以传入自定义字符串。<br/>
+<br/>
+<b>顶部统计</b><br/>
+• <b>总计时间</b>——该应用在本快照期间所有标签合计的唤醒锁持有时长。后面的百分比表示该应用在设备所有唤醒锁时间中所占的比例。<br/>
+• <b>获取次数</b>——唤醒锁被获取的总次数（所有标签合计）。<br/>
+• <b>独立标签</b>——该应用使用过多少个不同的唤醒锁名称。<br/>
+• <b>单次最长持有</b>——任意一个标签上最长的连续持有时间。这有助于发现「卡住」的唤醒锁：单次持续数小时往往意味着某次释放调用被遗漏。<br/>
+<br/>
+<b>关于「后台（息屏时）」</b><br/>
+这一行是最容易被误解的。它<b>并不是</b>简单的「屏幕关闭时的持有时间」，而是 Android 调度器把该应用归类为<b>后台进程</b>时的持有时间——这是两件不同的事。<br/>
+<br/>
+Android 会为每个运行中的应用分配一个进程状态：顶层、前台服务、重要、后台、缓存等等。「后台」一行只在该应用状态为「后台」或更低时计入唤醒锁时长。因此：<br/>
+<br/>
+• <b>后台时间 = 0</b>，但屏幕实际上是关闭的。说明该应用在持有唤醒锁期间从未处于后台进程状态。最常见的原因是<b>前台服务</b>：显示常驻通知的应用（音乐播放器、导航、下载器、健身追踪、推送处理、VPN）。Android 即使在息屏时也将它们视为「仍处于前台」——这是有意为之，并非缺陷。<br/>
+• <b>后台时间 ≈ 总计时间</b>。该应用全程都是真正的后台进程——典型场景是通过 JobScheduler、AlarmManager、同步适配器或广播接收器被唤醒。<br/>
+• <b>后台时间 &lt; 总计时间</b>。混合情形：部分持有发生在前台状态（例如用户打开了该应用，或者前台服务正在运行），另一部分则在应用状态变化后落入后台。<br/>
+<br/>
+要点：音乐或导航应用的「后台」一行为零属于正常现象。真正值得关注的，是您并不期望其在后台运行的应用却出现较高的「后台」数值。<br/>
+<br/>
+<b>常见标签类别</b><br/>
+标签名看起来晦涩，但大多遵循公认的框架命名约定：<br/>
+<br/>
+• <tt>*alarm*</tt>——<b>AlarmManager</b>。定时器，常被用作推送送达的轮询备用方案。<br/>
+• <tt>*job*</tt>、<tt>Job/JobScheduler</tt>、<tt>androidx.work</tt>——<b>JobScheduler / WorkManager</b>。在满足条件（充电中、Wi-Fi、时间窗口）时执行的后台任务。<br/>
+• <tt>*sync*</tt>、<tt>SyncManager</tt>——<b>同步适配器</b>。账号同步（Google、邮件、联系人、日历）。<br/>
+• <tt>fcm</tt>、<tt>gcm</tt>、<tt>*push*</tt>、<tt>WakefulService</tt>——<b>推送送达</b>。处理推送负载期间持有的唤醒锁。<br/>
+• <tt>*location*</tt>、<tt>gnss</tt>、<tt>fused</tt>——<b>定位 / GPS</b>。从一次粗略定位到持续追踪都包含在内。<br/>
+• <tt>wifi</tt>、<tt>wlan</tt>、<tt>*network*</tt>——<b>网络活动</b>。让无线模块保持唤醒以收发数据。<br/>
+• <tt>bluetooth</tt>、<tt>bluedroid</tt>——<b>蓝牙操作</b>。<br/>
+• <tt>audio</tt>、<tt>mediaserver</tt>、<tt>mediaplayer</tt>——<b>媒体播放 / 录制</b>。<br/>
+• <tt>camera</tt>——<b>相机</b>，包括后台拍摄。<br/>
+• <tt>WakefulBroadcastReceiver</tt>、<tt>*BroadcastReceiver*</tt>——<b>广播处理</b>。处理广播（短信到达、网络变化等）期间持有的唤醒锁。<br/>
+• <tt>PowerManagerService.WakeLocks</tt>——<b>系统计数器</b>。聚合数值，对单个应用而言不可单独操作。<br/>
+<br/>
+<b>如何解读这些数据</b><br/>
+几条经验法则：<br/>
+<br/>
+• 来自 Google 服务的较长 <tt>*sync*</tt> 通常是正常的——周期性账号同步。<br/>
+• 来自即时通讯应用的较长 <tt>*alarm*</tt> 通常是该应用在轮询推送，尤其是在 Google Play 服务受限或缺失的设备上。<br/>
+• 来自您并未主动用于导航的应用的长时间 <tt>*location*</tt> 值得检查——请审视该应用的定位权限。<br/>
+• 同一标签上出现大量短促脉冲（例如 8000 次 <tt>Job/JobScheduler</tt>）往往意味着某项任务持续失败并不断重新调度。<br/>
+• 任意标签上出现少量但极长的持有（单次持续数小时）是真正泄漏的最强信号——说明配对的释放调用从未执行。<br/>
+<br/>
+<b>关于「%1$s」按钮</b><br/>
+打开系统「设置 → 应用信息」中该应用的页面。从那里可以调整电池限制、撤销权限或强制停止该进程。
+]]></string>
+
+    <string name="wakelocks_info_full_version_cta"><![CDATA[
+<br/>
+<br/>
+<b>看不到应用名或图标？</b><br/>
+某些应用会显示为类似 <tt>com.example.app</tt> 的原始包名，并且没有图标，这是因为 Play Store 版本无法读取设备上的所有已安装应用。我们 Telegram 频道上的完整版则不受此限制。
+]]></string>
+
 </resources>
